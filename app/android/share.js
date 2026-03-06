@@ -1,0 +1,1 @@
+// Compartilhamento específico do Android

@@ -1,0 +1,10 @@
+[
+  {
+    "marca": "Geral",
+    "codigo": "P1",
+    "titulo": "Exemplo de erro",
+    "descricao": "Descrição inicial.",
+    "solucao": "Solução inicial.",
+    "imagem": "../assets/problemas/exemplo.jpg"
+  }
+]

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Multi Cliente</title>
+  <script>
+    (function () {
+      const params = new URLSearchParams(location.search);
+      const cliente = params.get('c') || 'cliente1';
+      const ua = navigator.userAgent.toLowerCase();
+      const isIOS = /iphone|ipad|ipod/.test(ua);
+      const destino = isIOS ? './app/ios/index.html' : './app/android/index.html';
+      location.replace(destino + '?c=' + encodeURIComponent(cliente));
+    })();
+  </script>
+</head>
+<body></body>
+</html>

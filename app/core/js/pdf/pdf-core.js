@@ -1,0 +1,1 @@
+// base compartilhada de PDF
