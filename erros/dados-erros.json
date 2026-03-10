@@ -2,10 +2,22 @@
   {
     "marca": "Samsung",
     "linha": "Inverter",
+    "codigo": "3 LEDs piscando",
+    "significado": "Erro de configuração / EEPROM",
+    "acao": "Reinserir o código da máquina no controle para reset.",
+    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 4
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
     "codigo": "E101 / E1",
     "significado": "Falha de comunicação",
     "acao": "Verificar fios S e sinal entre interna e externa. Ver se há emenda, fio ou cabo PP rompido.",
-    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C)."
+    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 4
   },
   {
     "marca": "Samsung",
@@ -13,7 +25,9 @@
     "codigo": "E121",
     "significado": "Sensor de ambiente (interna)",
     "acao": "Medir sensor de temperatura da evaporadora (preto). Deve dar aprox. 10k.",
-    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C)."
+    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 4
   },
   {
     "marca": "Samsung",
@@ -21,15 +35,9 @@
     "codigo": "E122 / E123",
     "significado": "Sensor da serpentina (interna)",
     "acao": "Medir sensor de tubo da evaporadora (metálico). Deve dar aprox. 10k.",
-    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C)."
-  },
-  {
-    "marca": "Samsung",
-    "linha": "Inverter",
-    "codigo": "E464",
-    "significado": "Pico de corrente (módulo IPM)",
-    "acao": "Verificar se o compressor está travado ou em curto. Limpar a pasta térmica do dissipador da placa externa.",
-    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C)."
+    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 4
   },
   {
     "marca": "Samsung",
@@ -37,23 +45,19 @@
     "codigo": "E461",
     "significado": "Compressor não parte",
     "acao": "Testar continuidade das bobinas do compressor. Verificar se chega tensão na externa.",
-    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C)."
+    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 4
   },
   {
     "marca": "Samsung",
     "linha": "Inverter",
-    "codigo": "3 LEDs piscando",
-    "significado": "Erro de configuração / EEPROM",
-    "acao": "Reinserir o código da máquina no controle para reset.",
-    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C)."
-  },
-  {
-    "marca": "LG",
-    "linha": "Dual Inverter / Libero",
-    "codigo": "CH05 / 5 piscadas",
-    "significado": "Falha de comunicação",
-    "acao": "Verificar conexão dos fios 1(L), 2(N) e 3(S). Conferir aperto dos bornes.",
-    "dica": "Sensores de 10k (ambiente) e 5k (tubo)."
+    "codigo": "E464",
+    "significado": "Pico de corrente (módulo IPM)",
+    "acao": "Verificar se o compressor está travado ou em curto. Limpar a pasta térmica do dissipador da placa externa.",
+    "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 4
   },
   {
     "marca": "LG",
@@ -61,7 +65,19 @@
     "codigo": "CH01 / CH02",
     "significado": "Sensores da evaporadora",
     "acao": "CH01: medir sensor de ambiente (10k). CH02: medir sensor de tubo (5k).",
-    "dica": "Sensores de 10k (ambiente) e 5k (tubo)."
+    "dica": "Sensores de 10k (ambiente) e 5k (tubo).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 5
+  },
+  {
+    "marca": "LG",
+    "linha": "Dual Inverter / Libero",
+    "codigo": "CH05 / 5 piscadas",
+    "significado": "Falha de comunicação",
+    "acao": "Verificar conexão dos fios 1(L), 2(N) e 3(S). Conferir aperto dos bornes.",
+    "dica": "Sensores de 10k (ambiente) e 5k (tubo).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 5
   },
   {
     "marca": "LG",
@@ -69,7 +85,9 @@
     "codigo": "CH10",
     "significado": "Ventilador interno travado",
     "acao": "Girar a turbina com a mão e verificar capacitor do motor e placa.",
-    "dica": "Sensores de 10k (ambiente) e 5k (tubo)."
+    "dica": "Sensores de 10k (ambiente) e 5k (tubo).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 5
   },
   {
     "marca": "LG",
@@ -77,7 +95,9 @@
     "codigo": "CH21",
     "significado": "Pico de corrente (IPM)",
     "acao": "Verificar excesso de fluido refrigerante, sujeira excessiva na condensadora ou travamento do sistema.",
-    "dica": "Sensores de 10k (ambiente) e 5k (tubo)."
+    "dica": "Sensores de 10k (ambiente) e 5k (tubo).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 5
   },
   {
     "marca": "LG",
@@ -85,7 +105,9 @@
     "codigo": "CH23",
     "significado": "Baixa tensão (DC Link)",
     "acao": "Tensão da tomada está muito baixa (abaixo de 190V). Capacitor do reator ou placa externa.",
-    "dica": "Sensores de 10k (ambiente) e 5k (tubo)."
+    "dica": "Sensores de 10k (ambiente) e 5k (tubo).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 5
   },
   {
     "marca": "LG",
@@ -93,7 +115,9 @@
     "codigo": "CH26",
     "significado": "Compressor travado / queimado",
     "acao": "Medir resistência dos bornes U, V, W. Se der aberto, o compressor morreu.",
-    "dica": "Sensores de 10k (ambiente) e 5k (tubo)."
+    "dica": "Sensores de 10k (ambiente) e 5k (tubo).",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 5
   },
   {
     "marca": "Midea",
@@ -101,7 +125,9 @@
     "codigo": "E1",
     "significado": "Falha de comunicação",
     "acao": "Cabo PP com emenda? Fio de sinal solto? Placa externa sem energia?",
-    "dica": "Sensores geralmente são de 10k."
+    "dica": "Sensores geralmente são de 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 6
   },
   {
     "marca": "Midea",
@@ -109,7 +135,9 @@
     "codigo": "E3",
     "significado": "Ventilador da evaporadora",
     "acao": "Motor ventilador com defeito ou sensor Hall do motor sujo / com defeito.",
-    "dica": "Sensores geralmente são de 10k."
+    "dica": "Sensores geralmente são de 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 6
   },
   {
     "marca": "Midea",
@@ -117,7 +145,9 @@
     "codigo": "E5",
     "significado": "Sensor de ambiente (aberto/curto)",
     "acao": "Trocar sensor de temperatura ambiente.",
-    "dica": "Sensores geralmente são de 10k."
+    "dica": "Sensores geralmente são de 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 6
   },
   {
     "marca": "Midea",
@@ -125,7 +155,9 @@
     "codigo": "EC",
     "significado": "Vazamento de gás",
     "acao": "A máquina liga, gela pouco e para. Verifique a pressão do gás.",
-    "dica": "Sensores geralmente são de 10k."
+    "dica": "Sensores geralmente são de 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 6
   },
   {
     "marca": "Midea",
@@ -133,7 +165,9 @@
     "codigo": "P0",
     "significado": "Proteção do módulo IPM",
     "acao": "Placa externa superaquecida? Condensadora suja? Pasta térmica seca na placa.",
-    "dica": "Sensores geralmente são de 10k."
+    "dica": "Sensores geralmente são de 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 6
   },
   {
     "marca": "Midea",
@@ -141,7 +175,9 @@
     "codigo": "P4",
     "significado": "Proteção do compressor",
     "acao": "Compressor não roda ou parte e cai. Verificar terminais do compressor.",
-    "dica": "Sensores geralmente são de 10k."
+    "dica": "Sensores geralmente são de 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 6
   },
   {
     "marca": "Gree",
@@ -149,23 +185,9 @@
     "codigo": "E6",
     "significado": "Falha de comunicação",
     "acao": "Verificar clássico da Gree: cabo de sinal oxidado ou fusível da placa queimado.",
-    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina."
-  },
-  {
-    "marca": "Gree",
-    "linha": "Eco Garden / G-Top",
-    "codigo": "H6",
-    "significado": "Motor ventilador (interna)",
-    "acao": "Motor não gira ou sensor de rotação com defeito. Trocar capacitor (se tiver), ventilador ou sensor.",
-    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina."
-  },
-  {
-    "marca": "Gree",
-    "linha": "Eco Garden / G-Top",
-    "codigo": "F1 / F2",
-    "significado": "Sensores de temperatura",
-    "acao": "F1: sensor de ambiente. F2: sensor de tubo. Medir resistência.",
-    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina."
+    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 7
   },
   {
     "marca": "Gree",
@@ -173,7 +195,19 @@
     "codigo": "F0",
     "significado": "Vazamento de gás ou entupimento",
     "acao": "Sensor de tubo percebe que não está gelando. Verificar pressão e capilar entupido.",
-    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina."
+    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 7
+  },
+  {
+    "marca": "Gree",
+    "linha": "Eco Garden / G-Top",
+    "codigo": "F1 / F2",
+    "significado": "Sensores de temperatura",
+    "acao": "F1: sensor de ambiente. F2: sensor de tubo. Medir resistência.",
+    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 7
   },
   {
     "marca": "Gree",
@@ -181,7 +215,19 @@
     "codigo": "H3",
     "significado": "Proteção de sobrecarga",
     "acao": "Compressor desligou por calor excessivo. O ventilador da externa parou?",
-    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina."
+    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 7
+  },
+  {
+    "marca": "Gree",
+    "linha": "Eco Garden / G-Top",
+    "codigo": "H6",
+    "significado": "Motor ventilador (interna)",
+    "acao": "Motor não gira ou sensor de rotação com defeito. Trocar capacitor (se tiver), ventilador ou sensor.",
+    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 7
   },
   {
     "marca": "Gree",
@@ -189,15 +235,9 @@
     "codigo": "U1",
     "significado": "Corrente de fase (compressor)",
     "acao": "Verificar conexões do compressor. Pode ser placa defeituosa.",
-    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina."
-  },
-  {
-    "marca": "Philco",
-    "linha": "Inverter",
-    "codigo": "E6",
-    "significado": "Falha de comunicação",
-    "acao": "Verificar cabo S e se há tensão chegando na unidade externa.",
-    "dica": "Sensores geralmente de 15k ou 20k."
+    "dica": "Sensores variam: ambiente 15k ou 20k; tubo 20k. Conferir tabela da tampa da máquina.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 7
   },
   {
     "marca": "Philco",
@@ -205,7 +245,9 @@
     "codigo": "E1 / E2",
     "significado": "Sensores de temperatura",
     "acao": "E1: ambiente. E2: serpentina. Verificar se o plugue está bem encaixado na placa.",
-    "dica": "Sensores geralmente de 15k ou 20k."
+    "dica": "Sensores geralmente de 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 8
   },
   {
     "marca": "Philco",
@@ -213,7 +255,19 @@
     "codigo": "E4",
     "significado": "Compressor / IPM",
     "acao": "Compressor superaquecido ou falta de gás refrigerante.",
-    "dica": "Sensores geralmente de 15k ou 20k."
+    "dica": "Sensores geralmente de 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 8
+  },
+  {
+    "marca": "Philco",
+    "linha": "Inverter",
+    "codigo": "E6",
+    "significado": "Falha de comunicação",
+    "acao": "Verificar cabo S e se há tensão chegando na unidade externa.",
+    "dica": "Sensores geralmente de 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 8
   },
   {
     "marca": "Philco",
@@ -221,7 +275,9 @@
     "codigo": "F3",
     "significado": "Proteção da condensadora",
     "acao": "Motor ventilador externo parou ou condensadora bloqueada de sujeira.",
-    "dica": "Sensores geralmente de 15k ou 20k."
+    "dica": "Sensores geralmente de 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 8
   },
   {
     "marca": "Philco",
@@ -229,7 +285,9 @@
     "codigo": "P0",
     "significado": "Proteção da condensadora",
     "acao": "Motor ventilador externo parou ou condensadora bloqueada de sujeira.",
-    "dica": "Sensores geralmente de 15k ou 20k."
+    "dica": "Sensores geralmente de 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 8
   },
   {
     "marca": "Philco",
@@ -237,7 +295,9 @@
     "codigo": "P0 (corrente)",
     "significado": "Proteção de corrente",
     "acao": "Tensão de rede oscilando muito ou compressor travado.",
-    "dica": "Sensores geralmente de 15k ou 20k."
+    "dica": "Sensores geralmente de 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 8
   },
   {
     "marca": "Agratto",
@@ -245,7 +305,9 @@
     "codigo": "E1",
     "significado": "Sensor de ambiente",
     "acao": "Sensor plástico da evaporadora.",
-    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k."
+    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 9
   },
   {
     "marca": "Agratto",
@@ -253,7 +315,9 @@
     "codigo": "E2",
     "significado": "Sensor de tubo",
     "acao": "Sensor metálico da evaporadora.",
-    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k."
+    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 9
   },
   {
     "marca": "Agratto",
@@ -261,7 +325,9 @@
     "codigo": "E4",
     "significado": "Motor ventilador (interna)",
     "acao": "Turbina suja travando o motor ou capacitor fraco.",
-    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k."
+    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 9
   },
   {
     "marca": "Agratto",
@@ -269,7 +335,9 @@
     "codigo": "E5",
     "significado": "Falha de comunicação",
     "acao": "Cabo S rompido. Como é máquina de entrada, verifique muito bem os bornes.",
-    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k."
+    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 9
   },
   {
     "marca": "Agratto",
@@ -277,15 +345,9 @@
     "codigo": "F0",
     "significado": "Falta de gás",
     "acao": "Sistema detectou baixo rendimento. Procurar vazamento.",
-    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k."
-  },
-  {
-    "marca": "Britânia",
-    "linha": "Inverter",
-    "codigo": "E6",
-    "significado": "Falha de comunicação",
-    "acao": "Verifique o cabo S. Britânia é sensível a cabo PP ruim.",
-    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k."
+    "dica": "Usa códigos muito parecidos com TCL/Midea. Sensores geralmente 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 9
   },
   {
     "marca": "Britânia",
@@ -293,7 +355,9 @@
     "codigo": "E1",
     "significado": "Sensor de ambiente",
     "acao": "Aberto ou em curto.",
-    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k."
+    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 10
   },
   {
     "marca": "Britânia",
@@ -301,7 +365,9 @@
     "codigo": "E2",
     "significado": "Sensor de tubo",
     "acao": "Aberto ou em curto.",
-    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k."
+    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 10
   },
   {
     "marca": "Britânia",
@@ -309,7 +375,19 @@
     "codigo": "E4",
     "significado": "Proteção do compressor",
     "acao": "Compressor quente demais ou gás baixo.",
-    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k."
+    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 10
+  },
+  {
+    "marca": "Britânia",
+    "linha": "Inverter",
+    "codigo": "E6",
+    "significado": "Falha de comunicação",
+    "acao": "Verifique o cabo S. Britânia é sensível a cabo PP ruim.",
+    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 10
   },
   {
     "marca": "Britânia",
@@ -317,47 +395,9 @@
     "codigo": "F3",
     "significado": "Proteção da condensadora",
     "acao": "Erro na unidade externa (ventilador ou sujeira).",
-    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k."
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "E1",
-    "significado": "Falha de comunicação",
-    "acao": "Padrão Midea/Carrier. Verificar cabo PP ou placas.",
-    "dica": "Códigos muito parecidos com Springer/Midea."
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "E2 / E3",
-    "significado": "Sensores de temperatura",
-    "acao": "E2: ambiente. E3: serpentina.",
-    "dica": "Códigos muito parecidos com Springer/Midea."
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "E4",
-    "significado": "Sensor T3 (condensadora)",
-    "acao": "Sensor de tubo da unidade externa.",
-    "dica": "Códigos muito parecidos com Springer/Midea."
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "P4",
-    "significado": "Proteção do inverter",
-    "acao": "Erro de acionamento do compressor. Verifique se os terminais UVW estão bem conectados.",
-    "dica": "Códigos muito parecidos com Springer/Midea."
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "Ed",
-    "significado": "Proteção da unidade externa",
-    "acao": "Placa externa seca.",
-    "dica": "Códigos muito parecidos com Springer/Midea."
+    "dica": "Britânia é “irmã” da Philco. Sensores 15k ou 20k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 10
   },
   {
     "marca": "Carrier",
@@ -365,7 +405,59 @@
     "codigo": "CH23",
     "significado": "Falta de fase (máquinas trifásicas)",
     "acao": "Falta de fase em máquinas trifásicas ou erro geral na unidade externa.",
-    "dica": "Códigos muito parecidos com Springer/Midea."
+    "dica": "Códigos muito parecidos com Springer/Midea.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 11
+  },
+  {
+    "marca": "Carrier",
+    "linha": "X-Power / Comerciais",
+    "codigo": "E1",
+    "significado": "Falha de comunicação",
+    "acao": "Padrão Midea/Carrier. Verificar cabo PP ou placas.",
+    "dica": "Códigos muito parecidos com Springer/Midea.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 11
+  },
+  {
+    "marca": "Carrier",
+    "linha": "X-Power / Comerciais",
+    "codigo": "E2 / E3",
+    "significado": "Sensores de temperatura",
+    "acao": "E2: ambiente. E3: serpentina.",
+    "dica": "Códigos muito parecidos com Springer/Midea.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 11
+  },
+  {
+    "marca": "Carrier",
+    "linha": "X-Power / Comerciais",
+    "codigo": "E4",
+    "significado": "Sensor T3 (condensadora)",
+    "acao": "Sensor de tubo da unidade externa.",
+    "dica": "Códigos muito parecidos com Springer/Midea.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 11
+  },
+  {
+    "marca": "Carrier",
+    "linha": "X-Power / Comerciais",
+    "codigo": "Ed",
+    "significado": "Proteção da unidade externa",
+    "acao": "Placa externa seca.",
+    "dica": "Códigos muito parecidos com Springer/Midea.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 11
+  },
+  {
+    "marca": "Carrier",
+    "linha": "X-Power / Comerciais",
+    "codigo": "P4",
+    "significado": "Proteção do inverter",
+    "acao": "Erro de acionamento do compressor. Verifique se os terminais UVW estão bem conectados.",
+    "dica": "Códigos muito parecidos com Springer/Midea.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 11
   },
   {
     "marca": "Comfee",
@@ -373,7 +465,9 @@
     "codigo": "E1",
     "significado": "Falha de comunicação",
     "acao": "Verificar bornes de interligação e aperto dos parafusos.",
-    "dica": "Comfee é segunda linha da Midea. Sensores 10k."
+    "dica": "Comfee é segunda linha da Midea. Sensores 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 12
   },
   {
     "marca": "Comfee",
@@ -381,7 +475,9 @@
     "codigo": "E3",
     "significado": "Motor ventilador (interna)",
     "acao": "A turbina roda devagar? Pode ser o capacitor na placa ou o sensor Hall.",
-    "dica": "Comfee é segunda linha da Midea. Sensores 10k."
+    "dica": "Comfee é segunda linha da Midea. Sensores 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 12
   },
   {
     "marca": "Comfee",
@@ -389,7 +485,9 @@
     "codigo": "E5",
     "significado": "Sensores de temperatura",
     "acao": "Erro nos sensores da evaporadora (ambiente ou tubo).",
-    "dica": "Comfee é segunda linha da Midea. Sensores 10k."
+    "dica": "Comfee é segunda linha da Midea. Sensores 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 12
   },
   {
     "marca": "Comfee",
@@ -397,7 +495,9 @@
     "codigo": "EC",
     "significado": "Vazamento de gás",
     "acao": "A máquina gela pouco e desliga por proteção. Procure vazamento nas flanges.",
-    "dica": "Comfee é segunda linha da Midea. Sensores 10k."
+    "dica": "Comfee é segunda linha da Midea. Sensores 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 12
   },
   {
     "marca": "Comfee",
@@ -405,7 +505,9 @@
     "codigo": "P0 / P4",
     "significado": "Proteção da placa externa",
     "acao": "Módulo IPM superaquecido. Limpe a condensadora urgentemente.",
-    "dica": "Comfee é segunda linha da Midea. Sensores 10k."
+    "dica": "Comfee é segunda linha da Midea. Sensores 10k.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 12
   },
   {
     "marca": "Consul",
@@ -413,7 +515,9 @@
     "codigo": "2 piscadas",
     "significado": "Falha de comunicação",
     "acao": "Cabo de sinal rompido ou fusível da placa externa aberto.",
-    "dica": "Conte as piscadas do LED da evaporadora."
+    "dica": "Conte as piscadas do LED da evaporadora.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 13
   },
   {
     "marca": "Consul",
@@ -421,7 +525,9 @@
     "codigo": "3 piscadas",
     "significado": "Sensor de temperatura (ambiente)",
     "acao": "Sensor aberto ou em curto. Trocar sensor da interna.",
-    "dica": "Conte as piscadas do LED da evaporadora."
+    "dica": "Conte as piscadas do LED da evaporadora.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 13
   },
   {
     "marca": "Consul",
@@ -429,7 +535,9 @@
     "codigo": "4 piscadas",
     "significado": "Sensor de serpentina (interna)",
     "acao": "Sensor de tubo com defeito.",
-    "dica": "Conte as piscadas do LED da evaporadora."
+    "dica": "Conte as piscadas do LED da evaporadora.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 13
   },
   {
     "marca": "Consul",
@@ -437,7 +545,9 @@
     "codigo": "5 piscadas",
     "significado": "Proteção do compressor",
     "acao": "Sobrecarga. Condensadora suja ou motor ventilador externo parado.",
-    "dica": "Conte as piscadas do LED da evaporadora."
+    "dica": "Conte as piscadas do LED da evaporadora.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 13
   },
   {
     "marca": "Consul",
@@ -445,15 +555,9 @@
     "codigo": "6 piscadas",
     "significado": "Falha na unidade externa",
     "acao": "Erro genérico na condensadora (sensor de descarga ou placa).",
-    "dica": "Conte as piscadas do LED da evaporadora."
-  },
-  {
-    "marca": "Daikin",
-    "linha": "Inverter",
-    "codigo": "U4",
-    "significado": "Falha de comunicação",
-    "acao": "Erro mais famoso da Daikin. Cabo de sinal ou fusível da placa externa queimado.",
-    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle."
+    "dica": "Conte as piscadas do LED da evaporadora.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 13
   },
   {
     "marca": "Daikin",
@@ -461,15 +565,9 @@
     "codigo": "A5",
     "significado": "Controle de alta pressão",
     "acao": "Filtros sujos? Condensadora bloqueada? Falta de gás? Proteção antigelo.",
-    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle."
-  },
-  {
-    "marca": "Daikin",
-    "linha": "Inverter",
-    "codigo": "L5",
-    "significado": "Sobrecorrente no inverter",
-    "acao": "Compressor travado ou placa IPM com defeito. Teste o compressor.",
-    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle."
+    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 14
   },
   {
     "marca": "Daikin",
@@ -477,7 +575,9 @@
     "codigo": "C4 / C9",
     "significado": "Sensores da interna",
     "acao": "C4: tubo (líquido). C9: ambiente (retorno de ar).",
-    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle."
+    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 14
   },
   {
     "marca": "Daikin",
@@ -485,7 +585,19 @@
     "codigo": "E7",
     "significado": "Motor ventilador (externa)",
     "acao": "O ventilador da condensadora parou ou está ventando contra a hélice.",
-    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle."
+    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 14
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "L5",
+    "significado": "Sobrecorrente no inverter",
+    "acao": "Compressor travado ou placa IPM com defeito. Teste o compressor.",
+    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 14
   },
   {
     "marca": "Daikin",
@@ -493,7 +605,19 @@
     "codigo": "U0",
     "significado": "Falta de gás",
     "acao": "Sistema detectou baixa eficiência. Procurar vazamento.",
-    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle."
+    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 14
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "U4",
+    "significado": "Falha de comunicação",
+    "acao": "Erro mais famoso da Daikin. Cabo de sinal ou fusível da placa externa queimado.",
+    "dica": "Segure Cancel por 5 segundos até aparecer o código no controle.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 14
   },
   {
     "marca": "Electrolux",
@@ -501,7 +625,9 @@
     "codigo": "E1",
     "significado": "Falha de comunicação",
     "acao": "Verifique a emenda do cabo PP e se há tensão chegando na externa.",
-    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar."
+    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 15
   },
   {
     "marca": "Electrolux",
@@ -509,7 +635,9 @@
     "codigo": "E3",
     "significado": "Sensor de tubo (evaporadora)",
     "acao": "Sensor metálico da unidade interna. Verificar se está bem encaixado ou aberto.",
-    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar."
+    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 15
   },
   {
     "marca": "Electrolux",
@@ -517,7 +645,9 @@
     "codigo": "E4",
     "significado": "Sensor de descarga (compressor)",
     "acao": "Fica em cima do compressor. Verifique oxidação do plugue ou rompimento.",
-    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar."
+    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 15
   },
   {
     "marca": "Electrolux",
@@ -525,15 +655,9 @@
     "codigo": "E5",
     "significado": "Proteção de sobrecorrente",
     "acao": "Compressor travado? Sujeira excessiva na condensadora? Tensão muito baixa?",
-    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar."
-  },
-  {
-    "marca": "Electrolux",
-    "linha": "Xi / Yi / Technic",
-    "codigo": "H6",
-    "significado": "Motor ventilador (interna)",
-    "acao": "Girar a turbina com a mão. Verificar capacitor e sensor do motor (se tiver).",
-    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar."
+    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 15
   },
   {
     "marca": "Electrolux",
@@ -541,7 +665,19 @@
     "codigo": "F1 / F3",
     "significado": "Sensores de temperatura",
     "acao": "Geralmente F1 é ambiente e F3 é serpentina externa. Medir resistências.",
-    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar."
+    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 15
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Xi / Yi / Technic",
+    "codigo": "H6",
+    "significado": "Motor ventilador (interna)",
+    "acao": "Girar a turbina com a mão. Verificar capacitor e sensor do motor (se tiver).",
+    "dica": "A maioria dos sensores são 10k ambiente; tubo pode variar.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 15
   },
   {
     "marca": "Elgin",
@@ -549,7 +685,9 @@
     "codigo": "E1",
     "significado": "Sensor de ambiente (interna)",
     "acao": "Trocar sensor de temperatura do quarto (plástico).",
-    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C."
+    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 16
   },
   {
     "marca": "Elgin",
@@ -557,7 +695,9 @@
     "codigo": "E2",
     "significado": "Sensor de tubo (interna)",
     "acao": "Trocar sensor da serpentina (metálico).",
-    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C."
+    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 16
   },
   {
     "marca": "Elgin",
@@ -565,7 +705,9 @@
     "codigo": "E2 (externa)",
     "significado": "Sensor de tubo (externa)",
     "acao": "Fica lá na condensadora. Verifique oxidação no plugue.",
-    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C."
+    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 16
   },
   {
     "marca": "Elgin",
@@ -573,7 +715,9 @@
     "codigo": "E3",
     "significado": "Sensor de tubo (externa)",
     "acao": "Fica lá na condensadora. Verifique oxidação no plugue.",
-    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C."
+    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 16
   },
   {
     "marca": "Elgin",
@@ -581,7 +725,9 @@
     "codigo": "E4 / F0",
     "significado": "Falha no compressor / gás",
     "acao": "Pode indicar falta de gás, compressor não partiu ou módulo IPM com defeito.",
-    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C."
+    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 16
   },
   {
     "marca": "Elgin",
@@ -589,7 +735,9 @@
     "codigo": "F6 / E5",
     "significado": "Falha de comunicação",
     "acao": "Verifique a interligação interna/externa (fios 1, 2, 3 ou L, N, S).",
-    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C."
+    "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 16
   },
   {
     "marca": "Fujitsu",
@@ -597,15 +745,9 @@
     "codigo": "02 (Op) / 03 (Timer)",
     "significado": "Sensor de ambiente",
     "acao": "Sensor da evaporadora aberto ou em curto.",
-    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER."
-  },
-  {
-    "marca": "Fujitsu",
-    "linha": "Inverter",
-    "codigo": "05 (Op) / 15 (Timer)",
-    "significado": "Erro na unidade interna",
-    "acao": "Verifique placa da evaporadora e motor ventilador.",
-    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER."
+    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 17
   },
   {
     "marca": "Fujitsu",
@@ -613,7 +755,19 @@
     "codigo": "05 (Op) / 07 (Timer)",
     "significado": "Falha de comunicação",
     "acao": "O erro clássico: cabo de interligação ou placa externa sem energia.",
-    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER."
+    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 17
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "05 (Op) / 15 (Timer)",
+    "significado": "Erro na unidade interna",
+    "acao": "Verifique placa da evaporadora e motor ventilador.",
+    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 17
   },
   {
     "marca": "Fujitsu",
@@ -621,7 +775,9 @@
     "codigo": "09 (Op) / 04 (Timer)",
     "significado": "Pico de corrente (trip)",
     "acao": "Compressor travado ou problema no IPM da placa externa.",
-    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER."
+    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 17
   },
   {
     "marca": "Fujitsu",
@@ -629,7 +785,9 @@
     "codigo": "09 (Op) / 07 (Timer)",
     "significado": "Motor ventilador (externa)",
     "acao": "Motor da condensadora queimado ou travado.",
-    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER."
+    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 17
   },
   {
     "marca": "Fujitsu",
@@ -637,31 +795,9 @@
     "codigo": "10 (Op) / qualquer",
     "significado": "Erro de tensão",
     "acao": "Tensão de rede elétrica muito baixa ou muito alta.",
-    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER."
-  },
-  {
-    "marca": "Hisense",
-    "linha": "Inverter",
-    "codigo": "E1",
-    "significado": "Falha de comunicação",
-    "acao": "Sinal interrompido entre as unidades.",
-    "dica": "Códigos numéricos no display."
-  },
-  {
-    "marca": "Hisense",
-    "linha": "Inverter",
-    "codigo": "33",
-    "significado": "Sensor de ambiente",
-    "acao": "Sensor de temperatura aberto ou em curto.",
-    "dica": "Códigos numéricos no display."
-  },
-  {
-    "marca": "Hisense",
-    "linha": "Inverter",
-    "codigo": "34",
-    "significado": "Sensor de tubo",
-    "acao": "Sensor da serpentina da evaporadora.",
-    "dica": "Códigos numéricos no display."
+    "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 17
   },
   {
     "marca": "Hisense",
@@ -669,7 +805,9 @@
     "codigo": "05",
     "significado": "Erro de EEPROM",
     "acao": "Memória da placa corrompida. Tente desligar o disjuntor por 5 min.",
-    "dica": "Códigos numéricos no display."
+    "dica": "Códigos numéricos no display.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 18
   },
   {
     "marca": "Hisense",
@@ -677,7 +815,39 @@
     "codigo": "14",
     "significado": "Proteção do módulo IPM",
     "acao": "Corrente excessiva na placa externa.",
-    "dica": "Códigos numéricos no display."
+    "dica": "Códigos numéricos no display.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 18
+  },
+  {
+    "marca": "Hisense",
+    "linha": "Inverter",
+    "codigo": "33",
+    "significado": "Sensor de ambiente",
+    "acao": "Sensor de temperatura aberto ou em curto.",
+    "dica": "Códigos numéricos no display.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 18
+  },
+  {
+    "marca": "Hisense",
+    "linha": "Inverter",
+    "codigo": "34",
+    "significado": "Sensor de tubo",
+    "acao": "Sensor da serpentina da evaporadora.",
+    "dica": "Códigos numéricos no display.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 18
+  },
+  {
+    "marca": "Hisense",
+    "linha": "Inverter",
+    "codigo": "E1",
+    "significado": "Falha de comunicação",
+    "acao": "Sinal interrompido entre as unidades.",
+    "dica": "Códigos numéricos no display.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 18
   },
   {
     "marca": "Hitachi",
@@ -685,7 +855,9 @@
     "codigo": "01 vez",
     "significado": "Sensor de serpentina (interna)",
     "acao": "Sensor de tubo com defeito ou desconectado.",
-    "dica": "Conte piscadas do LED Timer da unidade interna."
+    "dica": "Conte piscadas do LED Timer da unidade interna.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 19
   },
   {
     "marca": "Hitachi",
@@ -693,7 +865,9 @@
     "codigo": "02 vezes",
     "significado": "Sensor de ar (ambiente)",
     "acao": "Sensor de temperatura ambiente com defeito.",
-    "dica": "Conte piscadas do LED Timer da unidade interna."
+    "dica": "Conte piscadas do LED Timer da unidade interna.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 19
   },
   {
     "marca": "Hitachi",
@@ -701,7 +875,9 @@
     "codigo": "03 vezes",
     "significado": "Falha de comunicação",
     "acao": "Erro de interface. Verifique fiação e fusíveis.",
-    "dica": "Conte piscadas do LED Timer da unidade interna."
+    "dica": "Conte piscadas do LED Timer da unidade interna.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 19
   },
   {
     "marca": "Hitachi",
@@ -709,7 +885,9 @@
     "codigo": "04 vezes",
     "significado": "Unidade externa com erro",
     "acao": "O problema está lá fora. Olhe os LEDs da placa da condensadora LD301.",
-    "dica": "Conte piscadas do LED Timer da unidade interna."
+    "dica": "Conte piscadas do LED Timer da unidade interna.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 19
   },
   {
     "marca": "Hitachi",
@@ -717,7 +895,9 @@
     "codigo": "09 vezes",
     "significado": "Motor ventilador (interna)",
     "acao": "Motor travado ou conector solto na placa.",
-    "dica": "Conte piscadas do LED Timer da unidade interna."
+    "dica": "Conte piscadas do LED Timer da unidade interna.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 19
   },
   {
     "marca": "Hitachi",
@@ -725,7 +905,9 @@
     "codigo": "12 vezes",
     "significado": "Erro na EEPROM",
     "acao": "Memória da placa corrompida ou placa com defeito.",
-    "dica": "Conte piscadas do LED Timer da unidade interna."
+    "dica": "Conte piscadas do LED Timer da unidade interna.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 19
   },
   {
     "marca": "Komeco",
@@ -733,7 +915,9 @@
     "codigo": "E1",
     "significado": "Sensor de ambiente",
     "acao": "Aberto ou em curto. Trocar sensor plástico.",
-    "dica": "Sensores padrão de 10k na maioria dos modelos novos."
+    "dica": "Sensores padrão de 10k na maioria dos modelos novos.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 20
   },
   {
     "marca": "Komeco",
@@ -741,7 +925,9 @@
     "codigo": "E2",
     "significado": "Sensor de tubo (interna)",
     "acao": "Aberto ou em curto. Trocar sensor cobre.",
-    "dica": "Sensores padrão de 10k na maioria dos modelos novos."
+    "dica": "Sensores padrão de 10k na maioria dos modelos novos.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 20
   },
   {
     "marca": "Komeco",
@@ -749,7 +935,9 @@
     "codigo": "E5",
     "significado": "Falha de comunicação",
     "acao": "Verificar cabo de sinal. Komeco sofre muito com emenda em fio.",
-    "dica": "Sensores padrão de 10k na maioria dos modelos novos."
+    "dica": "Sensores padrão de 10k na maioria dos modelos novos.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 20
   },
   {
     "marca": "Komeco",
@@ -757,7 +945,9 @@
     "codigo": "F0",
     "significado": "Motor ventilador (interna)",
     "acao": "Falha no feedback do motor (sensor hall) ou motor queimado.",
-    "dica": "Sensores padrão de 10k na maioria dos modelos novos."
+    "dica": "Sensores padrão de 10k na maioria dos modelos novos.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 20
   },
   {
     "marca": "Komeco",
@@ -765,6 +955,8 @@
     "codigo": "P0",
     "significado": "Erro de módulo IPM",
     "acao": "Corrente muito alta ou superaquecimento da placa.",
-    "dica": "Sensores padrão de 10k na maioria dos modelos novos."
+    "dica": "Sensores padrão de 10k na maioria dos modelos novos.",
+    "fonte": "Guia de Diagnóstico Rápido",
+    "pagina": 20
   }
 ]
