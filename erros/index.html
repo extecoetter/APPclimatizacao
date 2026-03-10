@@ -1,1 +1,206 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Códigos de erro - Climatização</title>
+  <meta name="theme-color" content="#000000">
+  <style>
+    :root{
+      --bg:#f3f6fb;--card:#ffffff;--text:#111827;--muted:#6b7280;--line:#e5e7eb;--brand:#1f6feb;--brand-strong:#0b5ed7;--shadow:0 10px 30px rgba(17,24,39,.08);--radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1000px;margin:18px auto 32px;padding:0 14px}
+    .appbar{background:linear-gradient(180deg,#2f80ff 0%,#1f6feb 100%);color:#fff;padding:18px;border-radius:18px;box-shadow:var(--shadow);margin-bottom:14px}
+    .appbar h1{margin:0;font-size:20px;font-weight:900}
+    .appbar p{margin:6px 0 0;opacity:.92;font-size:13px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px}
+    .top{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+    @media (max-width:700px){.top{grid-template-columns:1fr}}
+    .logo{max-width:220px;max-height:90px;object-fit:contain;display:none}
+    .muted{color:var(--muted)}
+    .filters{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:14px}
+    @media (max-width:850px){.filters{grid-template-columns:1fr}}
+    label{display:block;font-size:12px;font-weight:900;color:var(--muted);margin:0 0 6px;text-transform:uppercase;letter-spacing:.4px}
+    input,select{width:100%;padding:14px;border-radius:14px;border:1px solid var(--line);font-size:16px;background:#fff}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .btn{padding:14px 16px;border-radius:16px;border:1px solid var(--line);background:#fff;cursor:pointer;font-weight:900}
+    .btn.primary{background:var(--brand);color:#fff;border-color:transparent}
+    .stats{margin-top:10px;font-size:13px;color:var(--muted)}
+    .result-list{display:grid;gap:12px;margin-top:14px}
+    .item{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:16px}
+    .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+    .badge{display:inline-block;background:#eaf2ff;color:var(--brand);border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}
+    .code{display:inline-block;background:#0f172a;color:#fff;border-radius:10px;padding:6px 10px;font-size:13px;font-weight:900}
+    .ttl{font-size:19px;font-weight:1000;margin:10px 0 6px}
+    .txt{font-size:14px;line-height:1.45}
+    .empty{padding:18px;text-align:center;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="appbar">
+      <h1>Códigos de erro</h1>
+      <p>Busca por marca, linha ou código.</p>
+    </div>
+
+    <div class="card">
+      <div class="top">
+        <div>
+          <div id="nomeTecnico" style="font-size:22px;font-weight:1000">Carregando técnico...</div>
+          <div id="contatoTecnico" class="muted"></div>
+        </div>
+        <img id="logo" class="logo" alt="Logo do técnico">
+      </div>
+
+      <div class="filters">
+        <div>
+          <label>Marca</label>
+          <select id="fMarca">
+            <option value="">Todas</option>
+          </select>
+        </div>
+        <div>
+          <label>Código</label>
+          <input id="fCodigo" placeholder="Ex: E1, CH05, U4..." />
+        </div>
+        <div>
+          <label>Busca livre</label>
+          <input id="fTexto" placeholder="Marca, linha, significado..." />
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn primary" id="btnMenu">Voltar ao menu</button>
+        <button class="btn" id="btnOrcamento">Ir para orçamento</button>
+        <button class="btn" id="btnLimpar">Limpar filtros</button>
+      </div>
+
+      <div class="stats" id="stats">Carregando base de códigos...</div>
+      <div class="result-list" id="resultados"></div>
+    </div>
+  </div>
+
+<script>
+(function(){
+  const qs = new URLSearchParams(location.search);
+  const cliente = qs.get('cliente') || qs.get('c') || 'robsonextecoetter';
+  const destino = (qs.get('destino') || 'android').toLowerCase();
+  const marcaEl = document.getElementById('fMarca');
+  const codigoEl = document.getElementById('fCodigo');
+  const textoEl = document.getElementById('fTexto');
+  const resEl = document.getElementById('resultados');
+  const statsEl = document.getElementById('stats');
+
+  let base = [];
+
+  function carregarConfigCliente(){
+    return new Promise(function(resolve){
+      const s = document.createElement('script');
+      s.src = '../clientes/' + encodeURIComponent(cliente) + '/config.js?v=' + Date.now();
+      s.onload = function(){ resolve(window.CLIENT_CONFIG || null); };
+      s.onerror = function(){ resolve(null); };
+      document.head.appendChild(s);
+    });
+  }
+
+  function preencherCliente(cfg){
+    const inst = (cfg && cfg.installer) || {};
+    document.getElementById('nomeTecnico').textContent = inst.nome || cliente;
+    document.getElementById('contatoTecnico').textContent = [inst.whats, inst.pix].filter(Boolean).join(' • ');
+    const logoEl = document.getElementById('logo');
+    if(cfg && cfg.logo){
+      logoEl.src = cfg.logo;
+      logoEl.style.display = 'block';
+      logoEl.onerror = function(){ this.style.display = 'none'; };
+    }
+  }
+
+  function normalizar(txt){
+    return (txt || '').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();
+  }
+
+  function preencherMarcas(){
+    const marcas = Array.from(new Set(base.map(x => x.marca))).sort((a,b)=>a.localeCompare(b,'pt-BR'));
+    for(const marca of marcas){
+      const opt = document.createElement('option');
+      opt.value = marca;
+      opt.textContent = marca;
+      marcaEl.appendChild(opt);
+    }
+  }
+
+  function render(lista){
+    statsEl.textContent = base.length + ' códigos carregados • ' + lista.length + ' resultado(s)';
+    if(!lista.length){
+      resEl.innerHTML = '<div class="card empty">Nenhum código encontrado.</div>';
+      return;
+    }
+    resEl.innerHTML = lista.map(item => `
+      <article class="item">
+        <div class="row">
+          <span class="badge">${item.marca}</span>
+          <span class="badge">${item.linha}</span>
+          <span class="code">${item.codigo}</span>
+        </div>
+        <div class="ttl">${item.significado}</div>
+        <div class="txt"><b>Ação imediata:</b> ${item.acao}</div>
+        <div class="txt" style="margin-top:8px"><b>Dica:</b> ${item.dica}</div>
+      </article>
+    `).join('');
+  }
+
+  function aplicarFiltros(){
+    const marca = marcaEl.value;
+    const cod = normalizar(codigoEl.value);
+    const txt = normalizar(textoEl.value);
+
+    const lista = base.filter(item => {
+      if(marca && item.marca !== marca) return false;
+      if(cod && !normalizar(item.codigo).includes(cod)) return false;
+      if(txt){
+        const bolo = normalizar([item.marca,item.linha,item.codigo,item.significado,item.acao,item.dica].join(' '));
+        if(!bolo.includes(txt)) return false;
+      }
+      return true;
+    });
+    render(lista);
+  }
+
+  document.getElementById('btnMenu').addEventListener('click', function(){
+    location.href = '../menu/index.html?cliente=' + encodeURIComponent(cliente) + '&destino=' + encodeURIComponent(destino);
+  });
+
+  document.getElementById('btnOrcamento').addEventListener('click', function(){
+    const alvo = destino === 'ios' ? '../ios/index.html' : '../android/index.html';
+    location.href = alvo + '?cliente=' + encodeURIComponent(cliente);
+  });
+
+  document.getElementById('btnLimpar').addEventListener('click', function(){
+    marcaEl.value = '';
+    codigoEl.value = '';
+    textoEl.value = '';
+    aplicarFiltros();
+  });
+
+  marcaEl.addEventListener('change', aplicarFiltros);
+  codigoEl.addEventListener('input', aplicarFiltros);
+  textoEl.addEventListener('input', aplicarFiltros);
+
+  Promise.all([
+    carregarConfigCliente().then(preencherCliente),
+    fetch('./dados-erros.json?v=' + Date.now()).then(r => r.json()).then(json => {
+      base = json;
+      preencherMarcas();
+      render(base);
+    }).catch(() => {
+      statsEl.textContent = 'Não consegui carregar dados-erros.json';
+      resEl.innerHTML = '<div class="card empty">Falha ao carregar a base de códigos.</div>';
+    })
+  ]);
+})();
+</script>
+</body>
+</html>
 
