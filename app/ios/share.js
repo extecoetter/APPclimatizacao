@@ -1,1 +1,0 @@
-// Compartilhamento específico do iOS
