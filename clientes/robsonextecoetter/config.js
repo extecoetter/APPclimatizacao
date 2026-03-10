@@ -1,9 +1,8 @@
 window.CLIENT_CONFIG = {
   installer: {
-    nome: "Cliente Modelo Modelo",
+    nome: "Robson Andre Extecoetter",
     whats: "(14) 99707-3447",
-    pix: "14 99707 3447 / Cliente Modelo"
+    pix: "14 99707 3447 / Robson A Extecoetter"
   },
-
-  logo: "/climatizaorcamentos/clientes/clientemodelo/logo.png"
+  logo: "/APPclimatizacao/clientes/robsonextecoetter/logo.png"
 };
