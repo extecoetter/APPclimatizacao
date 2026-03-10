@@ -1,12 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=/APPclimatizacao/menu/index.html?cliente=robsonextecoetter&destino=ios">
-  <script>
-    location.replace('/APPclimatizacao/menu/index.html?cliente=robsonextecoetter&destino=ios');
-  </script>
-  <title>Abrindo app...</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Climatiza Orçamentos</title>
+
+<style>
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background:#0b5ed7;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  margin:0;
+}
+.box{text-align:center}
+</style>
+
 </head>
-<body></body>
+<body>
+
+<div class="box">
+<h2>Climatiza Orçamentos</h2>
+<p>Abrindo versão iOS...</p>
+</div>
+
+<script>
+
+const cliente = "robsonextecoetter";
+const BASE = "/APPclimatizacao";
+
+window.location.href =
+BASE + "/ios/index.html?cliente=" + cliente;
+
+</script>
+
+</body>
 </html>
