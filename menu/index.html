@@ -19,9 +19,8 @@
     .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px}
     .hero{display:grid;gap:14px;justify-items:center;text-align:center;padding:20px}
     .logo{max-width:260px;max-height:120px;object-fit:contain;display:none}
-    .muted{color:var(--muted)}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:8px}
-    @media (max-width:700px){.grid{grid-template-columns:1fr}}
+    .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:8px}
+    @media (max-width:820px){.grid{grid-template-columns:1fr}}
     .btn{
       border:1px solid var(--line);background:#fff;border-radius:18px;padding:20px;cursor:pointer;
       display:grid;gap:8px;text-align:left;box-shadow:var(--shadow)
@@ -48,7 +47,6 @@
       <div class="pill" id="destinoPill">Carregando...</div>
       <div>
         <div id="nomeTecnico" style="font-size:22px;font-weight:1000">Carregando técnico...</div>
-        <div id="contatoTecnico" class="muted"></div>
       </div>
     </div>
 
@@ -64,6 +62,12 @@
         <div class="title">Códigos de erro</div>
         <div class="desc">Pesquisar falhas por marca e por código de erro.</div>
       </button>
+
+      <button class="btn" id="btnCarga" type="button">
+        <div class="icon">🌡️</div>
+        <div class="title">Carga térmica</div>
+        <div class="desc">Calcular a capacidade ideal em BTU para o ambiente.</div>
+      </button>
     </div>
 
     <div class="footer">Menu único para todos os clientes. O motor do orçamento continua separado.</div>
@@ -76,7 +80,6 @@
   const destino = (qs.get('destino') || 'android').toLowerCase();
 
   const nomeEl = document.getElementById('nomeTecnico');
-  const contatoEl = document.getElementById('contatoTecnico');
   const logoEl = document.getElementById('logo');
   const pillEl = document.getElementById('destinoPill');
 
@@ -95,7 +98,6 @@
   function preencherCliente(cfg){
     const inst = (cfg && cfg.installer) || {};
     nomeEl.textContent = inst.nome || cliente;
-    contatoEl.textContent = [inst.whats, inst.pix].filter(Boolean).join(' • ');
     if(cfg && cfg.logo){
       logoEl.src = cfg.logo;
       logoEl.style.display = 'block';
@@ -112,9 +114,12 @@
     location.href = '../erros/index.html?cliente=' + encodeURIComponent(cliente) + '&destino=' + encodeURIComponent(destino);
   });
 
+  document.getElementById('btnCarga').addEventListener('click', function(){
+    location.href = '../carga/index.html?cliente=' + encodeURIComponent(cliente) + '&destino=' + encodeURIComponent(destino);
+  });
+
   carregarConfigCliente().then(preencherCliente);
 })();
 </script>
 </body>
 </html>
-
