@@ -1535,12 +1535,15 @@ const obs = document.getElementById('obs').value.trim();
       };
 
       // tenta share de arquivo (melhor UX)
-      if(navigator.share && navigator.canShare){
+      if(navigator.share){
         const pdfBlob = await html2pdf().set(opt).from(clone).output("blob");
         if(!pdfBlob || !pdfBlob.size) throw new Error("PDF vazio");
         const file = new File([pdfBlob], filename, { type: "application/pdf" });
 
-        if(navigator.canShare({ files: [file] })){
+        const podeCompartilharArquivo =
+          !navigator.canShare || navigator.canShare({ files: [file] });
+
+        if(podeCompartilharArquivo){
           await navigator.share({
             files: [file],
             title: "Orçamento",
@@ -1645,10 +1648,12 @@ const obs = document.getElementById('obs').value.trim();
     if(ev && ev.preventDefault) ev.preventDefault();
     try{
       syncParcelamentoToObs();
-      if(typeof compartilharPdf === 'function'){
+      if(typeof compartilharPDF === 'function'){
+        await compartilharPDF(ev);
+      }else if(typeof compartilharPdf === 'function'){
         await compartilharPdf();
       }else{
-        if(window.__betaShow) window.__betaShow('[ERRO] compartilharPdf não existe');
+        if(window.__betaShow) window.__betaShow('[ERRO] compartilharPDF não existe');
       }
     }catch(e){
       if(window.__betaShow) window.__betaShow('[ERRO] share: ' + (e.message||e));
