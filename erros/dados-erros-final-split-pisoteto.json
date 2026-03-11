@@ -161,647 +161,6 @@
   },
   {
     "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "01",
-    "significado": "Falha de comunicação entre evaporadora e condensadora",
-    "acao": "Verificar cabos A/B, canais COMM1 e separar cabo de energia do cabo de comunicação.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "01"
-    ],
-    "codigo_busca": "01",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 01 falha de comunicação entre evaporadora e condensadora verificar cabos a/b, canais comm1 e separar cabo de energia do cabo de comunicação.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "02",
-    "significado": "Falha de comunicação entre placa principal e driver",
-    "acao": "Verificar cabo entre placa principal e driver, conexão e integridade do chicote.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "02"
-    ],
-    "codigo_busca": "02",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 02 falha de comunicação entre placa principal e driver verificar cabo entre placa principal e driver, conexão e integridade do chicote.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "03",
-    "significado": "Falha no sensor externo",
-    "acao": "Verificar integridade, conexão e leitura do sensor externo.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "03"
-    ],
-    "codigo_busca": "03",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 03 falha no sensor externo verificar integridade, conexão e leitura do sensor externo.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "04",
-    "significado": "Falha no sensor do meio do condensador",
-    "acao": "Verificar sensor do meio do condensador e chicote.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "04"
-    ],
-    "codigo_busca": "04",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 04 falha no sensor do meio do condensador verificar sensor do meio do condensador e chicote.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "05",
-    "significado": "Falha no sensor de sucção",
-    "acao": "Verificar sensor de sucção, cabos e leitura ôhmica.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "05"
-    ],
-    "codigo_busca": "05",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 05 falha no sensor de sucção verificar sensor de sucção, cabos e leitura ôhmica.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "06",
-    "significado": "Falha no sensor de descarga",
-    "acao": "Verificar sensor de descarga e cabos; sensor de descarga usa valor de referência diferente.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "06"
-    ],
-    "codigo_busca": "06",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 06 falha no sensor de descarga verificar sensor de descarga e cabos; sensor de descarga usa valor de referência diferente.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "07",
-    "significado": "Temperatura do meio do condensador muito alta",
-    "acao": "Verificar hélice/motor da condensadora, condensador sujo/obstruído e ventilação mínima.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "07"
-    ],
-    "codigo_busca": "07",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 07 temperatura do meio do condensador muito alta verificar hélice/motor da condensadora, condensador sujo/obstruído e ventilação mínima.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "08",
-    "significado": "Temperatura de sucção muito alta",
-    "acao": "Verificar pouca carga de refrigerante e possível falha na válvula de expansão eletrônica (EXV).",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "08"
-    ],
-    "codigo_busca": "08",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 08 temperatura de sucção muito alta verificar pouca carga de refrigerante e possível falha na válvula de expansão eletrônica (exv).",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "09",
-    "significado": "Temperatura de sucção muito baixa",
-    "acao": "Verificar excesso de refrigerante, EXV e possível falha no motor da evaporadora.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "09"
-    ],
-    "codigo_busca": "09",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 09 temperatura de sucção muito baixa verificar excesso de refrigerante, exv e possível falha no motor da evaporadora.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "10",
-    "significado": "Proteção de descarga",
-    "acao": "Verificar pouca carga de refrigerante, EXV e motor da condensadora.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "10"
-    ],
-    "codigo_busca": "10",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 10 proteção de descarga verificar pouca carga de refrigerante, exv e motor da condensadora.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "11",
-    "significado": "Erro de EXV",
-    "acao": "Verificar cabo da EXV, encaixe da solenóide, compatibilidade da válvula e se a EXV não está travada.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "11"
-    ],
-    "codigo_busca": "11",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 11 erro de exv verificar cabo da exv, encaixe da solenóide, compatibilidade da válvula e se a exv não está travada.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "12",
-    "significado": "Pressão baixa",
-    "acao": "Fazer medições de pressão e verificar vazamento/carga de refrigerante.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "12"
-    ],
-    "codigo_busca": "12",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 12 pressão baixa fazer medições de pressão e verificar vazamento/carga de refrigerante.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "13",
-    "significado": "Pressão alta",
-    "acao": "Medir pressões e verificar termostato no topo do compressor, ventilação e carga.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "13"
-    ],
-    "codigo_busca": "13",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 13 pressão alta medir pressões e verificar termostato no topo do compressor, ventilação e carga.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "14",
-    "significado": "Temperatura do compressor alta",
-    "acao": "Verificar sistema frigorígeno, ventilação e condição do compressor.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "14"
-    ],
-    "codigo_busca": "14",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 14 temperatura do compressor alta verificar sistema frigorígeno, ventilação e condição do compressor.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "16",
-    "significado": "Frequência reduzida do compressor",
-    "acao": "Verificar tensão, corrente, pressão, motor da condensadora, cabos do driver e condição do compressor.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "16"
-    ],
-    "codigo_busca": "16",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 16 frequência reduzida do compressor verificar tensão, corrente, pressão, motor da condensadora, cabos do driver e condição do compressor.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "17",
-    "significado": "Falha de aquecimento",
-    "acao": "Verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e EXV.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "17"
-    ],
-    "codigo_busca": "17",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 17 falha de aquecimento verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e exv.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "30",
-    "significado": "Sobrecorrente de hardware",
-    "acao": "Em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "30"
-    ],
-    "codigo_busca": "30",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 30 sobrecorrente de hardware em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "31",
-    "significado": "Falha no chaveamento",
-    "acao": "Em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "31"
-    ],
-    "codigo_busca": "31",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 31 falha no chaveamento em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "32",
-    "significado": "Sobrecorrente de software",
-    "acao": "Em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "32"
-    ],
-    "codigo_busca": "32",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 32 sobrecorrente de software em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "33",
-    "significado": "Erro de amostragem de corrente",
-    "acao": "Em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "33"
-    ],
-    "codigo_busca": "33",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 33 erro de amostragem de corrente em reincidência, inspecionar driver e substituir a placa driver se necessário.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "34",
-    "significado": "Superaquecimento do dissipador",
-    "acao": "Em reincidência, inspecionar refrigeração do driver e substituir a placa driver se necessário.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "34"
-    ],
-    "codigo_busca": "34",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 34 superaquecimento do dissipador em reincidência, inspecionar refrigeração do driver e substituir a placa driver se necessário.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "35",
-    "significado": "Sobretensão no barramento",
-    "acao": "Verificar alimentação elétrica e placa driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "35"
-    ],
-    "codigo_busca": "35",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 35 sobretensão no barramento verificar alimentação elétrica e placa driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "36",
-    "significado": "Subtensão no barramento",
-    "acao": "Verificar alimentação elétrica e placa driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "36"
-    ],
-    "codigo_busca": "36",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 36 subtensão no barramento verificar alimentação elétrica e placa driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "37",
-    "significado": "Sobrecorrente de entrada do driver",
-    "acao": "Verificar alimentação, cabos e placa driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "37"
-    ],
-    "codigo_busca": "37",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 37 sobrecorrente de entrada do driver verificar alimentação, cabos e placa driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "38",
-    "significado": "Erro PFC",
-    "acao": "Verificar placa driver/PFC; em reincidência substituir a placa driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "38"
-    ],
-    "codigo_busca": "38",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 38 erro pfc verificar placa driver/pfc; em reincidência substituir a placa driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "39",
-    "significado": "Erro no sensor do dissipador",
-    "acao": "Verificar sensor do dissipador e placa driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "39"
-    ],
-    "codigo_busca": "39",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 39 erro no sensor do dissipador verificar sensor do dissipador e placa driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "40",
-    "significado": "EEPROM e outros",
-    "acao": "Em reincidência, substituir a placa driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "40"
-    ],
-    "codigo_busca": "40",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 40 eeprom e outros em reincidência, substituir a placa driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "41",
-    "significado": "Falha de comunicação interna ao driver",
-    "acao": "Verificar comunicação interna do driver; se persistir, substituir placa driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "41"
-    ],
-    "codigo_busca": "41",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 41 falha de comunicação interna ao driver verificar comunicação interna do driver; se persistir, substituir placa driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "70",
-    "significado": "Sobrecorrente de hardware no BLDC",
-    "acao": "Verificar tensão, motor BLDC da condensadora, conexões elétricas e driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "70"
-    ],
-    "codigo_busca": "70",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 70 sobrecorrente de hardware no bldc verificar tensão, motor bldc da condensadora, conexões elétricas e driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "71",
-    "significado": "Falha de acionamento do BLDC",
-    "acao": "Verificar tensão, motor BLDC da condensadora, conexões elétricas e driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "71"
-    ],
-    "codigo_busca": "71",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 71 falha de acionamento do bldc verificar tensão, motor bldc da condensadora, conexões elétricas e driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "72",
-    "significado": "Sobrecorrente de software no BLDC",
-    "acao": "Verificar tensão, motor BLDC da condensadora, conexões elétricas e driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "72"
-    ],
-    "codigo_busca": "72",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 72 sobrecorrente de software no bldc verificar tensão, motor bldc da condensadora, conexões elétricas e driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "73",
-    "significado": "Erro de amostragem de corrente do BLDC",
-    "acao": "Verificar tensão, motor BLDC da condensadora, conexões elétricas e driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "73"
-    ],
-    "codigo_busca": "73",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 73 erro de amostragem de corrente do bldc verificar tensão, motor bldc da condensadora, conexões elétricas e driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "74",
-    "significado": "Sobreaquecimento no IPM do BLDC",
-    "acao": "Verificar motor BLDC, ventilação do módulo e driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "74"
-    ],
-    "codigo_busca": "74",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 74 sobreaquecimento no ipm do bldc verificar motor bldc, ventilação do módulo e driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "Teto XPower Inverter Connect R32",
-    "codigo": "75",
-    "significado": "BLDC não configurado corretamente",
-    "acao": "Verificar configuração, conexões, motor BLDC e driver.",
-    "dica": "",
-    "linha_modelo": "Teto XPower Inverter Connect R32",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "75"
-    ],
-    "codigo_busca": "75",
-    "texto_busca": "carrier piso teto teto xpower inverter connect r32 75 bldc não configurado corretamente verificar configuração, conexões, motor bldc e driver.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "CH23",
-    "significado": "Código dependente da linha; confirmar no manual do modelo",
-    "acao": "Conferir o manual específico do equipamento.",
-    "dica": "Códigos muito parecidos com Springer/Midea.",
-    "linha_modelo": "X-Power / Comerciais",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "CH23"
-    ],
-    "codigo_busca": "CH23",
-    "texto_busca": "carrier piso teto x-power / comerciais ch23 código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "E1",
-    "significado": "Código dependente da linha; confirmar no manual do modelo",
-    "acao": "Em linhas Space/XPower inverter, a comunicação costuma aparecer como E2; conferir manual do modelo antes de fechar diagnóstico.",
-    "dica": "Códigos muito parecidos com Springer/Midea.",
-    "linha_modelo": "X-Power / Comerciais",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E1"
-    ],
-    "codigo_busca": "E1",
-    "texto_busca": "carrier piso teto x-power / comerciais e1 código dependente da linha; confirmar no manual do modelo em linhas space/xpower inverter, a comunicação costuma aparecer como e2; conferir manual do modelo antes de fechar diagnóstico.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "E2 / E3",
-    "significado": "Falha de comunicação / falha entre IPM e placa principal (dependendo da linha)",
-    "acao": "Verificar comunicação entre unidades e entre placa IPM e placa principal da unidade externa.",
-    "dica": "Códigos muito parecidos com Springer/Midea.",
-    "linha_modelo": "X-Power / Comerciais",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E2",
-      "E3"
-    ],
-    "codigo_busca": "E2 E3",
-    "texto_busca": "carrier piso teto x-power / comerciais e2 / e3 falha de comunicação / falha entre ipm e placa principal (dependendo da linha) verificar comunicação entre unidades e entre placa ipm e placa principal da unidade externa.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "E4",
-    "significado": "Sensor de temperatura externa aberto ou em curto (linha 42XQV-F)",
-    "acao": "Verificar sensor de temperatura externa e chicote.",
-    "dica": "Códigos muito parecidos com Springer/Midea.",
-    "linha_modelo": "X-Power / Comerciais",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E4"
-    ],
-    "codigo_busca": "E4",
-    "texto_busca": "carrier piso teto x-power / comerciais e4 sensor de temperatura externa aberto ou em curto (linha 42xqv-f) verificar sensor de temperatura externa e chicote.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "Ed",
-    "significado": "Código dependente da linha; confirmar no manual do modelo",
-    "acao": "Conferir o manual específico do equipamento, pois o significado varia por linha.",
-    "dica": "Códigos muito parecidos com Springer/Midea.",
-    "linha_modelo": "X-Power / Comerciais",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "ED"
-    ],
-    "codigo_busca": "ED",
-    "texto_busca": "carrier piso teto x-power / comerciais ed código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento, pois o significado varia por linha.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "Carrier",
-    "linha": "X-Power / Comerciais",
-    "codigo": "P4",
-    "significado": "Proteção contra falha na temperatura de descarga do compressor",
-    "acao": "Verificar descarga do compressor, carga de refrigerante, ventilação e sensores.",
-    "dica": "Códigos muito parecidos com Springer/Midea.",
-    "linha_modelo": "X-Power / Comerciais",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "P4"
-    ],
-    "codigo_busca": "P4",
-    "texto_busca": "carrier piso teto x-power / comerciais p4 proteção contra falha na temperatura de descarga do compressor verificar descarga do compressor, carga de refrigerante, ventilação e sensores.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "Carrier",
     "linha": "Space Inverter / 42XQV-F",
     "codigo": "E0",
     "significado": "Falha do processador (EEPROM) da unidade externa",
@@ -1950,326 +1309,6 @@
   },
   {
     "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "A",
-    "significado": "Sistema de proteção do compressor atuou 4 vezes",
-    "acao": "Verificar corrente acima da nominal, condensadora superaquecendo e capacitor.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "A"
-    ],
-    "codigo_busca": "A",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) a sistema de proteção do compressor atuou 4 vezes verificar corrente acima da nominal, condensadora superaquecendo e capacitor.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "B",
-    "significado": "Sensor de temperatura ambiente em curto ou desconectado",
-    "acao": "Conectar ou substituir sensor de temperatura ambiente.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "B"
-    ],
-    "codigo_busca": "B",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) b sensor de temperatura ambiente em curto ou desconectado conectar ou substituir sensor de temperatura ambiente.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "C",
-    "significado": "Sensor de temperatura do evaporador em curto ou desconectado",
-    "acao": "Conectar ou substituir sensor do evaporador.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "C"
-    ],
-    "codigo_busca": "C",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) c sensor de temperatura do evaporador em curto ou desconectado conectar ou substituir sensor do evaporador.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "D",
-    "significado": "Sensor de temperatura do condensador em curto ou desconectado",
-    "acao": "Conectar ou substituir sensor do condensador.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "D"
-    ],
-    "codigo_busca": "D",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) d sensor de temperatura do condensador em curto ou desconectado conectar ou substituir sensor do condensador.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "E",
-    "significado": "PCB com defeito",
-    "acao": "Verificar tensões e componentes na placa; substituir PCB se necessário.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E"
-    ],
-    "codigo_busca": "E",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) e pcb com defeito verificar tensões e componentes na placa; substituir pcb se necessário.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "F",
-    "significado": "Sistema de proteção da unidade externa atuando",
-    "acao": "Verificar proteção/diagnóstico da unidade externa.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "F"
-    ],
-    "codigo_busca": "F",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) f sistema de proteção da unidade externa atuando verificar proteção/diagnóstico da unidade externa.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-A",
-    "significado": "Sequência de fase trocada",
-    "acao": "Corrigir sequência de fases A, B e C na alimentação da unidade externa.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-A"
-    ],
-    "codigo_busca": "UE-A",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-a sequência de fase trocada corrigir sequência de fases a, b e c na alimentação da unidade externa.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-B",
-    "significado": "Falta de fase (A, B)",
-    "acao": "Verificar alimentação trifásica nas fases A e B.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-B"
-    ],
-    "codigo_busca": "UE-B",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-b falta de fase (a, b) verificar alimentação trifásica nas fases a e b.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-C",
-    "significado": "Falta de fase (C)",
-    "acao": "Verificar alimentação trifásica na fase C.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-C"
-    ],
-    "codigo_busca": "UE-C",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-c falta de fase (c) verificar alimentação trifásica na fase c.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-D",
-    "significado": "Proteção de corrente atuando",
-    "acao": "Verificar corrente, cabos e condições de operação.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-D"
-    ],
-    "codigo_busca": "UE-D",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-d proteção de corrente atuando verificar corrente, cabos e condições de operação.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-E",
-    "significado": "Falha na comunicação",
-    "acao": "Verificar interligação/comando entre unidade interna e externa.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-E"
-    ],
-    "codigo_busca": "UE-E",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-e falha na comunicação verificar interligação/comando entre unidade interna e externa.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-F",
-    "significado": "Sensor de temperatura do condensador (T3) em curto ou desconectado",
-    "acao": "Verificar sensor T3 e chicote.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-F"
-    ],
-    "codigo_busca": "UE-F",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-f sensor de temperatura do condensador (t3) em curto ou desconectado verificar sensor t3 e chicote.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-G",
-    "significado": "Sensor de temperatura ambiente (T4) em curto ou desconectado",
-    "acao": "Verificar sensor T4 e chicote.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-G"
-    ],
-    "codigo_busca": "UE-G",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-g sensor de temperatura ambiente (t4) em curto ou desconectado verificar sensor t4 e chicote.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto KOP (manual técnico)",
-    "codigo": "UE-H",
-    "significado": "Proteção de alta temperatura",
-    "acao": "Verificar sobretemperatura e ventilação da unidade externa.",
-    "dica": "",
-    "linha_modelo": "Piso teto KOP (manual técnico)",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "UE-H"
-    ],
-    "codigo_busca": "UE-H",
-    "texto_busca": "komeco piso teto piso teto kop (manual técnico) ue-h proteção de alta temperatura verificar sobretemperatura e ventilação da unidade externa.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "codigo": "E1",
-    "significado": "Falha no cabo do controle remoto e unidade interna",
-    "acao": "Verificar cabo/interligação do controle remoto com a unidade interna.",
-    "dica": "",
-    "linha_modelo": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E1"
-    ],
-    "codigo_busca": "E1",
-    "texto_busca": "komeco piso teto piso teto/cassete g4 / kop 1lx r410a e1 falha no cabo do controle remoto e unidade interna verificar cabo/interligação do controle remoto com a unidade interna.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "codigo": "E2",
-    "significado": "Falha no sensor de temperatura ambiente (T1)",
-    "acao": "Verificar sensor ambiente T1 e chicote; LED TIMER piscando.",
-    "dica": "",
-    "linha_modelo": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E2"
-    ],
-    "codigo_busca": "E2",
-    "texto_busca": "komeco piso teto piso teto/cassete g4 / kop 1lx r410a e2 falha no sensor de temperatura ambiente (t1) verificar sensor ambiente t1 e chicote; led timer piscando.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "codigo": "E3",
-    "significado": "Falha no sensor de temperatura do evaporador (T2)",
-    "acao": "Verificar sensor do evaporador T2 e chicote; LED RUN piscando.",
-    "dica": "",
-    "linha_modelo": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E3"
-    ],
-    "codigo_busca": "E3",
-    "texto_busca": "komeco piso teto piso teto/cassete g4 / kop 1lx r410a e3 falha no sensor de temperatura do evaporador (t2) verificar sensor do evaporador t2 e chicote; led run piscando.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "codigo": "E5",
-    "significado": "Falha no sensor de temperatura do condensador (T3)",
-    "acao": "Verificar sensor do condensador T3 e chicote; LED DEFROST piscando.",
-    "dica": "",
-    "linha_modelo": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "E5"
-    ],
-    "codigo_busca": "E5",
-    "texto_busca": "komeco piso teto piso teto/cassete g4 / kop 1lx r410a e5 falha no sensor de temperatura do condensador (t3) verificar sensor do condensador t3 e chicote; led defrost piscando.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "codigo": "F5",
-    "significado": "Falha na bóia de nível (cassete)",
-    "acao": "Verificar bóia/bomba de dreno; LED PROTECTION piscando.",
-    "dica": "",
-    "linha_modelo": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "F5"
-    ],
-    "codigo_busca": "F5",
-    "texto_busca": "komeco piso teto piso teto/cassete g4 / kop 1lx r410a f5 falha na bóia de nível (cassete) verificar bóia/bomba de dreno; led protection piscando.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
-    "linha": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "codigo": "P6",
-    "significado": "Falha no chip EEPROM",
-    "acao": "Verificar placa eletrônica/EEPROM; LED RUN aceso e TIMER piscando.",
-    "dica": "",
-    "linha_modelo": "Piso teto/cassete G4 / KOP 1LX R410A",
-    "linha_tipo": "Piso teto",
-    "codigo_lista": [
-      "P6"
-    ],
-    "codigo_busca": "P6",
-    "texto_busca": "komeco piso teto piso teto/cassete g4 / kop 1lx r410a p6 falha no chip eeprom verificar placa eletrônica/eeprom; led run aceso e timer piscando.",
-    "fonte_base": "web_revisao_piso_teto"
-  },
-  {
-    "marca": "Komeco",
     "linha": "Linhas Inverter",
     "codigo": "E1",
     "significado": "Falha no sensor de temperatura ambiente",
@@ -2816,5 +1855,1250 @@
     "codigo_busca": "E464",
     "texto_busca": "samsung split inverter e464 sobrecorrente do ipm (módulo inversor) verificar compressor travado/curto, ipm, dissipação térmica e placa da unidade externa.",
     "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "01",
+    "significado": "Falha de comunicação entre evaporadora e condensadora",
+    "acao": "Verificar cabos A/B, canais COMM1 e separação entre energia e comunicação.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "01"
+    ],
+    "codigo_busca": "01",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 01 falha de comunicação entre evaporadora e condensadora verificar cabos a/b, canais comm1 e separação entre energia e comunicação.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "02",
+    "significado": "Falha de comunicação entre placa principal e driver",
+    "acao": "Verificar cabo entre placa principal e driver, conexão e integridade.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "02"
+    ],
+    "codigo_busca": "02",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 02 falha de comunicação entre placa principal e driver verificar cabo entre placa principal e driver, conexão e integridade.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "03",
+    "significado": "Sensor externo",
+    "acao": "Verificar sensor externo, chicote e medir resistência.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "03"
+    ],
+    "codigo_busca": "03",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 03 sensor externo verificar sensor externo, chicote e medir resistência.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "04",
+    "significado": "Sensor meio condensador",
+    "acao": "Verificar sensor do meio condensador, chicote e resistência.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "04"
+    ],
+    "codigo_busca": "04",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 04 sensor meio condensador verificar sensor do meio condensador, chicote e resistência.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "05",
+    "significado": "Sensor sucção",
+    "acao": "Verificar sensor de sucção, chicote e resistência.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "05"
+    ],
+    "codigo_busca": "05",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 05 sensor sucção verificar sensor de sucção, chicote e resistência.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "06",
+    "significado": "Sensor descarga",
+    "acao": "Verificar sensor de descarga, chicote e resistência.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "06"
+    ],
+    "codigo_busca": "06",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 06 sensor descarga verificar sensor de descarga, chicote e resistência.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "07",
+    "significado": "Temperatura meio condensador muito alta",
+    "acao": "Verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "07"
+    ],
+    "codigo_busca": "07",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 07 temperatura meio condensador muito alta verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "08",
+    "significado": "Temperatura de sucção muito alta",
+    "acao": "Verificar carga de refrigerante e válvula de expansão eletrônica (EXV).",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "08"
+    ],
+    "codigo_busca": "08",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 08 temperatura de sucção muito alta verificar carga de refrigerante e válvula de expansão eletrônica (exv).",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "09",
+    "significado": "Temperatura de sucção muito baixa",
+    "acao": "Verificar excesso de refrigerante, EXV e motor da evaporadora.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "09"
+    ],
+    "codigo_busca": "09",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 09 temperatura de sucção muito baixa verificar excesso de refrigerante, exv e motor da evaporadora.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "10",
+    "significado": "Proteção de descarga",
+    "acao": "Verificar carga de refrigerante, EXV e motor da condensadora.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "10"
+    ],
+    "codigo_busca": "10",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 10 proteção de descarga verificar carga de refrigerante, exv e motor da condensadora.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "11",
+    "significado": "Erro de EXV",
+    "acao": "Verificar cabo da EXV, solenóide, compatibilidade da válvula e travamento.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "11"
+    ],
+    "codigo_busca": "11",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 11 erro de exv verificar cabo da exv, solenóide, compatibilidade da válvula e travamento.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "12",
+    "significado": "Pressão baixa",
+    "acao": "Verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "12"
+    ],
+    "codigo_busca": "12",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 12 pressão baixa verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "13",
+    "significado": "Pressão alta",
+    "acao": "Verificar pressão do sistema e termostato/sensor no topo do compressor.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "13"
+    ],
+    "codigo_busca": "13",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 13 pressão alta verificar pressão do sistema e termostato/sensor no topo do compressor.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "14",
+    "significado": "Temperatura do compressor alta",
+    "acao": "Verificar sensor/termostato do compressor e condições de troca térmica.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "14"
+    ],
+    "codigo_busca": "14",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 14 temperatura do compressor alta verificar sensor/termostato do compressor e condições de troca térmica.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "16",
+    "significado": "Frequência reduzida do compressor",
+    "acao": "Verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "16"
+    ],
+    "codigo_busca": "16",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 16 frequência reduzida do compressor verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "17",
+    "significado": "Falha de aquecimento",
+    "acao": "Verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e EXV.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "17"
+    ],
+    "codigo_busca": "17",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 17 falha de aquecimento verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e exv.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "30",
+    "significado": "Sobrecorrente de hardware",
+    "acao": "Em reincidência, verificar driver e placa conforme manual.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "30"
+    ],
+    "codigo_busca": "30",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 30 sobrecorrente de hardware em reincidência, verificar driver e placa conforme manual.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "31",
+    "significado": "Falha no chaveamento",
+    "acao": "Verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "31"
+    ],
+    "codigo_busca": "31",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 31 falha no chaveamento verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "32",
+    "significado": "Sobrecorrente software",
+    "acao": "Verificar tensão, motor da condensadora e conexões do driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "32"
+    ],
+    "codigo_busca": "32",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 32 sobrecorrente software verificar tensão, motor da condensadora e conexões do driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "33",
+    "significado": "Erro de amostragem de corrente",
+    "acao": "Verificar conexões elétricas do driver e condição do sistema.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "33"
+    ],
+    "codigo_busca": "33",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 33 erro de amostragem de corrente verificar conexões elétricas do driver e condição do sistema.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "34",
+    "significado": "Superaquecimento do dissipador",
+    "acao": "Verificar ventilação, driver e condições de operação.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "34"
+    ],
+    "codigo_busca": "34",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 34 superaquecimento do dissipador verificar ventilação, driver e condições de operação.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "35",
+    "significado": "Sobre tensão no barramento",
+    "acao": "Verificar tensão de alimentação e driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "35"
+    ],
+    "codigo_busca": "35",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 35 sobre tensão no barramento verificar tensão de alimentação e driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "36",
+    "significado": "Sub tensão no barramento",
+    "acao": "Verificar tensão de alimentação e driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "36"
+    ],
+    "codigo_busca": "36",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 36 sub tensão no barramento verificar tensão de alimentação e driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "37",
+    "significado": "Sobrecorrente na entrada do driver",
+    "acao": "Em reincidência, avaliar placa driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "37"
+    ],
+    "codigo_busca": "37",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 37 sobrecorrente na entrada do driver em reincidência, avaliar placa driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "38",
+    "significado": "Erro PFC",
+    "acao": "Em reincidência, avaliar placa driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "38"
+    ],
+    "codigo_busca": "38",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 38 erro pfc em reincidência, avaliar placa driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "39",
+    "significado": "Erro no sensor do dissipador",
+    "acao": "Em reincidência, avaliar placa driver e sensor.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "39"
+    ],
+    "codigo_busca": "39",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 39 erro no sensor do dissipador em reincidência, avaliar placa driver e sensor.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "40",
+    "significado": "EEPROM e outros",
+    "acao": "Em reincidência, avaliar placa driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "40"
+    ],
+    "codigo_busca": "40",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 40 eeprom e outros em reincidência, avaliar placa driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "41",
+    "significado": "Falha de comunicação interno ao driver",
+    "acao": "Verificar comunicação interna; em reincidência avaliar driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "41"
+    ],
+    "codigo_busca": "41",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 41 falha de comunicação interno ao driver verificar comunicação interna; em reincidência avaliar driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "70",
+    "significado": "Sobrecorrente de hardware no BLDC",
+    "acao": "Verificar tensão de alimentação, motor BLDC, conexões do driver e substituir componente conforme diagnóstico.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "70"
+    ],
+    "codigo_busca": "70",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 70 sobrecorrente de hardware no bldc verificar tensão de alimentação, motor bldc, conexões do driver e substituir componente conforme diagnóstico.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "71",
+    "significado": "Falha de acionamento do BLDC",
+    "acao": "Verificar motor BLDC, cabos e driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "71"
+    ],
+    "codigo_busca": "71",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 71 falha de acionamento do bldc verificar motor bldc, cabos e driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "72",
+    "significado": "Sobrecorrente de software no BLDC",
+    "acao": "Verificar motor BLDC, alimentação e driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "72"
+    ],
+    "codigo_busca": "72",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 72 sobrecorrente de software no bldc verificar motor bldc, alimentação e driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "73",
+    "significado": "Erro de amostragem de corrente do BLDC",
+    "acao": "Verificar leitura/cabos do BLDC e driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "73"
+    ],
+    "codigo_busca": "73",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 73 erro de amostragem de corrente do bldc verificar leitura/cabos do bldc e driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "74",
+    "significado": "Sobreaquecimento no IPM do BLDC",
+    "acao": "Verificar condições térmicas e driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "74"
+    ],
+    "codigo_busca": "74",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 74 sobreaquecimento no ipm do bldc verificar condições térmicas e driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Carrier",
+    "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "codigo": "75",
+    "significado": "BLDC não configurado corretamente",
+    "acao": "Verificar configuração e compatibilidade do motor BLDC/driver.",
+    "linha_modelo": "Teto XPower Inverter Connect R32 / 42ZQVE",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "75"
+    ],
+    "codigo_busca": "75",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 75 bldc não configurado corretamente verificar configuração e compatibilidade do motor bldc/driver.",
+    "fonte_base": "carrier-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "01",
+    "significado": "Falha de comunicação entre evaporadora e condensadora",
+    "acao": "Verificar cabos A/B, canais COMM1 e separação entre energia e comunicação.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "01"
+    ],
+    "codigo_busca": "01",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 01 falha de comunicação entre evaporadora e condensadora verificar cabos a/b, canais comm1 e separação entre energia e comunicação.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "02",
+    "significado": "Falha de comunicação entre placa principal e driver",
+    "acao": "Verificar cabo entre placa principal e driver, conexão e integridade.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "02"
+    ],
+    "codigo_busca": "02",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 02 falha de comunicação entre placa principal e driver verificar cabo entre placa principal e driver, conexão e integridade.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "03",
+    "significado": "Sensor externo",
+    "acao": "Verificar sensor externo, chicote e medir resistência.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "03"
+    ],
+    "codigo_busca": "03",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 03 sensor externo verificar sensor externo, chicote e medir resistência.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "04",
+    "significado": "Sensor meio condensador",
+    "acao": "Verificar sensor do meio condensador, chicote e resistência.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "04"
+    ],
+    "codigo_busca": "04",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 04 sensor meio condensador verificar sensor do meio condensador, chicote e resistência.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "05",
+    "significado": "Sensor sucção",
+    "acao": "Verificar sensor de sucção, chicote e resistência.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "05"
+    ],
+    "codigo_busca": "05",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 05 sensor sucção verificar sensor de sucção, chicote e resistência.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "06",
+    "significado": "Sensor descarga",
+    "acao": "Verificar sensor de descarga, chicote e resistência.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "06"
+    ],
+    "codigo_busca": "06",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 06 sensor descarga verificar sensor de descarga, chicote e resistência.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "07",
+    "significado": "Temperatura meio condensador muito alta",
+    "acao": "Verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "07"
+    ],
+    "codigo_busca": "07",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 07 temperatura meio condensador muito alta verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "08",
+    "significado": "Temperatura de sucção muito alta",
+    "acao": "Verificar carga de refrigerante e válvula de expansão eletrônica (EXV).",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "08"
+    ],
+    "codigo_busca": "08",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 08 temperatura de sucção muito alta verificar carga de refrigerante e válvula de expansão eletrônica (exv).",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "09",
+    "significado": "Temperatura de sucção muito baixa",
+    "acao": "Verificar excesso de refrigerante, EXV e motor da evaporadora.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "09"
+    ],
+    "codigo_busca": "09",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 09 temperatura de sucção muito baixa verificar excesso de refrigerante, exv e motor da evaporadora.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "10",
+    "significado": "Proteção de descarga",
+    "acao": "Verificar carga de refrigerante, EXV e motor da condensadora.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "10"
+    ],
+    "codigo_busca": "10",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 10 proteção de descarga verificar carga de refrigerante, exv e motor da condensadora.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "11",
+    "significado": "Erro de EXV",
+    "acao": "Verificar cabo da EXV, solenóide, compatibilidade da válvula e travamento.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "11"
+    ],
+    "codigo_busca": "11",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 11 erro de exv verificar cabo da exv, solenóide, compatibilidade da válvula e travamento.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "12",
+    "significado": "Pressão baixa",
+    "acao": "Verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "12"
+    ],
+    "codigo_busca": "12",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 12 pressão baixa verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "13",
+    "significado": "Pressão alta",
+    "acao": "Verificar pressão do sistema e termostato/sensor no topo do compressor.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "13"
+    ],
+    "codigo_busca": "13",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 13 pressão alta verificar pressão do sistema e termostato/sensor no topo do compressor.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "14",
+    "significado": "Temperatura do compressor alta",
+    "acao": "Verificar sensor/termostato do compressor e condições de troca térmica.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "14"
+    ],
+    "codigo_busca": "14",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 14 temperatura do compressor alta verificar sensor/termostato do compressor e condições de troca térmica.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "16",
+    "significado": "Frequência reduzida do compressor",
+    "acao": "Verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "16"
+    ],
+    "codigo_busca": "16",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 16 frequência reduzida do compressor verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "17",
+    "significado": "Falha de aquecimento",
+    "acao": "Verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e EXV.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "17"
+    ],
+    "codigo_busca": "17",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 17 falha de aquecimento verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e exv.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "30",
+    "significado": "Sobrecorrente de hardware",
+    "acao": "Em reincidência, verificar driver e placa conforme manual.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "30"
+    ],
+    "codigo_busca": "30",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 30 sobrecorrente de hardware em reincidência, verificar driver e placa conforme manual.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "31",
+    "significado": "Falha no chaveamento",
+    "acao": "Verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "31"
+    ],
+    "codigo_busca": "31",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 31 falha no chaveamento verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "32",
+    "significado": "Sobrecorrente software",
+    "acao": "Verificar tensão, motor da condensadora e conexões do driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "32"
+    ],
+    "codigo_busca": "32",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 32 sobrecorrente software verificar tensão, motor da condensadora e conexões do driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "33",
+    "significado": "Erro de amostragem de corrente",
+    "acao": "Verificar conexões elétricas do driver e condição do sistema.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "33"
+    ],
+    "codigo_busca": "33",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 33 erro de amostragem de corrente verificar conexões elétricas do driver e condição do sistema.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "34",
+    "significado": "Superaquecimento do dissipador",
+    "acao": "Verificar ventilação, driver e condições de operação.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "34"
+    ],
+    "codigo_busca": "34",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 34 superaquecimento do dissipador verificar ventilação, driver e condições de operação.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "35",
+    "significado": "Sobre tensão no barramento",
+    "acao": "Verificar tensão de alimentação e driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "35"
+    ],
+    "codigo_busca": "35",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 35 sobre tensão no barramento verificar tensão de alimentação e driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "36",
+    "significado": "Sub tensão no barramento",
+    "acao": "Verificar tensão de alimentação e driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "36"
+    ],
+    "codigo_busca": "36",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 36 sub tensão no barramento verificar tensão de alimentação e driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "37",
+    "significado": "Sobrecorrente na entrada do driver",
+    "acao": "Em reincidência, avaliar placa driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "37"
+    ],
+    "codigo_busca": "37",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 37 sobrecorrente na entrada do driver em reincidência, avaliar placa driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "38",
+    "significado": "Erro PFC",
+    "acao": "Em reincidência, avaliar placa driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "38"
+    ],
+    "codigo_busca": "38",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 38 erro pfc em reincidência, avaliar placa driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "39",
+    "significado": "Erro no sensor do dissipador",
+    "acao": "Em reincidência, avaliar placa driver e sensor.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "39"
+    ],
+    "codigo_busca": "39",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 39 erro no sensor do dissipador em reincidência, avaliar placa driver e sensor.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "40",
+    "significado": "EEPROM e outros",
+    "acao": "Em reincidência, avaliar placa driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "40"
+    ],
+    "codigo_busca": "40",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 40 eeprom e outros em reincidência, avaliar placa driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "41",
+    "significado": "Falha de comunicação interno ao driver",
+    "acao": "Verificar comunicação interna; em reincidência avaliar driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "41"
+    ],
+    "codigo_busca": "41",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 41 falha de comunicação interno ao driver verificar comunicação interna; em reincidência avaliar driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "70",
+    "significado": "Sobrecorrente de hardware no BLDC",
+    "acao": "Verificar tensão de alimentação, motor BLDC, conexões do driver e substituir componente conforme diagnóstico.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "70"
+    ],
+    "codigo_busca": "70",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 70 sobrecorrente de hardware no bldc verificar tensão de alimentação, motor bldc, conexões do driver e substituir componente conforme diagnóstico.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "71",
+    "significado": "Falha de acionamento do BLDC",
+    "acao": "Verificar motor BLDC, cabos e driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "71"
+    ],
+    "codigo_busca": "71",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 71 falha de acionamento do bldc verificar motor bldc, cabos e driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "72",
+    "significado": "Sobrecorrente de software no BLDC",
+    "acao": "Verificar motor BLDC, alimentação e driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "72"
+    ],
+    "codigo_busca": "72",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 72 sobrecorrente de software no bldc verificar motor bldc, alimentação e driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "73",
+    "significado": "Erro de amostragem de corrente do BLDC",
+    "acao": "Verificar leitura/cabos do BLDC e driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "73"
+    ],
+    "codigo_busca": "73",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 73 erro de amostragem de corrente do bldc verificar leitura/cabos do bldc e driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "74",
+    "significado": "Sobreaquecimento no IPM do BLDC",
+    "acao": "Verificar condições térmicas e driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "74"
+    ],
+    "codigo_busca": "74",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 74 sobreaquecimento no ipm do bldc verificar condições térmicas e driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Split Piso Teto Inverter / plataforma Midea",
+    "codigo": "75",
+    "significado": "BLDC não configurado corretamente",
+    "acao": "Verificar configuração e compatibilidade do motor BLDC/driver.",
+    "linha_modelo": "Split Piso Teto Inverter / plataforma Midea",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "75"
+    ],
+    "codigo_busca": "75",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 75 bldc não configurado corretamente verificar configuração e compatibilidade do motor bldc/driver.",
+    "fonte_base": "midea-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "E1",
+    "significado": "Falha no cabo do controle remoto e unidade interna",
+    "acao": "Verificar cabo do controle remoto/interligação com a unidade interna.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e1 falha no cabo do controle remoto e unidade interna verificar cabo do controle remoto/interligação com a unidade interna.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "E2",
+    "significado": "Falha no sensor de temperatura ambiente (T1)",
+    "acao": "Verificar sensor ambiente T1, chicote e conexão.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "E2"
+    ],
+    "codigo_busca": "E2",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e2 falha no sensor de temperatura ambiente (t1) verificar sensor ambiente t1, chicote e conexão.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "E3",
+    "significado": "Falha no sensor de temperatura do evaporador (T2)",
+    "acao": "Verificar sensor do evaporador T2, chicote e conexão.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "E3"
+    ],
+    "codigo_busca": "E3",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e3 falha no sensor de temperatura do evaporador (t2) verificar sensor do evaporador t2, chicote e conexão.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "E5",
+    "significado": "Falha no sensor de temperatura do condensador (T3)",
+    "acao": "Verificar sensor do condensador T3, chicote e conexão.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "E5"
+    ],
+    "codigo_busca": "E5",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e5 falha no sensor de temperatura do condensador (t3) verificar sensor do condensador t3, chicote e conexão.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "F2",
+    "significado": "Falha na unidade externa",
+    "acao": "Verificar unidade externa, comunicação e componentes associados.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "F2"
+    ],
+    "codigo_busca": "F2",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a f2 falha na unidade externa verificar unidade externa, comunicação e componentes associados.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "F5",
+    "significado": "Falha na bóia de nível",
+    "acao": "Verificar bóia de nível e chicote; aplicável a cassete.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "F5"
+    ],
+    "codigo_busca": "F5",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a f5 falha na bóia de nível verificar bóia de nível e chicote; aplicável a cassete.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "P6",
+    "significado": "Falha no chip EEPROM",
+    "acao": "Verificar memória EEPROM/placa eletrônica.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "P6"
+    ],
+    "codigo_busca": "P6",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a p6 falha no chip eeprom verificar memória eeprom/placa eletrônica.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-4x/6s",
+    "significado": "Acionamento do pressostato de baixa",
+    "acao": "Verificar pressostato de baixa e condições do circuito frigorígeno.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-4x/6s"
+    ],
+    "codigo_busca": "LED-4X/6S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-4x/6s acionamento do pressostato de baixa verificar pressostato de baixa e condições do circuito frigorígeno.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-3x/5s",
+    "significado": "Acionamento do pressostato de alta",
+    "acao": "Verificar pressostato de alta, ventilação e condensação.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-3x/5s"
+    ],
+    "codigo_busca": "LED-3X/5S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-3x/5s acionamento do pressostato de alta verificar pressostato de alta, ventilação e condensação.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-9x/11s",
+    "significado": "Fase invertida ou desbalanceada",
+    "acao": "Verificar sequência/qualidade das fases de alimentação.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-9x/11s"
+    ],
+    "codigo_busca": "LED-9X/11S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-9x/11s fase invertida ou desbalanceada verificar sequência/qualidade das fases de alimentação.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-7x/9s",
+    "significado": "Proteção de sobrecorrente",
+    "acao": "Verificar corrente, compressor e componentes de potência.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-7x/9s"
+    ],
+    "codigo_busca": "LED-7X/9S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-7x/9s proteção de sobrecorrente verificar corrente, compressor e componentes de potência.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-5x/7s",
+    "significado": "Falha no sensor de temperatura do condensador",
+    "acao": "Verificar sensor do condensador, chicote e placa.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-5x/7s"
+    ],
+    "codigo_busca": "LED-5X/7S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-5x/7s falha no sensor de temperatura do condensador verificar sensor do condensador, chicote e placa.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-2x/4s",
+    "significado": "Proteção de alta temperatura do condensador",
+    "acao": "Verificar troca térmica, limpeza e ventilação.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-2x/4s"
+    ],
+    "codigo_busca": "LED-2X/4S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-2x/4s proteção de alta temperatura do condensador verificar troca térmica, limpeza e ventilação.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-1x/3s",
+    "significado": "Proteção Defrost",
+    "acao": "Verificar operação de degelo e sensores associados.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-1x/3s"
+    ],
+    "codigo_busca": "LED-1X/3S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-1x/3s proteção defrost verificar operação de degelo e sensores associados.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-8x/10s",
+    "significado": "Proteção de desligamento",
+    "acao": "Verificar lógica de proteção/desligamento da unidade externa.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "LED-8x/10s"
+    ],
+    "codigo_busca": "LED-8X/10S",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-8x/10s proteção de desligamento verificar lógica de proteção/desligamento da unidade externa.",
+    "fonte_base": "komeco-manual-pisoteto"
   }
 ]
