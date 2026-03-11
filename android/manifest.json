@@ -1,7 +1,7 @@
 {
   "name": "Facilita Refrigerista",
   "short_name": "Facilita Refrigerista",
-  "start_url": "/APPclimatizacao/android/index.html",
+  "start_url": "/APPclimatizacao/menu/index.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
