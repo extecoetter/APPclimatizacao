@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cálculo de Carga Térmica</title>
+
+<style>
+body{
+font-family:Arial;
+background:#f3f6fb;
+margin:0;
+padding:20px;
+}
+
+.container{
+max-width:500px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+h1{
+text-align:center;
+}
+
+label{
+display:block;
+margin-top:12px;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin-top:5px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+margin-top:20px;
+padding:15px;
+border:none;
+border-radius:10px;
+background:#1f6feb;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+.result{
+margin-top:20px;
+padding:15px;
+background:#eaf2ff;
+border-radius:10px;
+font-size:18px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Carga Térmica</h1>
+
+<label>Área do ambiente (m²)</label>
+<input type="number" id="area">
+
+<label>Quantidade de pessoas</label>
+<input type="number" id="pessoas" value="1">
+
+<label>Quantidade de eletrônicos</label>
+<input type="number" id="eletronicos" value="0">
+
+<label>Quantidade de janelas</label>
+<input type="number" id="janelas" value="0">
+
+<label>Incidência de sol</label>
+<select id="sol">
+<option value="0">Pouco sol</option>
+<option value="800">Sol moderado</option>
+<option value="1500">Muito sol</option>
+</select>
+
+<button onclick="calcular()">Calcular BTU</button>
+
+<div class="result" id="resultado">
+Informe os dados para calcular
+</div>
+
+</div>
+
+<script>
+
+function calcular(){
+
+let area = Number(document.getElementById("area").value)
+let pessoas = Number(document.getElementById("pessoas").value)
+let eletr = Number(document.getElementById("eletronicos").value)
+let janelas = Number(document.getElementById("janelas").value)
+let sol = Number(document.getElementById("sol").value)
+
+if(!area){
+alert("Informe a área do ambiente")
+return
+}
+
+let btu = area * 600
+
+btu += (pessoas - 1) * 600
+btu += eletr * 600
+btu += janelas * 600
+btu += sol
+
+btu = Math.round(btu)
+
+let sugestao = ""
+
+if(btu <= 9000) sugestao="9000 BTU"
+else if(btu <= 12000) sugestao="12000 BTU"
+else if(btu <= 18000) sugestao="18000 BTU"
+else if(btu <= 24000) sugestao="24000 BTU"
+else if(btu <= 30000) sugestao="30000 BTU"
+else if(btu <= 36000) sugestao="36000 BTU"
+else sugestao="Acima de 36000 BTU"
+
+document.getElementById("resultado").innerHTML=
+`
+Carga térmica estimada:<br><b>${btu} BTU</b><br><br>
+Ar recomendado:<br><b>${sugestao}</b>
+`
+
+}
+
+</script>
+
+</body>
+</html>
