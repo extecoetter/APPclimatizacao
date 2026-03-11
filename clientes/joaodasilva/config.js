@@ -4,6 +4,7 @@ window.CLIENT_CONFIG = {
     whats: "(11) 98101 - 0005",
     pix: "11 98101 0005 / Joao da Silva"
   },
-  logo: "/climatizaorcamentos/clientes/joaodasilva/logo.png"
+  logo: "/APPclimatizacao/clientes/joaodasilva/logo.png"
 };
+
 
