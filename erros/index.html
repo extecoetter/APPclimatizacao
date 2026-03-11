@@ -6,20 +6,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Códigos de Erro</title>
 <style>
-body{font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;margin:0;padding:20px}
-.container{max-width:820px;margin:auto;background:#fff;padding:20px;border-radius:14px;box-shadow:0 5px 20px rgba(0,0,0,.1)}
-h1{text-align:center;margin-top:0}
-label{display:block;margin-top:12px;font-weight:bold}
-input,select{width:100%;padding:11px;margin-top:5px;border-radius:8px;border:1px solid #ccc;box-sizing:border-box}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media (max-width:640px){.grid{grid-template-columns:1fr}}
-.result{margin-top:18px}
-.card{background:#eaf2ff;border-radius:10px;padding:14px;margin-bottom:12px}
-.codigo{font-size:20px;font-weight:bold;margin-bottom:8px}
-.badges{margin-bottom:8px}
-.badge{display:inline-block;background:#fff;border:1px solid #d8e5ff;border-radius:999px;padding:4px 8px;font-size:12px;margin-right:6px}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f3f6fb;
+  margin:0;
+  padding:20px;
+}
+.container{
+  max-width:860px;
+  margin:auto;
+  background:#fff;
+  padding:20px;
+  border-radius:14px;
+  box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+h1{
+  text-align:center;
+  margin-top:0;
+}
+label{
+  display:block;
+  margin-top:12px;
+  font-weight:bold;
+}
+input, select{
+  width:100%;
+  padding:11px;
+  margin-top:5px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  box-sizing:border-box;
+}
+.grid{
+  display:grid;
+  grid-template-columns:1.2fr 1fr 1fr;
+  gap:12px;
+}
+@media (max-width:700px){
+  .grid{grid-template-columns:1fr;}
+}
+.topo{
+  font-size:13px;
+  color:#666;
+  margin-top:8px;
+}
+.result{
+  margin-top:18px;
+}
+.card{
+  background:#eaf2ff;
+  border-radius:10px;
+  padding:14px;
+  margin-bottom:12px;
+}
+.codigo{
+  font-size:22px;
+  font-weight:bold;
+  margin-bottom:8px;
+}
+.badges{
+  margin-bottom:8px;
+}
+.badge{
+  display:inline-block;
+  background:#fff;
+  border:1px solid #d8e5ff;
+  border-radius:999px;
+  padding:4px 8px;
+  font-size:12px;
+  margin-right:6px;
+  margin-bottom:6px;
+}
 .muted{color:#666}
-.topo{font-size:13px;color:#666;margin-top:8px}
 </style>
 </head>
 <body>
@@ -27,6 +85,10 @@ input,select{width:100%;padding:11px;margin-top:5px;border-radius:8px;border:1px
   <h1>Códigos de erro</h1>
 
   <div class="grid">
+    <div>
+      <label>Buscar por código ou texto</label>
+      <input id="busca" placeholder="Ex: E1, CH05, P0, sensor, comunicação">
+    </div>
     <div>
       <label>Marca</label>
       <select id="marca">
@@ -42,9 +104,6 @@ input,select{width:100%;padding:11px;margin-top:5px;border-radius:8px;border:1px
       </select>
     </div>
   </div>
-
-  <label>Pesquisar por código ou texto</label>
-  <input id="busca" placeholder="Ex: E1, CH05, P0, sensor, comunicação">
 
   <div class="topo" id="status">Carregando base...</div>
   <div class="result" id="resultado"></div>
@@ -67,6 +126,7 @@ async function carregar(){
 
   const marcas = [...new Set(dados.map(d => d.marca).filter(Boolean))].sort();
   const sel = document.getElementById("marca");
+
   marcas.forEach(m => {
     const opt = document.createElement("option");
     opt.value = m;
@@ -94,9 +154,9 @@ function score(item, termo){
 }
 
 function buscar(){
+  const termo = document.getElementById("busca").value.trim();
   const marca = document.getElementById("marca").value;
   const linha = document.getElementById("linha").value;
-  const termo = document.getElementById("busca").value.trim();
 
   let lista = dados
     .map(item => ({...item, _score: score(item, termo)}))
@@ -113,16 +173,24 @@ function buscar(){
       return (a.codigo || "").localeCompare(b.codigo || "", 'pt-BR');
     });
 
-  mostrar(lista, marca, linha, termo);
+  if(!termo && !marca && !linha){
+    lista = [];
+  }
+
+  mostrar(lista, termo, marca, linha);
 }
 
-function mostrar(lista, marca, linha, termo){
+function mostrar(lista, termo, marca, linha){
   const div = document.getElementById("resultado");
   const status = document.getElementById("status");
 
-  status.textContent = termo
-    ? `${lista.length} resultado(s) encontrado(s)`
-    : `${lista.length} registro(s) listado(s)`;
+  if(!termo && !marca && !linha){
+    status.textContent = "Digite um código para ver todas as marcas e depois filtre por marca ou linha.";
+    div.innerHTML = '<div class="card muted">Exemplo: digite <b>E1</b> para listar todos os E1 de todas as marcas.</div>';
+    return;
+  }
+
+  status.textContent = `${lista.length} resultado(s) encontrado(s)`;
 
   if(!lista.length){
     div.innerHTML = '<div class="card muted">Nenhum resultado encontrado.</div>';
@@ -157,9 +225,9 @@ function mostrar(lista, marca, linha, termo){
   }
 }
 
+document.getElementById("busca").addEventListener("input", buscar);
 document.getElementById("marca").addEventListener("change", buscar);
 document.getElementById("linha").addEventListener("change", buscar);
-document.getElementById("busca").addEventListener("input", buscar);
 
 carregar();
 </script>
