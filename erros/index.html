@@ -5,155 +5,228 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Códigos de Erro</title>
-
 <style>
 body{
-font-family:Arial, Helvetica, sans-serif;
-background:#f3f6fb;
-margin:0;
-padding:20px;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f3f6fb;
+  margin:0;
+  padding:20px;
 }
-
 .container{
-max-width:700px;
-margin:auto;
-background:white;
-padding:20px;
-border-radius:12px;
-box-shadow:0 5px 20px rgba(0,0,0,.1);
+  max-width:760px;
+  margin:auto;
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,.1);
 }
-
-h1{
-text-align:center;
-}
-
-label{
-display:block;
-margin-top:10px;
-font-weight:bold;
-}
-
+h1{text-align:center;margin-top:0}
+label{display:block;margin-top:12px;font-weight:bold}
 input,select{
-width:100%;
-padding:10px;
-margin-top:5px;
-border-radius:8px;
-border:1px solid #ccc;
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  box-sizing:border-box;
 }
-
+.row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+@media (max-width: 640px){
+  .row{grid-template-columns:1fr}
+}
+.small{
+  color:#666;
+  font-size:13px;
+  margin-top:6px;
+}
 .result{
-margin-top:20px;
-padding:15px;
-border-radius:10px;
-background:#eaf2ff;
+  margin-top:20px;
 }
-
+.card{
+  background:#eaf2ff;
+  border-radius:10px;
+  padding:14px;
+  margin-bottom:12px;
+}
 .codigo{
-font-size:20px;
-font-weight:bold;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:8px;
 }
+.badge{
+  display:inline-block;
+  padding:4px 8px;
+  border-radius:999px;
+  background:#fff;
+  border:1px solid #d8e5ff;
+  margin-right:6px;
+  margin-bottom:6px;
+  font-size:12px;
+}
+.muted{color:#666}
 </style>
-
 </head>
-
 <body>
-
 <div class="container">
+  <h1>Códigos de erro</h1>
 
-<h1>Códigos de erro</h1>
+  <label>Modo de busca</label>
+  <select id="modo">
+    <option value="codigo">Busca direta por código</option>
+    <option value="marca">Buscar por marca + linha</option>
+  </select>
+  <div class="small">
+    Na busca direta, você digita o código e o sistema mostra todas as marcas que usam esse código.
+  </div>
 
-<label>Marca</label>
-<select id="marca"></select>
+  <div class="row">
+    <div>
+      <label>Marca</label>
+      <select id="marca">
+        <option value="">Todas as marcas</option>
+      </select>
+    </div>
+    <div>
+      <label>Linha</label>
+      <select id="linha">
+        <option value="">Todas</option>
+        <option value="Split">Split</option>
+        <option value="Piso teto">Piso teto</option>
+      </select>
+    </div>
+  </div>
 
-<label>Linha</label>
-<select id="linha">
-<option value="Split">Split</option>
-<option value="Piso teto">Piso teto</option>
-</select>
+  <label>Código ou texto</label>
+  <input id="codigo" placeholder="Ex: E1, CH05, P0, sensor, comunicação">
 
-<label>Código de erro</label>
-<input id="codigo" placeholder="Ex: E1, CH05">
+  <div class="small" id="status">Carregando base...</div>
 
-<div class="result" id="resultado">
-Digite um código para buscar
-</div>
-
+  <div class="result" id="resultado"></div>
 </div>
 
 <script>
+let dados = [];
 
-let dados = []
+function normalizar(v){
+  return String(v || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase()
+    .trim();
+}
 
 async function carregar(){
+  const resp = await fetch("dados-erros-final-split-pisoteto.json");
+  dados = await resp.json();
 
-const resp = await fetch("dados-erros-final-split-pisoteto.json")
-dados = await resp.json()
+  const marcas = [...new Set(dados.map(d => d.marca).filter(Boolean))].sort();
+  const select = document.getElementById("marca");
+  marcas.forEach(m => {
+    const opt = document.createElement("option");
+    opt.value = m;
+    opt.textContent = m;
+    select.appendChild(opt);
+  });
 
-let marcas = [...new Set(dados.map(d=>d.marca))]
+  document.getElementById("status").textContent =
+    `${dados.length} registros carregados`;
+  buscar();
+}
 
-let select = document.getElementById("marca")
+function relevancia(item, termo, modo){
+  const codigoBusca = normalizar(item.codigo_busca || item.codigo || "");
+  const textoBusca = normalizar(item.texto_busca || "");
+  const termoN = normalizar(termo);
 
-marcas.sort().forEach(m=>{
-let opt=document.createElement("option")
-opt.value=m
-opt.textContent=m
-select.appendChild(opt)
-})
+  if(!termoN) return 0;
 
+  if(codigoBusca === termoN) return 100;
+  if((item.codigo_lista || []).map(normalizar).includes(termoN)) return 95;
+  if(codigoBusca.includes(termoN)) return 70;
+  if(textoBusca.includes(termoN)) return modo === "codigo" ? 35 : 45;
+  return 0;
 }
 
 function buscar(){
+  const modo = document.getElementById("modo").value;
+  const marca = document.getElementById("marca").value;
+  const linha = document.getElementById("linha").value;
+  const termo = document.getElementById("codigo").value;
 
-let marca = document.getElementById("marca").value
-let linha = document.getElementById("linha").value
-let codigo = document.getElementById("codigo").value.toUpperCase().trim()
+  let lista = dados
+    .map(item => ({...item, _score: relevancia(item, termo, modo)}))
+    .filter(item => {
+      if(modo === "marca"){
+        if(marca && item.marca !== marca) return false;
+        if(linha && item.linha_tipo !== linha) return false;
+        if(termo && item._score === 0) return false;
+        return true;
+      } else {
+        if(termo && item._score === 0) return false;
+        if(marca && item.marca !== marca) return false;
+        if(linha && item.linha_tipo !== linha) return false;
+        return true;
+      }
+    })
+    .sort((a,b) => {
+      if(b._score !== a._score) return b._score - a._score;
+      if(a.marca !== b.marca) return a.marca.localeCompare(b.marca, 'pt-BR');
+      if(a.linha_tipo !== b.linha_tipo) return a.linha_tipo.localeCompare(b.linha_tipo, 'pt-BR');
+      return String(a.codigo || "").localeCompare(String(b.codigo || ""), 'pt-BR');
+    });
 
-let encontrados = dados.filter(d=>{
+  if(!termo && modo === "codigo"){
+    lista = [];
+  }
 
-return (
-d.marca===marca &&
-d.linha_tipo===linha &&
-(d.codigo_busca===codigo || d.codigo_lista?.includes(codigo))
-)
-
-})
-
-mostrar(encontrados)
-
+  mostrar(lista, modo, termo);
 }
 
-function mostrar(lista){
+function mostrar(lista, modo, termo){
+  const div = document.getElementById("resultado");
 
-let div=document.getElementById("resultado")
+  if(!lista.length){
+    div.innerHTML = modo === "codigo" && !termo.trim()
+      ? '<div class="card muted">Digite um código para buscar em todas as marcas.</div>'
+      : '<div class="card muted">Nenhum resultado encontrado.</div>';
+    return;
+  }
 
-if(lista.length===0){
-div.innerHTML="Nenhum resultado encontrado"
-return
+  div.innerHTML = "";
+  lista.slice(0, 50).forEach(e => {
+    const linhaModelo = e.linha_modelo ? `<div><b>Modelo:</b> ${e.linha_modelo}</div>` : "";
+    const codigosAlt = Array.isArray(e.codigo_lista) && e.codigo_lista.length
+      ? `<div><b>Códigos relacionados:</b> ${e.codigo_lista.join(", ")}</div>`
+      : "";
+
+    div.innerHTML += `
+      <div class="card">
+        <div class="codigo">${e.codigo || "-"}</div>
+        <div class="badge">${e.marca || "-"}</div>
+        <div class="badge">${e.linha_tipo || "-"}</div>
+        <div><b>Significado:</b> ${e.significado || "-"}</div>
+        <div><b>Ação:</b> ${e.acao || "-"}</div>
+        ${linhaModelo}
+        ${codigosAlt}
+      </div>
+    `;
+  });
+
+  if(lista.length > 50){
+    div.innerHTML += `<div class="card muted">Mostrando 50 resultados de ${lista.length} encontrados.</div>`;
+  }
 }
 
-div.innerHTML=""
+document.getElementById("modo").addEventListener("change", buscar);
+document.getElementById("marca").addEventListener("change", buscar);
+document.getElementById("linha").addEventListener("change", buscar);
+document.getElementById("codigo").addEventListener("input", buscar);
 
-lista.forEach(e=>{
-
-div.innerHTML += `
-<div style="margin-bottom:15px">
-<div class="codigo">${e.codigo}</div>
-<div><b>Marca:</b> ${e.marca}</div>
-<div><b>Linha:</b> ${e.linha_tipo}</div>
-<div><b>Significado:</b> ${e.significado}</div>
-<div><b>Ação:</b> ${e.acao}</div>
-</div>
-`
-
-})
-
-}
-
-document.getElementById("codigo").addEventListener("input",buscar)
-
-carregar()
-
+carregar();
 </script>
-
 </body>
 </html>
