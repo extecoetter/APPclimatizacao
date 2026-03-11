@@ -1,7 +1,7 @@
 {
-  "name": "Orçamento Climatização",
-  "short_name": "Orçamentos",
-  "start_url": "./index.html",
+  "name": "Facilita Refrigerista",
+  "short_name": "Facilita Refrigeristas",
+  "start_url": "./menu/index.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
