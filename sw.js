@@ -1,11 +1,11 @@
-const CACHE_NAME = "appclimatizacao-v3";
+const CACHE_NAME = "appclimatizacao-v4";
 const APP_BASE = "/APPclimatizacao";
 
 const STATIC_ASSETS = [
   `${APP_BASE}/`,
   `${APP_BASE}/manifest.json`,
-  `${APP_BASE}/android/manifest.json`,
-  `${APP_BASE}/menu/index.html`,
+  `${APP_BASE}/menu/index-android.html`,
+  `${APP_BASE}/menu/index-ios.html`,
   `${APP_BASE}/android/index.html`,
   `${APP_BASE}/ios/index.html`,
   `${APP_BASE}/erros/index.html`,
@@ -19,7 +19,8 @@ const STATIC_ASSETS = [
 ];
 
 const NETWORK_FIRST = [
-  `${APP_BASE}/menu/index.html`,
+  `${APP_BASE}/menu/index-ios.html`,
+  `${APP_BASE}/menu/index-android.html`,
   `${APP_BASE}/android/index.html`,
   `${APP_BASE}/ios/index.html`,
   `${APP_BASE}/erros/index.html`,
