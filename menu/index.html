@@ -4,7 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Facilita Refrigerista</title>
+
+  <link rel="manifest" href="/APPclimatizacao/manifest.json">
   <meta name="theme-color" content="#000000">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Facilita Refrigerista">
+  <link rel="apple-touch-icon" href="/APPclimatizacao/icons/icon-180.png">
+  <link rel="icon" type="image/png" href="/APPclimatizacao/icons/icon-180.png">
+
   <style>
     :root{
       --bg:#f3f6fb;--card:#ffffff;--text:#111827;--muted:#6b7280;--line:#e5e7eb;
@@ -121,5 +130,7 @@
   carregarConfigCliente().then(preencherCliente);
 })();
 </script>
+
+<script src="/APPclimatizacao/pwa-register.js"></script>
 </body>
 </html>
