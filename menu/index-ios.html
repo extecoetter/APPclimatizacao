@@ -86,7 +86,7 @@
 (function(){
   const qs = new URLSearchParams(location.search);
   const cliente = qs.get('cliente') || qs.get('c') || 'robsonextecoetter';
-  const destino = (qs.get('destino') || 'android').toLowerCase();
+  const destino = 'ios';
 
   const nomeEl = document.getElementById('nomeTecnico');
   const logoEl = document.getElementById('logo');
