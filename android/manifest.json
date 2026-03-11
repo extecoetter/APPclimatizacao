@@ -1,6 +1,6 @@
 {
-  "name": "Orçamento Climatização",
-  "short_name": "Orçamentos",
+  "name": "Facilita Refrigerista",
+  "short_name": "Facilita Refrigerista",
   "start_url": "/APPclimatizacao/android/index.html",
   "display": "standalone",
   "background_color": "#000000",
