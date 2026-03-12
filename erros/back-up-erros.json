@@ -1,4 +1,3 @@
-
 [
   {
     "marca": "Agratto",
@@ -80,34 +79,6 @@
     "texto_busca": "agratto split one / entrada f0 falta de gás sistema detectou baixo rendimento. procurar vazamento.",
     "fonte_base": "guia+revisao"
   },
-  {
-  "marca": "AUX",
-  "linha": "Inverter",
-  "codigo": "E1",
-  "significado": "Falha de comunicação",
-  "acao": "Verificar cabo de comunicação entre unidades.",
-  "dica": "Plataforma semelhante à Gree.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E1"],
-  "codigo_busca": "E1",
-  "texto_busca": "aux split inverter e1 falha de comunicação verificar cabo entre evaporadora e condensadora.",
-  "fonte_base": "guia+revisao"
-}
-  {
-  "marca": "AUX",
-  "linha": "Inverter",
-  "codigo": "F0",
-  "significado": "Baixa carga de refrigerante",
-  "acao": "Verificar vazamento e carga de gás.",
-  "dica": "Erro comum após instalação.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["F0"],
-  "codigo_busca": "F0",
-  "texto_busca": "aux split inverter f0 baixa carga refrigerante verificar vazamento e carga.",
-  "fonte_base": "guia+revisao"
-}
   {
     "marca": "Britânia",
     "linha": "Inverter",
@@ -915,48 +886,6 @@
     "fonte_base": "guia+revisao"
   },
   {
-  "marca": "EOS",
-  "linha": "Inverter",
-  "codigo": "E1",
-  "significado": "Falha de comunicação",
-  "acao": "Verificar cabo entre unidade interna e externa.",
-  "dica": "EOS usa plataforma Midea.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E1"],
-  "codigo_busca": "E1",
-  "texto_busca": "eos split inverter e1 falha de comunicação verificar cabo entre unidades.",
-  "fonte_base": "guia+revisao"
-}
-  {
-  "marca": "EOS",
-  "linha": "Inverter",
-  "codigo": "E2",
-  "significado": "Sensor de serpentina",
-  "acao": "Verificar sensor da evaporadora.",
-  "dica": "Sensores geralmente 10k.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E2"],
-  "codigo_busca": "E2",
-  "texto_busca": "eos split inverter e2 sensor serpentina evaporadora verificar sensor.",
-  "fonte_base": "guia+revisao"
-}
-  {
-  "marca": "Fontaine",
-  "linha": "Convencional",
-  "codigo": "E1",
-  "significado": "Sensor de ambiente",
-  "acao": "Sensor aberto ou em curto.",
-  "dica": "Equipamentos simples com sensores 10k.",
-  "linha_modelo": "Convencional",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E1"],
-  "codigo_busca": "E1",
-  "texto_busca": "fontaine split convencional e1 sensor de ambiente aberto ou em curto.",
-  "fonte_base": "guia+revisao"
-}
-  {
     "marca": "Fujitsu",
     "linha": "Inverter",
     "codigo": "05 (Op) / 07 (Timer)",
@@ -1138,20 +1067,6 @@
     "texto_busca": "gree split eco garden / g-top u1 anormalidade de corrente/fase do compressor verificar conexões do compressor, alimentação e placa inversora.",
     "fonte_base": "guia+revisao"
   },
-  {
-  "marca": "Haier",
-  "linha": "Inverter",
-  "codigo": "E1",
-  "significado": "Falha de comunicação",
-  "acao": "Verificar cabo de interligação entre unidades.",
-  "dica": "Plataforma própria Haier.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E1"],
-  "codigo_busca": "E1",
-  "texto_busca": "haier split inverter e1 falha de comunicação verificar interligação entre unidades.",
-  "fonte_base": "guia+revisao"
-}
   {
     "marca": "Hisense",
     "linha": "Inverter",
@@ -1472,20 +1387,6 @@
     "texto_busca": "komeco split linhas inverter p0 código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento.",
     "fonte_base": "guia+revisao"
   },
-  {
-  "marca": "LG",
-  "linha": "Dual Inverter / Libero",
-  "codigo": "CH34",
-  "significado": "Baixa pressão / falta de gás",
-  "acao": "Verificar vazamento e carga de refrigerante.",
-  "dica": "Erro comum após instalação.",
-  "linha_modelo": "Dual Inverter / Libero",
-  "linha_tipo": "Split",
-  "codigo_lista": ["CH34"],
-  "codigo_busca": "CH34",
-  "texto_busca": "lg split dual inverter ch34 baixa pressão falta de gás verificar vazamento e carga.",
-  "fonte_base": "guia+revisao"
-}
   {
     "marca": "LG",
     "linha": "Dual Inverter / Libero",
@@ -1955,48 +1856,6 @@
     "texto_busca": "samsung split inverter e464 sobrecorrente do ipm (módulo inversor) verificar compressor travado/curto, ipm, dissipação térmica e placa da unidade externa.",
     "fonte_base": "guia+revisao"
   },
-  {
-  "marca": "TCL",
-  "linha": "Inverter",
-  "codigo": "E0",
-  "significado": "Erro EEPROM",
-  "acao": "Falha na memória da placa. Desligar energia por alguns minutos e reiniciar.",
-  "dica": "Plataforma muito parecida com Midea.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E0"],
-  "codigo_busca": "E0",
-  "texto_busca": "tcl split inverter e0 erro eeprom falha na memória da placa desligar energia por alguns minutos e reiniciar.",
-  "fonte_base": "guia+revisao"
-}
-  {
-  "marca": "TCL",
-  "linha": "Inverter",
-  "codigo": "E1",
-  "significado": "Falha de comunicação",
-  "acao": "Verificar cabo de comunicação entre unidades.",
-  "dica": "Mesmo padrão da plataforma Midea.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E1"],
-  "codigo_busca": "E1",
-  "texto_busca": "tcl split inverter e1 falha de comunicação verificar cabo entre evaporadora e condensadora.",
-  "fonte_base": "guia+revisao"
-}
-  {
-  "marca": "TCL",
-  "linha": "Inverter",
-  "codigo": "E3",
-  "significado": "Velocidade do ventilador anormal",
-  "acao": "Verificar motor ventilador, sensor hall e placa.",
-  "dica": "Mesmo padrão usado em Midea.",
-  "linha_modelo": "Inverter",
-  "linha_tipo": "Split",
-  "codigo_lista": ["E3"],
-  "codigo_busca": "E3",
-  "texto_busca": "tcl split inverter e3 ventilador interno velocidade anormal verificar motor ventilador e placa.",
-  "fonte_base": "guia+revisao"
-}
   {
     "marca": "Carrier",
     "linha": "Teto XPower Inverter Connect R32 / 42ZQVE",
