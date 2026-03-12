@@ -3234,8 +3234,8 @@
     "linha": "Tac / Elite Series",
     "codigo": "E1",
     "significado": "Sensor de ambiente",
-    "acao": "Sensor de temperatura do quarto com defeito.",
-    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "acao": "Verifique a conexão do sensor, meça sua resistência (geralmente 5kΩ a 15kΩ)",
+    "dica": "As causas comuns incluem sensor desencaixado, defeituoso ou placa de controle (PCB) com falha.",
     "linha_modelo": "Tac / Elite Series",
     "linha_tipo": "Split",
     "codigo_lista": [
@@ -3291,22 +3291,6 @@
     ],
     "codigo_busca": "P0",
     "texto_busca": "tcl split tac elite series p0 proteção ipm (placa) pasta térmica seca no dissipador ou placa externa com defeito.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "TCL",
-    "linha": "Tac / Elite Series",
-    "codigo": "E1",
-    "significado": "Erro de tensão",
-    "acao": "Pasta térmica seca no dissipador ou placa externa com defeito.",
-    "dica": "Na página enviada, E1 também aparece associado a erro de tensão; confirmar na placa/modelo.",
-    "linha_modelo": "Tac / Elite Series",
-    "linha_tipo": "Split",
-    "codigo_lista": [
-      "E1"
-    ],
-    "codigo_busca": "E1",
-    "texto_busca": "tcl split tac elite series e1 erro de tensão pasta térmica seca no dissipador ou placa externa com defeito.",
     "fonte_base": "guia+revisao"
   }
 ]
