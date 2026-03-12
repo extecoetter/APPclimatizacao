@@ -12,7 +12,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Agratto split one / entrada e1 sensor de ambiente verificar sensor de temperatura ambiente e chicote.",
+    "texto_busca": "agratto split one / entrada e1 sensor de ambiente verificar sensor de temperatura ambiente e chicote.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -28,7 +28,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Agratto split one / entrada e2 sensor de tubo/serpentina verificar sensor de tubo/serpentina e chicote.",
+    "texto_busca": "agratto split one / entrada e2 sensor de tubo/serpentina verificar sensor de tubo/serpentina e chicote.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -44,7 +44,7 @@
       "E4"
     ],
     "codigo_busca": "E4",
-    "texto_busca": "Agratto split one / entrada e4 motor ventilador (interna) turbina suja travando o motor ou capacitor fraco.",
+    "texto_busca": "agratto split one / entrada e4 motor ventilador (interna) turbina suja travando o motor ou capacitor fraco.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -60,7 +60,7 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Agratto split one / entrada e5 falha de comunicação cabo s rompido. como é máquina de entrada, verifique muito bem os bornes.",
+    "texto_busca": "agratto split one / entrada e5 falha de comunicação cabo s rompido. como é máquina de entrada, verifique muito bem os bornes.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -76,7 +76,7 @@
       "F0"
     ],
     "codigo_busca": "F0",
-    "texto_busca": "Agratto split one / entrada f0 falta de gás sistema detectou baixo rendimento. procurar vazamento.",
+    "texto_busca": "agratto split one / entrada f0 falta de gás sistema detectou baixo rendimento. procurar vazamento.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -92,7 +92,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "AUX split inverter e1 falha de comunicação verificar cabo de comunicação entre unidades.",
+    "texto_busca": "aux split inverter e1 falha de comunicação verificar cabo entre evaporadora e condensadora.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -108,7 +108,7 @@
       "F0"
     ],
     "codigo_busca": "F0",
-    "texto_busca": "AUX split inverter f0 baixa carga de refrigerante verificar vazamento e carga de gás.",
+    "texto_busca": "aux split inverter f0 baixa carga refrigerante verificar vazamento e carga.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -124,7 +124,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Britânia split inverter e1 sensor de ambiente aberto ou em curto.",
+    "texto_busca": "britânia split inverter e1 sensor de ambiente aberto ou em curto.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -140,7 +140,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Britânia split inverter e2 sensor de tubo aberto ou em curto.",
+    "texto_busca": "britânia split inverter e2 sensor de tubo aberto ou em curto.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -156,7 +156,7 @@
       "E4"
     ],
     "codigo_busca": "E4",
-    "texto_busca": "Britânia split inverter e4 proteção do compressor compressor quente demais ou gás baixo.",
+    "texto_busca": "britânia split inverter e4 proteção do compressor compressor quente demais ou gás baixo.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -172,7 +172,7 @@
       "E6"
     ],
     "codigo_busca": "E6",
-    "texto_busca": "Britânia split inverter e6 falha de comunicação verifique o cabo s. britânia é sensível a cabo pp ruim.",
+    "texto_busca": "britânia split inverter e6 falha de comunicação verifique o cabo s. britânia é sensível a cabo pp ruim.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -188,7 +188,7 @@
       "F3"
     ],
     "codigo_busca": "F3",
-    "texto_busca": "Britânia split inverter f3 proteção da condensadora erro na unidade externa (ventilador ou sujeira).",
+    "texto_busca": "britânia split inverter f3 proteção da condensadora erro na unidade externa (ventilador ou sujeira).",
     "fonte_base": "guia+revisao"
   },
   {
@@ -204,7 +204,7 @@
       "E0"
     ],
     "codigo_busca": "E0",
-    "texto_busca": "Carrier split space inverter / 42xqv-f e0 falha do processador (eeprom) da unidade externa verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f e0 falha do processador (eeprom) da unidade externa verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -220,7 +220,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Carrier split space inverter / 42xqv-f e2 falha de comunicação entre as unidades verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f e2 falha de comunicação entre as unidades verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -236,7 +236,7 @@
       "E3"
     ],
     "codigo_busca": "E3",
-    "texto_busca": "Carrier split space inverter / 42xqv-f e3 falha de comunicação entre a placa ipm e a placa principal da unidade externa verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f e3 falha de comunicação entre a placa ipm e a placa principal da unidade externa verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -252,7 +252,7 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Carrier split space inverter / 42xqv-f e5 proteção contra falha de tensão do compressor verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f e5 proteção contra falha de tensão do compressor verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -268,7 +268,7 @@
       "P0"
     ],
     "codigo_busca": "P0",
-    "texto_busca": "Carrier split space inverter / 42xqv-f p0 proteção contra alta temperatura do compressor verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f p0 proteção contra alta temperatura do compressor verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -284,7 +284,7 @@
       "P1"
     ],
     "codigo_busca": "P1",
-    "texto_busca": "Carrier split space inverter / 42xqv-f p1 proteção contra alta pressão verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f p1 proteção contra alta pressão verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -300,7 +300,7 @@
       "P2"
     ],
     "codigo_busca": "P2",
-    "texto_busca": "Carrier split space inverter / 42xqv-f p2 proteção contra baixa pressão verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f p2 proteção contra baixa pressão verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -316,7 +316,7 @@
       "P3"
     ],
     "codigo_busca": "P3",
-    "texto_busca": "Carrier split space inverter / 42xqv-f p3 proteção contra falha de corrente do compressor verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f p3 proteção contra falha de corrente do compressor verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -332,7 +332,7 @@
       "P5"
     ],
     "codigo_busca": "P5",
-    "texto_busca": "Carrier split space inverter / 42xqv-f p5 proteção contra alta temperatura do condensador verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f p5 proteção contra alta temperatura do condensador verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -348,7 +348,7 @@
       "P6"
     ],
     "codigo_busca": "P6",
-    "texto_busca": "Carrier split space inverter / 42xqv-f p6 proteção do módulo ipm verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f p6 proteção do módulo ipm verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -364,7 +364,7 @@
       "P7"
     ],
     "codigo_busca": "P7",
-    "texto_busca": "Carrier split space inverter / 42xqv-f p7 proteção contra alta temperatura do evaporador verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
+    "texto_busca": "carrier split space inverter / 42xqv-f p7 proteção contra alta temperatura do evaporador verificar a ocorrência descrita no manual da linha, sensores, carga, ventilação e placa conforme o caso.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -380,7 +380,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Comfee split inverter e1 falha de comunicação entre unidade interna e externa verificar interligação, alimentação e placa.",
+    "texto_busca": "comfee split inverter e1 falha de comunicação entre unidade interna e externa verificar interligação, alimentação e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -396,7 +396,7 @@
       "E3"
     ],
     "codigo_busca": "E3",
-    "texto_busca": "Comfee split inverter e3 velocidade do ventilador interno anormal verificar motor ventilador, sensor hall, chicote e placa.",
+    "texto_busca": "comfee split inverter e3 velocidade do ventilador interno anormal verificar motor ventilador, sensor hall, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -412,7 +412,7 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Comfee split inverter e5 falha de sensor de temperatura verificar sensores e chicotes da evaporadora.",
+    "texto_busca": "comfee split inverter e5 falha de sensor de temperatura verificar sensores e chicotes da evaporadora.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -428,7 +428,7 @@
       "EC"
     ],
     "codigo_busca": "EC",
-    "texto_busca": "Comfee split inverter ec detecção de vazamento de refrigerante verificar vazamento, pressão e carga de gás.",
+    "texto_busca": "comfee split inverter ec detecção de vazamento de refrigerante verificar vazamento, pressão e carga de gás.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -444,8 +444,8 @@
       "P0"
     ],
     "codigo_busca": "P0",
-    "texto_busca": "Comfee split inverter p0 proteção do ipm / erro de acionamento do inversor verificar módulo ipm, placa, dissipação térmica e compressor.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "comfee split inverter p0 proteção do ipm / erro de acionamento do inversor verificar módulo ipm, placa, dissipação térmica e compressor.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Comfee",
@@ -460,13 +460,13 @@
       "P4"
     ],
     "codigo_busca": "P4",
-    "texto_busca": "Comfee split inverter p4 proteção do ipm / erro de acionamento do inversor verificar módulo ipm, placa, dissipação térmica e compressor.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "comfee split inverter p4 proteção do ipm / erro de acionamento do inversor verificar módulo ipm, placa, dissipação térmica e compressor.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Consul",
     "linha": "Inverter / Bem Estar",
-    "codigo": "2 PISCADAS",
+    "codigo": "2 piscadas",
     "significado": "Falha de comunicação",
     "acao": "Cabo de sinal rompido ou fusível da placa externa aberto.",
     "dica": "Conte as piscadas do LED da evaporadora.",
@@ -476,13 +476,13 @@
       "2 PISCADAS"
     ],
     "codigo_busca": "2 PISCADAS",
-    "texto_busca": "Consul split inverter / bem estar 2 piscadas falha de comunicação cabo de sinal rompido ou fusível da placa externa aberto.",
+    "texto_busca": "consul split inverter / bem estar 2 piscadas falha de comunicação cabo de sinal rompido ou fusível da placa externa aberto.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Consul",
     "linha": "Inverter / Bem Estar",
-    "codigo": "3 PISCADAS",
+    "codigo": "3 piscadas",
     "significado": "Sensor de temperatura (ambiente)",
     "acao": "Sensor aberto ou em curto. Trocar sensor da interna.",
     "dica": "Conte as piscadas do LED da evaporadora.",
@@ -492,13 +492,13 @@
       "3 PISCADAS"
     ],
     "codigo_busca": "3 PISCADAS",
-    "texto_busca": "Consul split inverter / bem estar 3 piscadas sensor de temperatura (ambiente) sensor aberto ou em curto. trocar sensor da interna.",
+    "texto_busca": "consul split inverter / bem estar 3 piscadas sensor de temperatura (ambiente) sensor aberto ou em curto. trocar sensor da interna.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Consul",
     "linha": "Inverter / Bem Estar",
-    "codigo": "4 PISCADAS",
+    "codigo": "4 piscadas",
     "significado": "Sensor de serpentina (interna)",
     "acao": "Sensor de tubo com defeito.",
     "dica": "Conte as piscadas do LED da evaporadora.",
@@ -508,13 +508,13 @@
       "4 PISCADAS"
     ],
     "codigo_busca": "4 PISCADAS",
-    "texto_busca": "Consul split inverter / bem estar 4 piscadas sensor de serpentina (interna) sensor de tubo com defeito.",
+    "texto_busca": "consul split inverter / bem estar 4 piscadas sensor de serpentina (interna) sensor de tubo com defeito.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Consul",
     "linha": "Inverter / Bem Estar",
-    "codigo": "5 PISCADAS",
+    "codigo": "5 piscadas",
     "significado": "Proteção do compressor",
     "acao": "Sobrecarga. Condensadora suja ou motor ventilador externo parado.",
     "dica": "Conte as piscadas do LED da evaporadora.",
@@ -524,13 +524,13 @@
       "5 PISCADAS"
     ],
     "codigo_busca": "5 PISCADAS",
-    "texto_busca": "Consul split inverter / bem estar 5 piscadas proteção do compressor sobrecarga. condensadora suja ou motor ventilador externo parado.",
+    "texto_busca": "consul split inverter / bem estar 5 piscadas proteção do compressor sobrecarga. condensadora suja ou motor ventilador externo parado.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Consul",
     "linha": "Inverter / Bem Estar",
-    "codigo": "6 PISCADAS",
+    "codigo": "6 piscadas",
     "significado": "Falha na unidade externa",
     "acao": "Erro genérico na condensadora (sensor de descarga ou placa).",
     "dica": "Conte as piscadas do LED da evaporadora.",
@@ -540,7 +540,7 @@
       "6 PISCADAS"
     ],
     "codigo_busca": "6 PISCADAS",
-    "texto_busca": "Consul split inverter / bem estar 6 piscadas falha na unidade externa erro genérico na condensadora (sensor de descarga ou placa).",
+    "texto_busca": "consul split inverter / bem estar 6 piscadas falha na unidade externa erro genérico na condensadora (sensor de descarga ou placa).",
     "fonte_base": "guia+revisao"
   },
   {
@@ -556,7 +556,7 @@
       "E4"
     ],
     "codigo_busca": "E4",
-    "texto_busca": "Consul split inverter / bem estar e4 motor da unidade interna com problemas verificar conexões, travamento do ventilador, danos no conjunto e placa.",
+    "texto_busca": "consul split inverter / bem estar e4 motor da unidade interna com problemas verificar conexões, travamento do ventilador, danos no conjunto e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -572,7 +572,7 @@
       "A5"
     ],
     "codigo_busca": "A5",
-    "texto_busca": "Daikin split inverter a5 proteção contra congelamento / freeze-up protector verificar fluxo de ar, filtro, trocador e sensores.",
+    "texto_busca": "daikin split inverter a5 proteção contra congelamento / freeze-up protector verificar fluxo de ar, filtro, trocador e sensores.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -588,8 +588,8 @@
       "C4"
     ],
     "codigo_busca": "C4",
-    "texto_busca": "Daikin split inverter c4 falha no sensor de trocador / sensor de ar de sucção c4: sensor do trocador de calor. c9: sensor de ar de sucção. verificar chicote e resistência.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "daikin split inverter c4 falha no sensor de trocador / sensor de ar de sucção c4: sensor do trocador de calor. c9: sensor de ar de sucção. verificar chicote e resistência.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Daikin",
@@ -604,8 +604,8 @@
       "C9"
     ],
     "codigo_busca": "C9",
-    "texto_busca": "Daikin split inverter c9 falha no sensor de trocador / sensor de ar de sucção c4: sensor do trocador de calor. c9: sensor de ar de sucção. verificar chicote e resistência.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "daikin split inverter c9 falha no sensor de trocador / sensor de ar de sucção c4: sensor do trocador de calor. c9: sensor de ar de sucção. verificar chicote e resistência.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Daikin",
@@ -620,7 +620,7 @@
       "E7"
     ],
     "codigo_busca": "E7",
-    "texto_busca": "Daikin split inverter e7 falha do motor do ventilador dc verificar motor do ventilador da unidade externa, chicote e placa.",
+    "texto_busca": "daikin split inverter e7 falha do motor do ventilador dc verificar motor do ventilador da unidade externa, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -636,7 +636,7 @@
       "L5"
     ],
     "codigo_busca": "L5",
-    "texto_busca": "Daikin split inverter l5 sobrecorrente de saída verificar inversor, compressor e circuito de potência.",
+    "texto_busca": "daikin split inverter l5 sobrecorrente de saída verificar inversor, compressor e circuito de potência.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -652,7 +652,7 @@
       "U0"
     ],
     "codigo_busca": "U0",
-    "texto_busca": "Daikin split inverter u0 baixa carga / falta de refrigerante verificar vazamento e carga de refrigerante.",
+    "texto_busca": "daikin split inverter u0 baixa carga / falta de refrigerante verificar vazamento e carga de refrigerante.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -668,7 +668,7 @@
       "U4"
     ],
     "codigo_busca": "U4",
-    "texto_busca": "Daikin split inverter u4 falha de transmissão entre unidade interna e externa verificar comunicação, cabeamento e placas.",
+    "texto_busca": "daikin split inverter u4 falha de transmissão entre unidade interna e externa verificar comunicação, cabeamento e placas.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -684,7 +684,7 @@
       "E0"
     ],
     "codigo_busca": "E0",
-    "texto_busca": "Electrolux split xi / yi / technic e0 não identifica a temperatura ambiente seguir procedimento do manual e, persistindo, acionar assistência técnica.",
+    "texto_busca": "electrolux split xi / yi / technic e0 não identifica a temperatura ambiente seguir procedimento do manual e, persistindo, acionar assistência técnica.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -700,7 +700,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Electrolux split xi / yi / technic e1 não identifica a temperatura do sensor interno desligar/ligar o produto e verificar sensor interno; se persistir, assistência técnica.",
+    "texto_busca": "electrolux split xi / yi / technic e1 não identifica a temperatura do sensor interno desligar/ligar o produto e verificar sensor interno; se persistir, assistência técnica.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -716,7 +716,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Electrolux split xi / yi / technic e2 mal funcionamento do motoventilador da unidade interna seguir procedimento do manual e, persistindo, acionar assistência técnica.",
+    "texto_busca": "electrolux split xi / yi / technic e2 mal funcionamento do motoventilador da unidade interna seguir procedimento do manual e, persistindo, acionar assistência técnica.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -732,7 +732,7 @@
       "E3"
     ],
     "codigo_busca": "E3",
-    "texto_busca": "Electrolux split xi / yi / technic e3 comunicação no display desligar/ligar o produto; se persistir, verificar interface/display e placa.",
+    "texto_busca": "electrolux split xi / yi / technic e3 comunicação no display desligar/ligar o produto; se persistir, verificar interface/display e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -748,7 +748,7 @@
       "E4"
     ],
     "codigo_busca": "E4",
-    "texto_busca": "Electrolux split xi / yi / technic e4 falha de tensão confirmar alimentação correta (220v/60hz) e integridade da rede elétrica.",
+    "texto_busca": "electrolux split xi / yi / technic e4 falha de tensão confirmar alimentação correta (220v/60hz) e integridade da rede elétrica.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -764,7 +764,7 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Electrolux split xi / yi / technic e5 ativação de proteção contra sobrecarga necessário avaliar sobrecarga/placa/compressor conforme manual.",
+    "texto_busca": "electrolux split xi / yi / technic e5 ativação de proteção contra sobrecarga necessário avaliar sobrecarga/placa/compressor conforme manual.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -780,8 +780,8 @@
       "F1"
     ],
     "codigo_busca": "F1",
-    "texto_busca": "Electrolux split xi / yi / technic f1 falha em sensor de temperatura f1 é falha no sensor de temperatura; f3 depende da linha/modelo e deve ser confirmado no manual específico.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "electrolux split xi / yi / technic f1 falha em sensor de temperatura f1 é falha no sensor de temperatura; f3 depende da linha/modelo e deve ser confirmado no manual específico.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Electrolux",
@@ -796,8 +796,8 @@
       "F3"
     ],
     "codigo_busca": "F3",
-    "texto_busca": "Electrolux split xi / yi / technic f3 falha em sensor de temperatura f1 é falha no sensor de temperatura; f3 depende da linha/modelo e deve ser confirmado no manual específico.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "electrolux split xi / yi / technic f3 falha em sensor de temperatura f1 é falha no sensor de temperatura; f3 depende da linha/modelo e deve ser confirmado no manual específico.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Electrolux",
@@ -812,7 +812,7 @@
       "F2"
     ],
     "codigo_busca": "F2",
-    "texto_busca": "Electrolux split xi / yi / technic f2 falha no sensor de temperatura do evaporador seguir procedimento do manual e, persistindo, acionar assistência técnica.",
+    "texto_busca": "electrolux split xi / yi / technic f2 falha no sensor de temperatura do evaporador seguir procedimento do manual e, persistindo, acionar assistência técnica.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -828,7 +828,7 @@
       "H6"
     ],
     "codigo_busca": "H6",
-    "texto_busca": "Electrolux split xi / yi / technic h6 intermitência no motor ventilador da unidade interna verificar motor ventilador interno e placa.",
+    "texto_busca": "electrolux split xi / yi / technic h6 intermitência no motor ventilador da unidade interna verificar motor ventilador interno e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -844,7 +844,7 @@
       "U8"
     ],
     "codigo_busca": "U8",
-    "texto_busca": "Electrolux split xi / yi / technic u8 falha no funcionamento da placa de potência seguir procedimento do manual e, persistindo, acionar assistência técnica.",
+    "texto_busca": "electrolux split xi / yi / technic u8 falha no funcionamento da placa de potência seguir procedimento do manual e, persistindo, acionar assistência técnica.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -860,7 +860,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Elgin split eco inverter / plus e1 falha no sensor de temperatura ambiente verificar sensor de ambiente, conexão e resistência.",
+    "texto_busca": "elgin split eco inverter / plus e1 falha no sensor de temperatura ambiente verificar sensor de ambiente, conexão e resistência.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -876,13 +876,13 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Elgin split eco inverter / plus e2 falha no sensor de temperatura exterior da serpentina verificar sensor da serpentina e chicote.",
+    "texto_busca": "elgin split eco inverter / plus e2 falha no sensor de temperatura exterior da serpentina verificar sensor da serpentina e chicote.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Elgin",
     "linha": "Eco Inverter / Plus",
-    "codigo": "E2 (EXTERNA)",
+    "codigo": "E2 (externa)",
     "significado": "Falha no sensor de temperatura exterior da serpentina",
     "acao": "Verificar sensor externo da serpentina e conexão.",
     "dica": "Modelos antigos 15k, novos (Eco) padronizaram 10k ambiente e 10k tubo a 25°C.",
@@ -892,7 +892,7 @@
       "E2 (EXTERNA)"
     ],
     "codigo_busca": "E2 (EXTERNA)",
-    "texto_busca": "Elgin split eco inverter / plus e2 (externa) falha no sensor de temperatura exterior da serpentina verificar sensor externo da serpentina e conexão.",
+    "texto_busca": "elgin split eco inverter / plus e2 (externa) falha no sensor de temperatura exterior da serpentina verificar sensor externo da serpentina e conexão.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -908,7 +908,7 @@
       "E3"
     ],
     "codigo_busca": "E3",
-    "texto_busca": "Elgin split eco inverter / plus e3 falha no sensor de temperatura interior da serpentina verificar sensor da serpentina interna e chicote.",
+    "texto_busca": "elgin split eco inverter / plus e3 falha no sensor de temperatura interior da serpentina verificar sensor da serpentina interna e chicote.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -924,8 +924,8 @@
       "E4"
     ],
     "codigo_busca": "E4",
-    "texto_busca": "Elgin split eco inverter / plus e4 falta de realimentação/falha no motor ventilador da evaporadora ou falha no compressor/gás conforme linha verificar motor ventilador, placa e, para f0, compressor/carga conforme modelo.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "elgin split eco inverter / plus e4 falta de realimentação/falha no motor ventilador da evaporadora ou falha no compressor/gás conforme linha verificar motor ventilador, placa e, para f0, compressor/carga conforme modelo.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Elgin",
@@ -940,8 +940,8 @@
       "F0"
     ],
     "codigo_busca": "F0",
-    "texto_busca": "Elgin split eco inverter / plus f0 falta de realimentação/falha no motor ventilador da evaporadora ou falha no compressor/gás conforme linha verificar motor ventilador, placa e, para f0, compressor/carga conforme modelo.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "elgin split eco inverter / plus f0 falta de realimentação/falha no motor ventilador da evaporadora ou falha no compressor/gás conforme linha verificar motor ventilador, placa e, para f0, compressor/carga conforme modelo.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Elgin",
@@ -956,8 +956,8 @@
       "F6"
     ],
     "codigo_busca": "F6",
-    "texto_busca": "Elgin split eco inverter / plus f6 falha de comunicação / código dependente da linha conferir interligação e manual específico do modelo.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "elgin split eco inverter / plus f6 falha de comunicação / código dependente da linha conferir interligação e manual específico do modelo.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Elgin",
@@ -972,40 +972,40 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Elgin split eco inverter / plus e5 falha de comunicação / código dependente da linha conferir interligação e manual específico do modelo.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "elgin split eco inverter / plus e5 falha de comunicação / código dependente da linha conferir interligação e manual específico do modelo.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "02 (OP)",
+    "codigo": "02 (Op)",
     "significado": "Sensor de ambiente",
     "acao": "Sensor da evaporadora aberto ou em curto.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "02 (OP)"
+      "02 (Op)"
     ],
-    "codigo_busca": "02 (OP)",
-    "texto_busca": "Fujitsu split inverter 02 (op) sensor de ambiente sensor da evaporadora aberto ou em curto.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "02 (Op)",
+    "texto_busca": "fujitsu split inverter 02 (op) / 03 (timer) sensor de ambiente sensor da evaporadora aberto ou em curto.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "03 (TIMER)",
+    "codigo": "03 (Timer)",
     "significado": "Sensor de ambiente",
     "acao": "Sensor da evaporadora aberto ou em curto.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "03 (TIMER)"
+      "03 (Timer)"
     ],
-    "codigo_busca": "03 (TIMER)",
-    "texto_busca": "Fujitsu split inverter 03 (timer) sensor de ambiente sensor da evaporadora aberto ou em curto.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "03 (Timer)",
+    "texto_busca": "fujitsu split inverter 02 (op) / 03 (timer) sensor de ambiente sensor da evaporadora aberto ou em curto.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "EOS",
@@ -1020,7 +1020,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "EOS split inverter e1 falha de comunicação verificar cabo entre unidade interna e externa.",
+    "texto_busca": "eos split inverter e1 falha de comunicação verificar cabo entre unidades.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1036,7 +1036,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "EOS split inverter e2 sensor de serpentina verificar sensor da evaporadora.",
+    "texto_busca": "eos split inverter e2 sensor serpentina evaporadora verificar sensor.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1052,168 +1052,168 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Fontaine split convencional e1 sensor de ambiente sensor aberto ou em curto.",
+    "texto_busca": "fontaine split convencional e1 sensor de ambiente aberto ou em curto.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "05 (OP)",
+    "codigo": "05 (Op)",
     "significado": "Falha de comunicação",
     "acao": "O erro clássico: cabo de interligação ou placa externa sem energia.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "05 (OP)"
+      "05 (Op)"
     ],
-    "codigo_busca": "05 (OP)",
-    "texto_busca": "Fujitsu split inverter 05 (op) falha de comunicação o erro clássico: cabo de interligação ou placa externa sem energia.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "05 (Op)",
+    "texto_busca": "fujitsu split inverter 05 (op) / 07 (timer) falha de comunicação o erro clássico: cabo de interligação ou placa externa sem energia.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "07 (TIMER)",
+    "codigo": "07 (Timer)",
     "significado": "Falha de comunicação",
     "acao": "O erro clássico: cabo de interligação ou placa externa sem energia.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "07 (TIMER)"
+      "07 (Timer)"
     ],
-    "codigo_busca": "07 (TIMER)",
-    "texto_busca": "Fujitsu split inverter 07 (timer) falha de comunicação o erro clássico: cabo de interligação ou placa externa sem energia.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "07 (Timer)",
+    "texto_busca": "fujitsu split inverter 05 (op) / 07 (timer) falha de comunicação o erro clássico: cabo de interligação ou placa externa sem energia.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "05 (OP)",
+    "codigo": "05 (Op)",
     "significado": "Erro na unidade interna",
     "acao": "Verifique placa da evaporadora e motor ventilador.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "05 (OP)"
+      "05 (Op)"
     ],
-    "codigo_busca": "05 (OP)",
-    "texto_busca": "Fujitsu split inverter 05 (op) erro na unidade interna verifique placa da evaporadora e motor ventilador.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "05 (Op)",
+    "texto_busca": "fujitsu split inverter 05 (op) / 15 (timer) erro na unidade interna verifique placa da evaporadora e motor ventilador.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "15 (TIMER)",
+    "codigo": "15 (Timer)",
     "significado": "Erro na unidade interna",
     "acao": "Verifique placa da evaporadora e motor ventilador.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "15 (TIMER)"
+      "15 (Timer)"
     ],
-    "codigo_busca": "15 (TIMER)",
-    "texto_busca": "Fujitsu split inverter 15 (timer) erro na unidade interna verifique placa da evaporadora e motor ventilador.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "15 (Timer)",
+    "texto_busca": "fujitsu split inverter 05 (op) / 15 (timer) erro na unidade interna verifique placa da evaporadora e motor ventilador.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "09 (OP)",
+    "codigo": "09 (Op)",
     "significado": "Pico de corrente (trip)",
     "acao": "Compressor travado ou problema no IPM da placa externa.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "09 (OP)"
+      "09 (Op)"
     ],
-    "codigo_busca": "09 (OP)",
-    "texto_busca": "Fujitsu split inverter 09 (op) pico de corrente (trip) compressor travado ou problema no ipm da placa externa.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "09 (Op)",
+    "texto_busca": "fujitsu split inverter 09 (op) / 04 (timer) pico de corrente (trip) compressor travado ou problema no ipm da placa externa.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "04 (TIMER)",
+    "codigo": "04 (Timer)",
     "significado": "Pico de corrente (trip)",
     "acao": "Compressor travado ou problema no IPM da placa externa.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "04 (TIMER)"
+      "04 (Timer)"
     ],
-    "codigo_busca": "04 (TIMER)",
-    "texto_busca": "Fujitsu split inverter 04 (timer) pico de corrente (trip) compressor travado ou problema no ipm da placa externa.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "04 (Timer)",
+    "texto_busca": "fujitsu split inverter 09 (op) / 04 (timer) pico de corrente (trip) compressor travado ou problema no ipm da placa externa.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "09 (OP)",
+    "codigo": "09 (Op)",
     "significado": "Motor ventilador (externa)",
     "acao": "Motor da condensadora queimado ou travado.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "09 (OP)"
+      "09 (Op)"
     ],
-    "codigo_busca": "09 (OP)",
-    "texto_busca": "Fujitsu split inverter 09 (op) motor ventilador (externa) motor da condensadora queimado ou travado.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "09 (Op)",
+    "texto_busca": "fujitsu split inverter 09 (op) / 07 (timer) motor ventilador (externa) motor da condensadora queimado ou travado.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "07 (TIMER)",
+    "codigo": "07 (Timer)",
     "significado": "Motor ventilador (externa)",
     "acao": "Motor da condensadora queimado ou travado.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "07 (TIMER)"
+      "07 (Timer)"
     ],
-    "codigo_busca": "07 (TIMER)",
-    "texto_busca": "Fujitsu split inverter 07 (timer) motor ventilador (externa) motor da condensadora queimado ou travado.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "07 (Timer)",
+    "texto_busca": "fujitsu split inverter 09 (op) / 07 (timer) motor ventilador (externa) motor da condensadora queimado ou travado.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "10 (OP)",
+    "codigo": "10 (Op)",
     "significado": "Erro de tensão",
     "acao": "Tensão de rede elétrica muito baixa ou muito alta.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "10 (OP)"
+      "10 (Op)"
     ],
-    "codigo_busca": "10 (OP)",
-    "texto_busca": "Fujitsu split inverter 10 (op) erro de tensão tensão de rede elétrica muito baixa ou muito alta.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "10 (Op)",
+    "texto_busca": "fujitsu split inverter 10 (op) / qualquer erro de tensão tensão de rede elétrica muito baixa ou muito alta.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Fujitsu",
     "linha": "Inverter",
-    "codigo": "QUALQUER",
+    "codigo": "qualquer",
     "significado": "Erro de tensão",
     "acao": "Tensão de rede elétrica muito baixa ou muito alta.",
     "dica": "Normalmente sem display numérico; conte piscadas de OP e TIMER.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "QUALQUER"
+      "qualquer"
     ],
-    "codigo_busca": "QUALQUER",
-    "texto_busca": "Fujitsu split inverter qualquer erro de tensão tensão de rede elétrica muito baixa ou muito alta.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "qualquer",
+    "texto_busca": "fujitsu split inverter 10 (op) / qualquer erro de tensão tensão de rede elétrica muito baixa ou muito alta.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Gree",
@@ -1228,7 +1228,7 @@
       "E6"
     ],
     "codigo_busca": "E6",
-    "texto_busca": "Gree split eco garden / g-top e6 falha de comunicação verificar cabo de comunicação, conectores, oxidação e fusíveis/placa.",
+    "texto_busca": "gree split eco garden / g-top e6 falha de comunicação verificar cabo de comunicação, conectores, oxidação e fusíveis/placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1244,7 +1244,7 @@
       "F0"
     ],
     "codigo_busca": "F0",
-    "texto_busca": "Gree split eco garden / g-top f0 proteção por falta de refrigerante / baixa carga verificar vazamento, carga, restrição/entupimento e pressão do sistema.",
+    "texto_busca": "gree split eco garden / g-top f0 proteção por falta de refrigerante / baixa carga verificar vazamento, carga, restrição/entupimento e pressão do sistema.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1260,8 +1260,8 @@
       "F1"
     ],
     "codigo_busca": "F1",
-    "texto_busca": "Gree split eco garden / g-top f1 falha dos sensores de temperatura f1: sensor ambiente. f2: sensor do tubo/serpentina. verificar resistência e conectores.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "gree split eco garden / g-top f1 falha dos sensores de temperatura f1: sensor ambiente. f2: sensor do tubo/serpentina. verificar resistência e conectores.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Gree",
@@ -1276,8 +1276,8 @@
       "F2"
     ],
     "codigo_busca": "F2",
-    "texto_busca": "Gree split eco garden / g-top f2 falha dos sensores de temperatura f1: sensor ambiente. f2: sensor do tubo/serpentina. verificar resistência e conectores.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "gree split eco garden / g-top f2 falha dos sensores de temperatura f1: sensor ambiente. f2: sensor do tubo/serpentina. verificar resistência e conectores.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Gree",
@@ -1292,7 +1292,7 @@
       "H3"
     ],
     "codigo_busca": "H3",
-    "texto_busca": "Gree split eco garden / g-top h3 proteção de sobrecarga do compressor verificar sobreaquecimento, ventilação da condensadora, compressor e placa.",
+    "texto_busca": "gree split eco garden / g-top h3 proteção de sobrecarga do compressor verificar sobreaquecimento, ventilação da condensadora, compressor e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1308,7 +1308,7 @@
       "H6"
     ],
     "codigo_busca": "H6",
-    "texto_busca": "Gree split eco garden / g-top h6 falha do motor ventilador interno verificar motor, sensor de rotação, chicote e placa.",
+    "texto_busca": "gree split eco garden / g-top h6 falha do motor ventilador interno verificar motor, sensor de rotação, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1324,7 +1324,7 @@
       "U1"
     ],
     "codigo_busca": "U1",
-    "texto_busca": "Gree split eco garden / g-top u1 anormalidade de corrente/fase do compressor verificar conexões do compressor, alimentação e placa inversora.",
+    "texto_busca": "gree split eco garden / g-top u1 anormalidade de corrente/fase do compressor verificar conexões do compressor, alimentação e placa inversora.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1340,7 +1340,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Haier split inverter e1 falha de comunicação verificar cabo de interligação entre unidades.",
+    "texto_busca": "haier split inverter e1 falha de comunicação verificar interligação entre unidades.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1356,7 +1356,7 @@
       "05"
     ],
     "codigo_busca": "05",
-    "texto_busca": "Hisense split inverter 05 erro de eeprom memória da placa corrompida. tente desligar o disjuntor por 5 min.",
+    "texto_busca": "hisense split inverter 05 erro de eeprom memória da placa corrompida. tente desligar o disjuntor por 5 min.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1372,7 +1372,7 @@
       "14"
     ],
     "codigo_busca": "14",
-    "texto_busca": "Hisense split inverter 14 proteção do módulo ipm corrente excessiva na placa externa.",
+    "texto_busca": "hisense split inverter 14 proteção do módulo ipm corrente excessiva na placa externa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1388,7 +1388,7 @@
       "33"
     ],
     "codigo_busca": "33",
-    "texto_busca": "Hisense split inverter 33 sensor de ambiente sensor de temperatura aberto ou em curto.",
+    "texto_busca": "hisense split inverter 33 sensor de ambiente sensor de temperatura aberto ou em curto.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1404,7 +1404,7 @@
       "34"
     ],
     "codigo_busca": "34",
-    "texto_busca": "Hisense split inverter 34 sensor de tubo sensor da serpentina da evaporadora.",
+    "texto_busca": "hisense split inverter 34 sensor de tubo sensor da serpentina da evaporadora.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1420,13 +1420,13 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Hisense split inverter e1 falha de comunicação sinal interrompido entre as unidades.",
+    "texto_busca": "hisense split inverter e1 falha de comunicação sinal interrompido entre as unidades.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Hitachi",
     "linha": "Inverter",
-    "codigo": "01 VEZ",
+    "codigo": "01 vez",
     "significado": "Sensor de serpentina (interna)",
     "acao": "Sensor de tubo com defeito ou desconectado.",
     "dica": "Conte piscadas do LED Timer da unidade interna.",
@@ -1436,13 +1436,13 @@
       "01 VEZ"
     ],
     "codigo_busca": "01 VEZ",
-    "texto_busca": "Hitachi split inverter 01 vez sensor de serpentina (interna) sensor de tubo com defeito ou desconectado.",
+    "texto_busca": "hitachi split inverter 01 vez sensor de serpentina (interna) sensor de tubo com defeito ou desconectado.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Hitachi",
     "linha": "Inverter",
-    "codigo": "02 VEZES",
+    "codigo": "02 vezes",
     "significado": "Sensor de ar (ambiente)",
     "acao": "Sensor de temperatura ambiente com defeito.",
     "dica": "Conte piscadas do LED Timer da unidade interna.",
@@ -1452,13 +1452,13 @@
       "02 VEZES"
     ],
     "codigo_busca": "02 VEZES",
-    "texto_busca": "Hitachi split inverter 02 vezes sensor de ar (ambiente) sensor de temperatura ambiente com defeito.",
+    "texto_busca": "hitachi split inverter 02 vezes sensor de ar (ambiente) sensor de temperatura ambiente com defeito.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Hitachi",
     "linha": "Inverter",
-    "codigo": "03 VEZES",
+    "codigo": "03 vezes",
     "significado": "Falha de comunicação",
     "acao": "Erro de interface. Verifique fiação e fusíveis.",
     "dica": "Conte piscadas do LED Timer da unidade interna.",
@@ -1468,13 +1468,13 @@
       "03 VEZES"
     ],
     "codigo_busca": "03 VEZES",
-    "texto_busca": "Hitachi split inverter 03 vezes falha de comunicação erro de interface. verifique fiação e fusíveis.",
+    "texto_busca": "hitachi split inverter 03 vezes falha de comunicação erro de interface. verifique fiação e fusíveis.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Hitachi",
     "linha": "Inverter",
-    "codigo": "04 VEZES",
+    "codigo": "04 vezes",
     "significado": "Unidade externa com erro",
     "acao": "O problema está lá fora. Olhe os LEDs da placa da condensadora LD301.",
     "dica": "Conte piscadas do LED Timer da unidade interna.",
@@ -1484,13 +1484,13 @@
       "04 VEZES"
     ],
     "codigo_busca": "04 VEZES",
-    "texto_busca": "Hitachi split inverter 04 vezes unidade externa com erro o problema está lá fora. olhe os leds da placa da condensadora ld301.",
+    "texto_busca": "hitachi split inverter 04 vezes unidade externa com erro o problema está lá fora. olhe os leds da placa da condensadora ld301.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Hitachi",
     "linha": "Inverter",
-    "codigo": "09 VEZES",
+    "codigo": "09 vezes",
     "significado": "Motor ventilador (interna)",
     "acao": "Motor travado ou conector solto na placa.",
     "dica": "Conte piscadas do LED Timer da unidade interna.",
@@ -1500,13 +1500,13 @@
       "09 VEZES"
     ],
     "codigo_busca": "09 VEZES",
-    "texto_busca": "Hitachi split inverter 09 vezes motor ventilador (interna) motor travado ou conector solto na placa.",
+    "texto_busca": "hitachi split inverter 09 vezes motor ventilador (interna) motor travado ou conector solto na placa.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Hitachi",
     "linha": "Inverter",
-    "codigo": "12 VEZES",
+    "codigo": "12 vezes",
     "significado": "Erro na EEPROM",
     "acao": "Memória da placa corrompida ou placa com defeito.",
     "dica": "Conte piscadas do LED Timer da unidade interna.",
@@ -1516,7 +1516,7 @@
       "12 VEZES"
     ],
     "codigo_busca": "12 VEZES",
-    "texto_busca": "Hitachi split inverter 12 vezes erro na eeprom memória da placa corrompida ou placa com defeito.",
+    "texto_busca": "hitachi split inverter 12 vezes erro na eeprom memória da placa corrompida ou placa com defeito.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1532,7 +1532,7 @@
       "F21"
     ],
     "codigo_busca": "F21",
-    "texto_busca": "Komeco piso teto inverter / g4 e correlatos f21 falha no sensor de temperatura anti-congelamento verificar sensor, chicote e placa.",
+    "texto_busca": "komeco piso teto inverter / g4 e correlatos f21 falha no sensor de temperatura anti-congelamento verificar sensor, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1548,7 +1548,7 @@
       "F25"
     ],
     "codigo_busca": "F25",
-    "texto_busca": "Komeco piso teto inverter / g4 e correlatos f25 falha no sensor de temperatura de descarga verificar sensor, chicote e placa.",
+    "texto_busca": "komeco piso teto inverter / g4 e correlatos f25 falha no sensor de temperatura de descarga verificar sensor, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1564,7 +1564,7 @@
       "F6"
     ],
     "codigo_busca": "F6",
-    "texto_busca": "Komeco piso teto inverter / g4 e correlatos f6 falha no sensor de temperatura ambiente verificar sensor, chicote e placa.",
+    "texto_busca": "komeco piso teto inverter / g4 e correlatos f6 falha no sensor de temperatura ambiente verificar sensor, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1580,7 +1580,7 @@
       "F7"
     ],
     "codigo_busca": "F7",
-    "texto_busca": "Komeco piso teto inverter / g4 e correlatos f7 falha no sensor de temperatura da sucção verificar sensor, chicote e placa.",
+    "texto_busca": "komeco piso teto inverter / g4 e correlatos f7 falha no sensor de temperatura da sucção verificar sensor, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1596,7 +1596,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Komeco split linhas inverter e1 falha no sensor de temperatura ambiente verificar sensor ambiente e chicote.",
+    "texto_busca": "komeco split linhas inverter e1 falha no sensor de temperatura ambiente verificar sensor ambiente e chicote.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1612,7 +1612,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Komeco split linhas inverter e2 falha no sensor de temperatura do trocador de calor verificar sensor do trocador/serpentina e chicote.",
+    "texto_busca": "komeco split linhas inverter e2 falha no sensor de temperatura do trocador de calor verificar sensor do trocador/serpentina e chicote.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1628,7 +1628,7 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Komeco split linhas inverter e5 falha no sensor de temperatura do condensador (linha g4) / pode variar por linha confirmar linha/modelo e verificar sensor t3.",
+    "texto_busca": "komeco split linhas inverter e5 falha no sensor de temperatura do condensador (linha g4) / pode variar por linha confirmar linha/modelo e verificar sensor t3.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1644,7 +1644,7 @@
       "F0"
     ],
     "codigo_busca": "F0",
-    "texto_busca": "Komeco split linhas inverter f0 código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento.",
+    "texto_busca": "komeco split linhas inverter f0 código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1660,7 +1660,7 @@
       "P0"
     ],
     "codigo_busca": "P0",
-    "texto_busca": "Komeco split linhas inverter p0 código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento.",
+    "texto_busca": "komeco split linhas inverter p0 código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1676,7 +1676,7 @@
       "CH34"
     ],
     "codigo_busca": "CH34",
-    "texto_busca": "LG split dual inverter / libero ch34 baixa pressão / falta de gás verificar vazamento e carga de refrigerante.",
+    "texto_busca": "lg split dual inverter ch34 baixa pressão falta de gás verificar vazamento e carga.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1692,8 +1692,8 @@
       "CH01"
     ],
     "codigo_busca": "CH01",
-    "texto_busca": "LG split dual inverter / libero ch01 sensores da evaporadora ch01: medir sensor de ambiente (10k). ch02: medir sensor de tubo (5k).",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "lg split dual inverter / libero ch01 sensores da evaporadora ch01: medir sensor de ambiente (10k). ch02: medir sensor de tubo (5k).",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "LG",
@@ -1708,8 +1708,8 @@
       "CH02"
     ],
     "codigo_busca": "CH02",
-    "texto_busca": "LG split dual inverter / libero ch02 sensores da evaporadora ch01: medir sensor de ambiente (10k). ch02: medir sensor de tubo (5k).",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "lg split dual inverter / libero ch02 sensores da evaporadora ch01: medir sensor de ambiente (10k). ch02: medir sensor de tubo (5k).",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "LG",
@@ -1724,24 +1724,24 @@
       "CH05"
     ],
     "codigo_busca": "CH05",
-    "texto_busca": "LG split dual inverter / libero ch05 falha de comunicação entre unidade interna e externa verificar ligação 1(l), 2(n) e 3(s), aperto de bornes e alimentação da unidade externa.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "lg split dual inverter / libero ch05 falha de comunicação entre unidade interna e externa verificar ligação 1(l), 2(n) e 3(s), aperto de bornes e alimentação da unidade externa.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "LG",
     "linha": "Dual Inverter / Libero",
-    "codigo": "5 PISCADAS",
+    "codigo": "5 piscadas",
     "significado": "Falha de comunicação entre unidade interna e externa",
     "acao": "Verificar ligação 1(L), 2(N) e 3(S), aperto de bornes e alimentação da unidade externa.",
     "dica": "Sensores de 10k (ambiente) e 5k (tubo).",
     "linha_modelo": "Dual Inverter / Libero",
     "linha_tipo": "Split",
     "codigo_lista": [
-      "5 PISCADAS"
+      "5 piscadas"
     ],
-    "codigo_busca": "5 PISCADAS",
-    "texto_busca": "LG split dual inverter / libero 5 piscadas falha de comunicação entre unidade interna e externa verificar ligação 1(l), 2(n) e 3(s), aperto de bornes e alimentação da unidade externa.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "codigo_busca": "5 piscadas",
+    "texto_busca": "lg split dual inverter / libero 5 piscadas falha de comunicação entre unidade interna e externa verificar ligação 1(l), 2(n) e 3(s), aperto de bornes e alimentação da unidade externa.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "LG",
@@ -1756,7 +1756,7 @@
       "CH10"
     ],
     "codigo_busca": "CH10",
-    "texto_busca": "LG split dual inverter / libero ch10 falha/obstrução no ventilador interno verificar se o ventilador interno está travado, com sujeira, gelo ou defeito no motor/placa.",
+    "texto_busca": "lg split dual inverter / libero ch10 falha/obstrução no ventilador interno verificar se o ventilador interno está travado, com sujeira, gelo ou defeito no motor/placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1772,7 +1772,7 @@
       "CH21"
     ],
     "codigo_busca": "CH21",
-    "texto_busca": "LG split dual inverter / libero ch21 pico de corrente / erro do inversor (ipm) verificar sobrecorrente no conjunto inversor, compressor, ventilação da condensadora e carga de refrigerante.",
+    "texto_busca": "lg split dual inverter / libero ch21 pico de corrente / erro do inversor (ipm) verificar sobrecorrente no conjunto inversor, compressor, ventilação da condensadora e carga de refrigerante.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1788,7 +1788,7 @@
       "CH23"
     ],
     "codigo_busca": "CH23",
-    "texto_busca": "LG split dual inverter / libero ch23 anormalidade de alimentação / tensão baixa (dc link) verificar tensão de entrada, circuito de potência e placa da unidade externa.",
+    "texto_busca": "lg split dual inverter / libero ch23 anormalidade de alimentação / tensão baixa (dc link) verificar tensão de entrada, circuito de potência e placa da unidade externa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1804,7 +1804,7 @@
       "CH26"
     ],
     "codigo_busca": "CH26",
-    "texto_busca": "LG split dual inverter / libero ch26 falha relacionada ao compressor / inversor verificar compressor, bornes u/v/w, inversor e possíveis travamentos mecânicos.",
+    "texto_busca": "lg split dual inverter / libero ch26 falha relacionada ao compressor / inversor verificar compressor, bornes u/v/w, inversor e possíveis travamentos mecânicos.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1820,7 +1820,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Midea split inverter / springer midea e1 falha de comunicação entre unidade interna e externa verificar cabo de comunicação, alimentação da externa e conexões entre as unidades.",
+    "texto_busca": "midea split inverter / springer midea e1 falha de comunicação entre unidade interna e externa verificar cabo de comunicação, alimentação da externa e conexões entre as unidades.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1836,7 +1836,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Midea split inverter / springer midea e2 erro de detecção do sinal zero crossing verificar alimentação elétrica, placa e componentes associados ao código.",
+    "texto_busca": "midea split inverter / springer midea e2 erro de detecção do sinal zero crossing verificar alimentação elétrica, placa e componentes associados ao código.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1852,7 +1852,7 @@
       "E3"
     ],
     "codigo_busca": "E3",
-    "texto_busca": "Midea split inverter / springer midea e3 velocidade do ventilador da evaporadora anormal verificar motor ventilador, sensor hall, chicote e placa.",
+    "texto_busca": "midea split inverter / springer midea e3 velocidade do ventilador da evaporadora anormal verificar motor ventilador, sensor hall, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1868,7 +1868,7 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Midea split inverter / springer midea e5 falha de sensor de temperatura verificar sensores e chicotes; na prática costuma envolver sensor de ambiente/evaporadora conforme o modelo.",
+    "texto_busca": "midea split inverter / springer midea e5 falha de sensor de temperatura verificar sensores e chicotes; na prática costuma envolver sensor de ambiente/evaporadora conforme o modelo.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1884,7 +1884,7 @@
       "EC"
     ],
     "codigo_busca": "EC",
-    "texto_busca": "Midea split inverter / springer midea ec detecção de vazamento de refrigerante verificar vazamento, carga de refrigerante e desempenho do sistema.",
+    "texto_busca": "midea split inverter / springer midea ec detecção de vazamento de refrigerante verificar vazamento, carga de refrigerante e desempenho do sistema.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1900,7 +1900,7 @@
       "F0"
     ],
     "codigo_busca": "F0",
-    "texto_busca": "Midea split inverter / springer midea f0 proteção de sobrecorrente verificar alimentação elétrica, placa e componentes associados ao código.",
+    "texto_busca": "midea split inverter / springer midea f0 proteção de sobrecorrente verificar alimentação elétrica, placa e componentes associados ao código.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1916,7 +1916,7 @@
       "P0"
     ],
     "codigo_busca": "P0",
-    "texto_busca": "Midea split inverter / springer midea p0 proteção do ipm verificar módulo ipm, dissipação térmica, condensadora suja e placa.",
+    "texto_busca": "midea split inverter / springer midea p0 proteção do ipm verificar módulo ipm, dissipação térmica, condensadora suja e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1932,7 +1932,7 @@
       "P1"
     ],
     "codigo_busca": "P1",
-    "texto_busca": "Midea split inverter / springer midea p1 tensão anormal verificar alimentação elétrica, placa e componentes associados ao código.",
+    "texto_busca": "midea split inverter / springer midea p1 tensão anormal verificar alimentação elétrica, placa e componentes associados ao código.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1948,7 +1948,7 @@
       "P4"
     ],
     "codigo_busca": "P4",
-    "texto_busca": "Midea split inverter / springer midea p4 erro de acionamento/inversor do compressor verificar compressor, terminais, drive inverter e placa.",
+    "texto_busca": "midea split inverter / springer midea p4 erro de acionamento/inversor do compressor verificar compressor, terminais, drive inverter e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1964,8 +1964,8 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Philco split inverter e1 sensores de temperatura e1: ambiente. e2: serpentina. verificar se o plugue está bem encaixado na placa.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "philco split inverter e1 sensores de temperatura e1: ambiente. e2: serpentina. verificar se o plugue está bem encaixado na placa.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Philco",
@@ -1980,8 +1980,8 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Philco split inverter e2 sensores de temperatura e1: ambiente. e2: serpentina. verificar se o plugue está bem encaixado na placa.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "philco split inverter e2 sensores de temperatura e1: ambiente. e2: serpentina. verificar se o plugue está bem encaixado na placa.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Philco",
@@ -1996,7 +1996,7 @@
       "E4"
     ],
     "codigo_busca": "E4",
-    "texto_busca": "Philco split inverter e4 compressor / ipm compressor superaquecido ou falta de gás refrigerante.",
+    "texto_busca": "philco split inverter e4 compressor / ipm compressor superaquecido ou falta de gás refrigerante.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2012,7 +2012,7 @@
       "E6"
     ],
     "codigo_busca": "E6",
-    "texto_busca": "Philco split inverter e6 falha de comunicação verificar cabo s e se há tensão chegando na unidade externa.",
+    "texto_busca": "philco split inverter e6 falha de comunicação verificar cabo s e se há tensão chegando na unidade externa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2028,7 +2028,7 @@
       "F3"
     ],
     "codigo_busca": "F3",
-    "texto_busca": "Philco split inverter f3 proteção da condensadora motor ventilador externo parou ou condensadora bloqueada de sujeira.",
+    "texto_busca": "philco split inverter f3 proteção da condensadora motor ventilador externo parou ou condensadora bloqueada de sujeira.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2044,13 +2044,13 @@
       "P0"
     ],
     "codigo_busca": "P0",
-    "texto_busca": "Philco split inverter p0 proteção da condensadora motor ventilador externo parou ou condensadora bloqueada de sujeira.",
+    "texto_busca": "philco split inverter p0 proteção da condensadora motor ventilador externo parou ou condensadora bloqueada de sujeira.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Philco",
     "linha": "Inverter",
-    "codigo": "P0 (CORRENTE)",
+    "codigo": "P0 (corrente)",
     "significado": "Proteção de corrente",
     "acao": "Tensão de rede oscilando muito ou compressor travado.",
     "dica": "Sensores geralmente de 15k ou 20k.",
@@ -2060,13 +2060,13 @@
       "P0 (CORRENTE)"
     ],
     "codigo_busca": "P0 (CORRENTE)",
-    "texto_busca": "Philco split inverter p0 (corrente) proteção de corrente tensão de rede oscilando muito ou compressor travado.",
+    "texto_busca": "philco split inverter p0 (corrente) proteção de corrente tensão de rede oscilando muito ou compressor travado.",
     "fonte_base": "guia+revisao"
   },
   {
     "marca": "Samsung",
     "linha": "Inverter",
-    "codigo": "3 LEDS PISCANDO",
+    "codigo": "3 LEDs piscando",
     "significado": "Erro de configuração / EEPROM",
     "acao": "Reinserir o código da máquina no controle para reset.",
     "dica": "A maioria dos sensores da Samsung são de 10k (a 25°C).",
@@ -2076,7 +2076,7 @@
       "3 LEDS PISCANDO"
     ],
     "codigo_busca": "3 LEDS PISCANDO",
-    "texto_busca": "Samsung split inverter 3 leds piscando erro de configuração / eeprom reinserir o código da máquina no controle para reset.",
+    "texto_busca": "samsung split inverter 3 leds piscando erro de configuração / eeprom reinserir o código da máquina no controle para reset.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2092,8 +2092,8 @@
       "E101"
     ],
     "codigo_busca": "E101",
-    "texto_busca": "Samsung split inverter e101 falha de comunicação entre unidade interna e externa verificar alimentação da unidade externa e o cabo de comunicação/sinal entre interna e externa; conferir conexões e emendas.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "samsung split inverter e101 falha de comunicação entre unidade interna e externa verificar alimentação da unidade externa e o cabo de comunicação/sinal entre interna e externa; conferir conexões e emendas.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Samsung",
@@ -2108,8 +2108,8 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Samsung split inverter e1 falha de comunicação entre unidade interna e externa verificar alimentação da unidade externa e o cabo de comunicação/sinal entre interna e externa; conferir conexões e emendas.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "samsung split inverter e1 falha de comunicação entre unidade interna e externa verificar alimentação da unidade externa e o cabo de comunicação/sinal entre interna e externa; conferir conexões e emendas.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Samsung",
@@ -2124,7 +2124,7 @@
       "E121"
     ],
     "codigo_busca": "E121",
-    "texto_busca": "Samsung split inverter e121 erro do sensor ambiente (room th) medir o sensor de ambiente da unidade interna; verificar conector e substituir se estiver fora da faixa.",
+    "texto_busca": "samsung split inverter e121 erro do sensor ambiente (room th) medir o sensor de ambiente da unidade interna; verificar conector e substituir se estiver fora da faixa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2140,8 +2140,8 @@
       "E122"
     ],
     "codigo_busca": "E122",
-    "texto_busca": "Samsung split inverter e122 erro dos sensores internos de tubulação/serpentina verificar sensores da evaporadora/tubo (mid / in pipe-th), conectores e resistência ôhmica.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "samsung split inverter e122 erro dos sensores internos de tubulação/serpentina verificar sensores da evaporadora/tubo (mid / in pipe-th), conectores e resistência ôhmica.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Samsung",
@@ -2156,8 +2156,8 @@
       "E123"
     ],
     "codigo_busca": "E123",
-    "texto_busca": "Samsung split inverter e123 erro dos sensores internos de tubulação/serpentina verificar sensores da evaporadora/tubo (mid / in pipe-th), conectores e resistência ôhmica.",
-    "fonte_base": "guia+revisao+codigo_separado"
+    "texto_busca": "samsung split inverter e123 erro dos sensores internos de tubulação/serpentina verificar sensores da evaporadora/tubo (mid / in pipe-th), conectores e resistência ôhmica.",
+    "fonte_base": "guia+revisao"
   },
   {
     "marca": "Samsung",
@@ -2172,7 +2172,7 @@
       "E154"
     ],
     "codigo_busca": "E154",
-    "texto_busca": "Samsung split inverter e154 erro do ventilador interno verificar motor do ventilador interno, alimentação, chicote e placa.",
+    "texto_busca": "samsung split inverter e154 erro do ventilador interno verificar motor do ventilador interno, alimentação, chicote e placa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2188,7 +2188,7 @@
       "E162"
     ],
     "codigo_busca": "E162",
-    "texto_busca": "Samsung split inverter e162 erro eeprom (unidade interna) desenergizar o equipamento, verificar placa da unidade interna e reprogramação/troca se necessário.",
+    "texto_busca": "samsung split inverter e162 erro eeprom (unidade interna) desenergizar o equipamento, verificar placa da unidade interna e reprogramação/troca se necessário.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2204,7 +2204,7 @@
       "E461"
     ],
     "codigo_busca": "E461",
-    "texto_busca": "Samsung split inverter e461 erro de partida do compressor verificar alimentação, compressor, chicote e placa/inversor da unidade externa.",
+    "texto_busca": "samsung split inverter e461 erro de partida do compressor verificar alimentação, compressor, chicote e placa/inversor da unidade externa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2220,7 +2220,7 @@
       "E464"
     ],
     "codigo_busca": "E464",
-    "texto_busca": "Samsung split inverter e464 sobrecorrente do ipm (módulo inversor) verificar compressor travado/curto, ipm, dissipação térmica e placa da unidade externa.",
+    "texto_busca": "samsung split inverter e464 sobrecorrente do ipm (módulo inversor) verificar compressor travado/curto, ipm, dissipação térmica e placa da unidade externa.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -2235,7 +2235,7 @@
       "01"
     ],
     "codigo_busca": "01",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 01 falha de comunicação entre evaporadora e condensadora verificar cabos a/b, canais comm1 e separação entre energia e comunicação.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 01 falha de comunicação entre evaporadora e condensadora verificar cabos a/b, canais comm1 e separação entre energia e comunicação.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2250,7 +2250,7 @@
       "02"
     ],
     "codigo_busca": "02",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 02 falha de comunicação entre placa principal e driver verificar cabo entre placa principal e driver, conexão e integridade.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 02 falha de comunicação entre placa principal e driver verificar cabo entre placa principal e driver, conexão e integridade.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2265,7 +2265,7 @@
       "03"
     ],
     "codigo_busca": "03",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 03 sensor externo verificar sensor externo, chicote e medir resistência.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 03 sensor externo verificar sensor externo, chicote e medir resistência.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2280,7 +2280,7 @@
       "04"
     ],
     "codigo_busca": "04",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 04 sensor meio condensador verificar sensor do meio condensador, chicote e resistência.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 04 sensor meio condensador verificar sensor do meio condensador, chicote e resistência.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2295,7 +2295,7 @@
       "05"
     ],
     "codigo_busca": "05",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 05 sensor sucção verificar sensor de sucção, chicote e resistência.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 05 sensor sucção verificar sensor de sucção, chicote e resistência.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2310,7 +2310,7 @@
       "06"
     ],
     "codigo_busca": "06",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 06 sensor descarga verificar sensor de descarga, chicote e resistência.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 06 sensor descarga verificar sensor de descarga, chicote e resistência.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2325,7 +2325,7 @@
       "07"
     ],
     "codigo_busca": "07",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 07 temperatura meio condensador muito alta verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 07 temperatura meio condensador muito alta verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2340,7 +2340,7 @@
       "08"
     ],
     "codigo_busca": "08",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 08 temperatura de sucção muito alta verificar carga de refrigerante e válvula de expansão eletrônica (exv).",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 08 temperatura de sucção muito alta verificar carga de refrigerante e válvula de expansão eletrônica (exv).",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2355,7 +2355,7 @@
       "09"
     ],
     "codigo_busca": "09",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 09 temperatura de sucção muito baixa verificar excesso de refrigerante, exv e motor da evaporadora.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 09 temperatura de sucção muito baixa verificar excesso de refrigerante, exv e motor da evaporadora.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2370,7 +2370,7 @@
       "10"
     ],
     "codigo_busca": "10",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 10 proteção de descarga verificar carga de refrigerante, exv e motor da condensadora.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 10 proteção de descarga verificar carga de refrigerante, exv e motor da condensadora.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2385,7 +2385,7 @@
       "11"
     ],
     "codigo_busca": "11",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 11 erro de exv verificar cabo da exv, solenóide, compatibilidade da válvula e travamento.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 11 erro de exv verificar cabo da exv, solenóide, compatibilidade da válvula e travamento.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2400,7 +2400,7 @@
       "12"
     ],
     "codigo_busca": "12",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 12 pressão baixa verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 12 pressão baixa verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2415,7 +2415,7 @@
       "13"
     ],
     "codigo_busca": "13",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 13 pressão alta verificar pressão do sistema e termostato/sensor no topo do compressor.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 13 pressão alta verificar pressão do sistema e termostato/sensor no topo do compressor.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2430,7 +2430,7 @@
       "14"
     ],
     "codigo_busca": "14",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 14 temperatura do compressor alta verificar sensor/termostato do compressor e condições de troca térmica.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 14 temperatura do compressor alta verificar sensor/termostato do compressor e condições de troca térmica.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2445,7 +2445,7 @@
       "16"
     ],
     "codigo_busca": "16",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 16 frequência reduzida do compressor verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 16 frequência reduzida do compressor verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2460,7 +2460,7 @@
       "17"
     ],
     "codigo_busca": "17",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 17 falha de aquecimento verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e exv.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 17 falha de aquecimento verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e exv.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2475,7 +2475,7 @@
       "30"
     ],
     "codigo_busca": "30",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 30 sobrecorrente de hardware em reincidência, verificar driver e placa conforme manual.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 30 sobrecorrente de hardware em reincidência, verificar driver e placa conforme manual.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2490,7 +2490,7 @@
       "31"
     ],
     "codigo_busca": "31",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 31 falha no chaveamento verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 31 falha no chaveamento verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2505,7 +2505,7 @@
       "32"
     ],
     "codigo_busca": "32",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 32 sobrecorrente software verificar tensão, motor da condensadora e conexões do driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 32 sobrecorrente software verificar tensão, motor da condensadora e conexões do driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2520,7 +2520,7 @@
       "33"
     ],
     "codigo_busca": "33",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 33 erro de amostragem de corrente verificar conexões elétricas do driver e condição do sistema.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 33 erro de amostragem de corrente verificar conexões elétricas do driver e condição do sistema.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2535,7 +2535,7 @@
       "34"
     ],
     "codigo_busca": "34",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 34 superaquecimento do dissipador verificar ventilação, driver e condições de operação.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 34 superaquecimento do dissipador verificar ventilação, driver e condições de operação.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2550,7 +2550,7 @@
       "35"
     ],
     "codigo_busca": "35",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 35 sobre tensão no barramento verificar tensão de alimentação e driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 35 sobre tensão no barramento verificar tensão de alimentação e driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2565,7 +2565,7 @@
       "36"
     ],
     "codigo_busca": "36",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 36 sub tensão no barramento verificar tensão de alimentação e driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 36 sub tensão no barramento verificar tensão de alimentação e driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2580,7 +2580,7 @@
       "37"
     ],
     "codigo_busca": "37",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 37 sobrecorrente na entrada do driver em reincidência, avaliar placa driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 37 sobrecorrente na entrada do driver em reincidência, avaliar placa driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2595,7 +2595,7 @@
       "38"
     ],
     "codigo_busca": "38",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 38 erro pfc em reincidência, avaliar placa driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 38 erro pfc em reincidência, avaliar placa driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2610,7 +2610,7 @@
       "39"
     ],
     "codigo_busca": "39",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 39 erro no sensor do dissipador em reincidência, avaliar placa driver e sensor.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 39 erro no sensor do dissipador em reincidência, avaliar placa driver e sensor.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2625,7 +2625,7 @@
       "40"
     ],
     "codigo_busca": "40",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 40 eeprom e outros em reincidência, avaliar placa driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 40 eeprom e outros em reincidência, avaliar placa driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2640,7 +2640,7 @@
       "41"
     ],
     "codigo_busca": "41",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 41 falha de comunicação interno ao driver verificar comunicação interna; em reincidência avaliar driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 41 falha de comunicação interno ao driver verificar comunicação interna; em reincidência avaliar driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2655,7 +2655,7 @@
       "70"
     ],
     "codigo_busca": "70",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 70 sobrecorrente de hardware no bldc verificar tensão de alimentação, motor bldc, conexões do driver e substituir componente conforme diagnóstico.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 70 sobrecorrente de hardware no bldc verificar tensão de alimentação, motor bldc, conexões do driver e substituir componente conforme diagnóstico.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2670,7 +2670,7 @@
       "71"
     ],
     "codigo_busca": "71",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 71 falha de acionamento do bldc verificar motor bldc, cabos e driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 71 falha de acionamento do bldc verificar motor bldc, cabos e driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2685,7 +2685,7 @@
       "72"
     ],
     "codigo_busca": "72",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 72 sobrecorrente de software no bldc verificar motor bldc, alimentação e driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 72 sobrecorrente de software no bldc verificar motor bldc, alimentação e driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2700,7 +2700,7 @@
       "73"
     ],
     "codigo_busca": "73",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 73 erro de amostragem de corrente do bldc verificar leitura/cabos do bldc e driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 73 erro de amostragem de corrente do bldc verificar leitura/cabos do bldc e driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2715,7 +2715,7 @@
       "74"
     ],
     "codigo_busca": "74",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 74 sobreaquecimento no ipm do bldc verificar condições térmicas e driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 74 sobreaquecimento no ipm do bldc verificar condições térmicas e driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2730,7 +2730,7 @@
       "75"
     ],
     "codigo_busca": "75",
-    "texto_busca": "Carrier piso teto teto xpower inverter connect r32 / 42zqve 75 bldc não configurado corretamente verificar configuração e compatibilidade do motor bldc/driver.",
+    "texto_busca": "carrier piso teto teto xpower inverter connect r32 / 42zqve 75 bldc não configurado corretamente verificar configuração e compatibilidade do motor bldc/driver.",
     "fonte_base": "carrier-manual-pisoteto"
   },
   {
@@ -2745,7 +2745,7 @@
       "01"
     ],
     "codigo_busca": "01",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 01 falha de comunicação entre evaporadora e condensadora verificar cabos a/b, canais comm1 e separação entre energia e comunicação.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 01 falha de comunicação entre evaporadora e condensadora verificar cabos a/b, canais comm1 e separação entre energia e comunicação.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2760,7 +2760,7 @@
       "02"
     ],
     "codigo_busca": "02",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 02 falha de comunicação entre placa principal e driver verificar cabo entre placa principal e driver, conexão e integridade.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 02 falha de comunicação entre placa principal e driver verificar cabo entre placa principal e driver, conexão e integridade.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2775,7 +2775,7 @@
       "03"
     ],
     "codigo_busca": "03",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 03 sensor externo verificar sensor externo, chicote e medir resistência.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 03 sensor externo verificar sensor externo, chicote e medir resistência.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2790,7 +2790,7 @@
       "04"
     ],
     "codigo_busca": "04",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 04 sensor meio condensador verificar sensor do meio condensador, chicote e resistência.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 04 sensor meio condensador verificar sensor do meio condensador, chicote e resistência.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2805,7 +2805,7 @@
       "05"
     ],
     "codigo_busca": "05",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 05 sensor sucção verificar sensor de sucção, chicote e resistência.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 05 sensor sucção verificar sensor de sucção, chicote e resistência.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2820,7 +2820,7 @@
       "06"
     ],
     "codigo_busca": "06",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 06 sensor descarga verificar sensor de descarga, chicote e resistência.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 06 sensor descarga verificar sensor de descarga, chicote e resistência.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2835,7 +2835,7 @@
       "07"
     ],
     "codigo_busca": "07",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 07 temperatura meio condensador muito alta verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 07 temperatura meio condensador muito alta verificar hélice/motor da condensadora, limpeza/obstrução do condensador e espaçamento de instalação.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2850,7 +2850,7 @@
       "08"
     ],
     "codigo_busca": "08",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 08 temperatura de sucção muito alta verificar carga de refrigerante e válvula de expansão eletrônica (exv).",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 08 temperatura de sucção muito alta verificar carga de refrigerante e válvula de expansão eletrônica (exv).",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2865,7 +2865,7 @@
       "09"
     ],
     "codigo_busca": "09",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 09 temperatura de sucção muito baixa verificar excesso de refrigerante, exv e motor da evaporadora.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 09 temperatura de sucção muito baixa verificar excesso de refrigerante, exv e motor da evaporadora.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2880,7 +2880,7 @@
       "10"
     ],
     "codigo_busca": "10",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 10 proteção de descarga verificar carga de refrigerante, exv e motor da condensadora.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 10 proteção de descarga verificar carga de refrigerante, exv e motor da condensadora.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2895,7 +2895,7 @@
       "11"
     ],
     "codigo_busca": "11",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 11 erro de exv verificar cabo da exv, solenóide, compatibilidade da válvula e travamento.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 11 erro de exv verificar cabo da exv, solenóide, compatibilidade da válvula e travamento.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2910,7 +2910,7 @@
       "12"
     ],
     "codigo_busca": "12",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 12 pressão baixa verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 12 pressão baixa verificar pressão do sistema, vazamento e conexão do motor/placa conforme manual.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2925,7 +2925,7 @@
       "13"
     ],
     "codigo_busca": "13",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 13 pressão alta verificar pressão do sistema e termostato/sensor no topo do compressor.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 13 pressão alta verificar pressão do sistema e termostato/sensor no topo do compressor.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2940,7 +2940,7 @@
       "14"
     ],
     "codigo_busca": "14",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 14 temperatura do compressor alta verificar sensor/termostato do compressor e condições de troca térmica.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 14 temperatura do compressor alta verificar sensor/termostato do compressor e condições de troca térmica.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2955,7 +2955,7 @@
       "16"
     ],
     "codigo_busca": "16",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 16 frequência reduzida do compressor verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 16 frequência reduzida do compressor verificar tensão, corrente, pressão, motor da condensadora e cabos do driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2970,7 +2970,7 @@
       "17"
     ],
     "codigo_busca": "17",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 17 falha de aquecimento verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e exv.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 17 falha de aquecimento verificar sensor do meio do condensador, carga de refrigerante, motor da condensadora e exv.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -2985,7 +2985,7 @@
       "30"
     ],
     "codigo_busca": "30",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 30 sobrecorrente de hardware em reincidência, verificar driver e placa conforme manual.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 30 sobrecorrente de hardware em reincidência, verificar driver e placa conforme manual.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3000,7 +3000,7 @@
       "31"
     ],
     "codigo_busca": "31",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 31 falha no chaveamento verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 31 falha no chaveamento verificar tensão de alimentação, motor da condensadora, conexões do driver e possível vazamento.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3015,7 +3015,7 @@
       "32"
     ],
     "codigo_busca": "32",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 32 sobrecorrente software verificar tensão, motor da condensadora e conexões do driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 32 sobrecorrente software verificar tensão, motor da condensadora e conexões do driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3030,7 +3030,7 @@
       "33"
     ],
     "codigo_busca": "33",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 33 erro de amostragem de corrente verificar conexões elétricas do driver e condição do sistema.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 33 erro de amostragem de corrente verificar conexões elétricas do driver e condição do sistema.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3045,7 +3045,7 @@
       "34"
     ],
     "codigo_busca": "34",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 34 superaquecimento do dissipador verificar ventilação, driver e condições de operação.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 34 superaquecimento do dissipador verificar ventilação, driver e condições de operação.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3060,7 +3060,7 @@
       "35"
     ],
     "codigo_busca": "35",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 35 sobre tensão no barramento verificar tensão de alimentação e driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 35 sobre tensão no barramento verificar tensão de alimentação e driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3075,7 +3075,7 @@
       "36"
     ],
     "codigo_busca": "36",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 36 sub tensão no barramento verificar tensão de alimentação e driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 36 sub tensão no barramento verificar tensão de alimentação e driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3090,7 +3090,7 @@
       "37"
     ],
     "codigo_busca": "37",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 37 sobrecorrente na entrada do driver em reincidência, avaliar placa driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 37 sobrecorrente na entrada do driver em reincidência, avaliar placa driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3105,7 +3105,7 @@
       "38"
     ],
     "codigo_busca": "38",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 38 erro pfc em reincidência, avaliar placa driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 38 erro pfc em reincidência, avaliar placa driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3120,7 +3120,7 @@
       "39"
     ],
     "codigo_busca": "39",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 39 erro no sensor do dissipador em reincidência, avaliar placa driver e sensor.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 39 erro no sensor do dissipador em reincidência, avaliar placa driver e sensor.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3135,7 +3135,7 @@
       "40"
     ],
     "codigo_busca": "40",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 40 eeprom e outros em reincidência, avaliar placa driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 40 eeprom e outros em reincidência, avaliar placa driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3150,7 +3150,7 @@
       "41"
     ],
     "codigo_busca": "41",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 41 falha de comunicação interno ao driver verificar comunicação interna; em reincidência avaliar driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 41 falha de comunicação interno ao driver verificar comunicação interna; em reincidência avaliar driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3165,7 +3165,7 @@
       "70"
     ],
     "codigo_busca": "70",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 70 sobrecorrente de hardware no bldc verificar tensão de alimentação, motor bldc, conexões do driver e substituir componente conforme diagnóstico.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 70 sobrecorrente de hardware no bldc verificar tensão de alimentação, motor bldc, conexões do driver e substituir componente conforme diagnóstico.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3180,7 +3180,7 @@
       "71"
     ],
     "codigo_busca": "71",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 71 falha de acionamento do bldc verificar motor bldc, cabos e driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 71 falha de acionamento do bldc verificar motor bldc, cabos e driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3195,7 +3195,7 @@
       "72"
     ],
     "codigo_busca": "72",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 72 sobrecorrente de software no bldc verificar motor bldc, alimentação e driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 72 sobrecorrente de software no bldc verificar motor bldc, alimentação e driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3210,7 +3210,7 @@
       "73"
     ],
     "codigo_busca": "73",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 73 erro de amostragem de corrente do bldc verificar leitura/cabos do bldc e driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 73 erro de amostragem de corrente do bldc verificar leitura/cabos do bldc e driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3225,7 +3225,7 @@
       "74"
     ],
     "codigo_busca": "74",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 74 sobreaquecimento no ipm do bldc verificar condições térmicas e driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 74 sobreaquecimento no ipm do bldc verificar condições térmicas e driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3240,7 +3240,7 @@
       "75"
     ],
     "codigo_busca": "75",
-    "texto_busca": "Midea piso teto split piso teto inverter / plataforma midea 75 bldc não configurado corretamente verificar configuração e compatibilidade do motor bldc/driver.",
+    "texto_busca": "midea piso teto split piso teto inverter / plataforma midea 75 bldc não configurado corretamente verificar configuração e compatibilidade do motor bldc/driver.",
     "fonte_base": "midea-manual-pisoteto"
   },
   {
@@ -3255,7 +3255,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a e1 falha no cabo do controle remoto e unidade interna verificar cabo do controle remoto/interligação com a unidade interna.",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e1 falha no cabo do controle remoto e unidade interna verificar cabo do controle remoto/interligação com a unidade interna.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
@@ -3270,7 +3270,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a e2 falha no sensor de temperatura ambiente (t1) verificar sensor ambiente t1, chicote e conexão.",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e2 falha no sensor de temperatura ambiente (t1) verificar sensor ambiente t1, chicote e conexão.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
@@ -3285,7 +3285,7 @@
       "E3"
     ],
     "codigo_busca": "E3",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a e3 falha no sensor de temperatura do evaporador (t2) verificar sensor do evaporador t2, chicote e conexão.",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e3 falha no sensor de temperatura do evaporador (t2) verificar sensor do evaporador t2, chicote e conexão.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
@@ -3300,7 +3300,7 @@
       "E5"
     ],
     "codigo_busca": "E5",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a e5 falha no sensor de temperatura do condensador (t3) verificar sensor do condensador t3, chicote e conexão.",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a e5 falha no sensor de temperatura do condensador (t3) verificar sensor do condensador t3, chicote e conexão.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
@@ -3315,7 +3315,7 @@
       "F2"
     ],
     "codigo_busca": "F2",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a f2 falha na unidade externa verificar unidade externa, comunicação e componentes associados.",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a f2 falha na unidade externa verificar unidade externa, comunicação e componentes associados.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
@@ -3330,7 +3330,7 @@
       "F5"
     ],
     "codigo_busca": "F5",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a f5 falha na bóia de nível verificar bóia de nível e chicote; aplicável a cassete.",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a f5 falha na bóia de nível verificar bóia de nível e chicote; aplicável a cassete.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
@@ -3345,127 +3345,247 @@
       "P6"
     ],
     "codigo_busca": "P6",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a p6 falha no chip eeprom verificar memória eeprom/placa eletrônica.",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a p6 falha no chip eeprom verificar memória eeprom/placa eletrônica.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-4x/6s",
+    "codigo": "LED-4x",
     "significado": "Acionamento do pressostato de baixa",
     "acao": "Verificar pressostato de baixa e condições do circuito frigorígeno.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-4x/6s"
+      "LED-4x"
     ],
-    "codigo_busca": "LED-4x/6s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-4x/6s acionamento do pressostato de baixa verificar pressostato de baixa e condições do circuito frigorígeno.",
+    "codigo_busca": "LED-4x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-4x acionamento do pressostato de baixa verificar pressostato de baixa e condições do circuito frigorígeno.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-3x/5s",
+    "codigo": "6s",
+    "significado": "Acionamento do pressostato de baixa",
+    "acao": "Verificar pressostato de baixa e condições do circuito frigorígeno.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "6s"
+    ],
+    "codigo_busca": "6s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 6s acionamento do pressostato de baixa verificar pressostato de baixa e condições do circuito frigorígeno.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-3x",
     "significado": "Acionamento do pressostato de alta",
     "acao": "Verificar pressostato de alta, ventilação e condensação.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-3x/5s"
+      "LED-3x"
     ],
-    "codigo_busca": "LED-3x/5s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-3x/5s acionamento do pressostato de alta verificar pressostato de alta, ventilação e condensação.",
+    "codigo_busca": "LED-3x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-3x acionamento do pressostato de alta verificar pressostato de alta, ventilação e condensação.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-9x/11s",
+    "codigo": "5s",
+    "significado": "Acionamento do pressostato de alta",
+    "acao": "Verificar pressostato de alta, ventilação e condensação.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "5s"
+    ],
+    "codigo_busca": "5s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 5s acionamento do pressostato de alta verificar pressostato de alta, ventilação e condensação.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-9x",
     "significado": "Fase invertida ou desbalanceada",
     "acao": "Verificar sequência/qualidade das fases de alimentação.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-9x/11s"
+      "LED-9x"
     ],
-    "codigo_busca": "LED-9x/11s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-9x/11s fase invertida ou desbalanceada verificar sequência/qualidade das fases de alimentação.",
+    "codigo_busca": "LED-9x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-9x fase invertida ou desbalanceada verificar sequência/qualidade das fases de alimentação.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-7x/9s",
+    "codigo": "11s",
+    "significado": "Fase invertida ou desbalanceada",
+    "acao": "Verificar sequência/qualidade das fases de alimentação.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "11s"
+    ],
+    "codigo_busca": "11s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 11s fase invertida ou desbalanceada verificar sequência/qualidade das fases de alimentação.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-7x",
     "significado": "Proteção de sobrecorrente",
     "acao": "Verificar corrente, compressor e componentes de potência.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-7x/9s"
+      "LED-7x"
     ],
-    "codigo_busca": "LED-7x/9s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-7x/9s proteção de sobrecorrente verificar corrente, compressor e componentes de potência.",
+    "codigo_busca": "LED-7x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-7x proteção de sobrecorrente verificar corrente, compressor e componentes de potência.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-5x/7s",
+    "codigo": "9s",
+    "significado": "Proteção de sobrecorrente",
+    "acao": "Verificar corrente, compressor e componentes de potência.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "9s"
+    ],
+    "codigo_busca": "9s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 9s proteção de sobrecorrente verificar corrente, compressor e componentes de potência.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-5x",
     "significado": "Falha no sensor de temperatura do condensador",
     "acao": "Verificar sensor do condensador, chicote e placa.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-5x/7s"
+      "LED-5x"
     ],
-    "codigo_busca": "LED-5x/7s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-5x/7s falha no sensor de temperatura do condensador verificar sensor do condensador, chicote e placa.",
+    "codigo_busca": "LED-5x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-5x falha no sensor de temperatura do condensador verificar sensor do condensador, chicote e placa.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-2x/4s",
+    "codigo": "7s",
+    "significado": "Falha no sensor de temperatura do condensador",
+    "acao": "Verificar sensor do condensador, chicote e placa.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "7s"
+    ],
+    "codigo_busca": "7s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 7s falha no sensor de temperatura do condensador verificar sensor do condensador, chicote e placa.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-2x",
     "significado": "Proteção de alta temperatura do condensador",
     "acao": "Verificar troca térmica, limpeza e ventilação.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-2x/4s"
+      "LED-2x"
     ],
-    "codigo_busca": "LED-2x/4s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-2x/4s proteção de alta temperatura do condensador verificar troca térmica, limpeza e ventilação.",
+    "codigo_busca": "LED-2x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-2x proteção de alta temperatura do condensador verificar troca térmica, limpeza e ventilação.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-1x/3s",
+    "codigo": "4s",
+    "significado": "Proteção de alta temperatura do condensador",
+    "acao": "Verificar troca térmica, limpeza e ventilação.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "4s"
+    ],
+    "codigo_busca": "4s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 4s proteção de alta temperatura do condensador verificar troca térmica, limpeza e ventilação.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-1x",
     "significado": "Proteção Defrost",
     "acao": "Verificar operação de degelo e sensores associados.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-1x/3s"
+      "LED-1x"
     ],
-    "codigo_busca": "LED-1x/3s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-1x/3s proteção defrost verificar operação de degelo e sensores associados.",
+    "codigo_busca": "LED-1x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-1x proteção defrost verificar operação de degelo e sensores associados.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
     "marca": "Komeco",
     "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
-    "codigo": "LED-8x/10s",
+    "codigo": "3s",
+    "significado": "Proteção Defrost",
+    "acao": "Verificar operação de degelo e sensores associados.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "3s"
+    ],
+    "codigo_busca": "3s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 3s proteção defrost verificar operação de degelo e sensores associados.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "LED-8x",
     "significado": "Proteção de desligamento",
     "acao": "Verificar lógica de proteção/desligamento da unidade externa.",
     "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
     "linha_tipo": "Piso teto",
     "codigo_lista": [
-      "LED-8x/10s"
+      "LED-8x"
     ],
-    "codigo_busca": "LED-8x/10s",
-    "texto_busca": "Komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-8x/10s proteção de desligamento verificar lógica de proteção/desligamento da unidade externa.",
+    "codigo_busca": "LED-8x",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-8x proteção de desligamento verificar lógica de proteção/desligamento da unidade externa.",
+    "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "Komeco",
+    "linha": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "codigo": "10s",
+    "significado": "Proteção de desligamento",
+    "acao": "Verificar lógica de proteção/desligamento da unidade externa.",
+    "linha_modelo": "Piso teto G4 / KOP 1LX 2LX R410A",
+    "linha_tipo": "Piso teto",
+    "codigo_lista": [
+      "10s"
+    ],
+    "codigo_busca": "10s",
+    "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a 10s proteção de desligamento verificar lógica de proteção/desligamento da unidade externa.",
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
@@ -3481,7 +3601,7 @@
       "E0"
     ],
     "codigo_busca": "E0",
-    "texto_busca": "TCL split tac / elite series e0 falha de comunicação verificar cabos s. módulo externo pode estar desligado (fusível).",
+    "texto_busca": "tcl split tac elite series e0 falha de comunicação verificar cabos s. módulo externo pode estar desligado (fusível).",
     "fonte_base": "guia+revisao"
   },
   {
@@ -3497,7 +3617,7 @@
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "TCL split tac / elite series e1 sensor de ambiente verifique a conexão do sensor, meça sua resistência (geralmente 5kω a 15kω)",
+    "texto_busca": "tcl split tac elite series e1 sensor de ambiente sensor de temperatura do quarto com defeito.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -3513,7 +3633,7 @@
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "TCL split tac / elite series e2 sensor de tubo (interna) sensor da serpentina evaporadora.",
+    "texto_busca": "tcl split tac elite series e2 sensor de tubo (interna) sensor da serpentina evaporadora.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -3529,7 +3649,7 @@
       "E6"
     ],
     "codigo_busca": "E6",
-    "texto_busca": "TCL split tac / elite series e6 motor ventilador (interna) turbina pesada ou motor sem força (capacitor ou placa).",
+    "texto_busca": "tcl split tac elite series e6 motor ventilador (interna) turbina pesada ou motor sem força (capacitor ou placa).",
     "fonte_base": "guia+revisao"
   },
   {
@@ -3545,7 +3665,7 @@
       "P0"
     ],
     "codigo_busca": "P0",
-    "texto_busca": "TCL split tac / elite series p0 proteção ipm (placa) pasta térmica seca no dissipador ou placa externa com defeito.",
+    "texto_busca": "tcl split tac elite series p0 proteção ipm (placa) pasta térmica seca no dissipador ou placa externa com defeito.",
     "fonte_base": "guia+revisao"
   }
 ]
