@@ -80,6 +80,38 @@
     "fonte_base": "guia+revisao"
   },
   {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "E1",
+    "significado": "Falha de comunicação",
+    "acao": "Verificar cabo de comunicação entre unidades.",
+    "dica": "Plataforma semelhante à Gree.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "aux split inverter e1 falha de comunicação verificar cabo entre evaporadora e condensadora.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "F0",
+    "significado": "Baixa carga de refrigerante",
+    "acao": "Verificar vazamento e carga de gás.",
+    "dica": "Erro comum após instalação.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "F0"
+    ],
+    "codigo_busca": "F0",
+    "texto_busca": "aux split inverter f0 baixa carga refrigerante verificar vazamento e carga.",
+    "fonte_base": "guia+revisao"
+  },
+  {
     "marca": "Britânia",
     "linha": "Inverter",
     "codigo": "E1",
@@ -886,6 +918,54 @@
     "fonte_base": "guia+revisao"
   },
   {
+    "marca": "EOS",
+    "linha": "Inverter",
+    "codigo": "E1",
+    "significado": "Falha de comunicação",
+    "acao": "Verificar cabo entre unidade interna e externa.",
+    "dica": "EOS usa plataforma Midea.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "eos split inverter e1 falha de comunicação verificar cabo entre unidades.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "EOS",
+    "linha": "Inverter",
+    "codigo": "E2",
+    "significado": "Sensor de serpentina",
+    "acao": "Verificar sensor da evaporadora.",
+    "dica": "Sensores geralmente 10k.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E2"
+    ],
+    "codigo_busca": "E2",
+    "texto_busca": "eos split inverter e2 sensor serpentina evaporadora verificar sensor.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "Fontaine",
+    "linha": "Convencional",
+    "codigo": "E1",
+    "significado": "Sensor de ambiente",
+    "acao": "Sensor aberto ou em curto.",
+    "dica": "Equipamentos simples com sensores 10k.",
+    "linha_modelo": "Convencional",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "fontaine split convencional e1 sensor de ambiente aberto ou em curto.",
+    "fonte_base": "guia+revisao"
+  },
+  {
     "marca": "Fujitsu",
     "linha": "Inverter",
     "codigo": "05 (Op) / 07 (Timer)",
@@ -1065,6 +1145,22 @@
     ],
     "codigo_busca": "U1",
     "texto_busca": "gree split eco garden / g-top u1 anormalidade de corrente/fase do compressor verificar conexões do compressor, alimentação e placa inversora.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "Haier",
+    "linha": "Inverter",
+    "codigo": "E1",
+    "significado": "Falha de comunicação",
+    "acao": "Verificar cabo de interligação entre unidades.",
+    "dica": "Plataforma própria Haier.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "haier split inverter e1 falha de comunicação verificar interligação entre unidades.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -1385,6 +1481,22 @@
     ],
     "codigo_busca": "P0",
     "texto_busca": "komeco split linhas inverter p0 código dependente da linha; confirmar no manual do modelo conferir o manual específico do equipamento.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "LG",
+    "linha": "Dual Inverter / Libero",
+    "codigo": "CH34",
+    "significado": "Baixa pressão / falta de gás",
+    "acao": "Verificar vazamento e carga de refrigerante.",
+    "dica": "Erro comum após instalação.",
+    "linha_modelo": "Dual Inverter / Libero",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "CH34"
+    ],
+    "codigo_busca": "CH34",
+    "texto_busca": "lg split dual inverter ch34 baixa pressão falta de gás verificar vazamento e carga.",
     "fonte_base": "guia+revisao"
   },
   {
@@ -3100,5 +3212,101 @@
     "codigo_busca": "LED-8X/10S",
     "texto_busca": "komeco piso teto piso teto g4 / kop 1lx 2lx r410a led-8x/10s proteção de desligamento verificar lógica de proteção/desligamento da unidade externa.",
     "fonte_base": "komeco-manual-pisoteto"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E0",
+    "significado": "Falha de comunicação",
+    "acao": "Verificar cabos S. Módulo externo pode estar desligado (fusível).",
+    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E0"
+    ],
+    "codigo_busca": "E0",
+    "texto_busca": "tcl split tac elite series e0 falha de comunicação verificar cabos s. módulo externo pode estar desligado (fusível).",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E1",
+    "significado": "Sensor de ambiente",
+    "acao": "Sensor de temperatura do quarto com defeito.",
+    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "tcl split tac elite series e1 sensor de ambiente sensor de temperatura do quarto com defeito.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E2",
+    "significado": "Sensor de tubo (interna)",
+    "acao": "Sensor da serpentina evaporadora.",
+    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E2"
+    ],
+    "codigo_busca": "E2",
+    "texto_busca": "tcl split tac elite series e2 sensor de tubo (interna) sensor da serpentina evaporadora.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E6",
+    "significado": "Motor ventilador (interna)",
+    "acao": "Turbina pesada ou motor sem força (capacitor ou placa).",
+    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E6"
+    ],
+    "codigo_busca": "E6",
+    "texto_busca": "tcl split tac elite series e6 motor ventilador (interna) turbina pesada ou motor sem força (capacitor ou placa).",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P0",
+    "significado": "Proteção IPM (placa)",
+    "acao": "Pasta térmica seca no dissipador ou placa externa com defeito.",
+    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P0"
+    ],
+    "codigo_busca": "P0",
+    "texto_busca": "tcl split tac elite series p0 proteção ipm (placa) pasta térmica seca no dissipador ou placa externa com defeito.",
+    "fonte_base": "guia+revisao"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E1",
+    "significado": "Erro de tensão",
+    "acao": "Pasta térmica seca no dissipador ou placa externa com defeito.",
+    "dica": "Na página enviada, E1 também aparece associado a erro de tensão; confirmar na placa/modelo.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "tcl split tac elite series e1 erro de tensão pasta térmica seca no dissipador ou placa externa com defeito.",
+    "fonte_base": "guia+revisao"
   }
 ]
