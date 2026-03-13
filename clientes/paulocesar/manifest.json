@@ -1,0 +1,25 @@
+{
+  "name": "Facilita Refrigerista - Paulo Cesar",
+  "short_name": "Facilita",
+  "description": "App do cliente Paulo Cesar",
+  "start_url": "/APPclimatizacao/clientes/paulocesar/android.html",
+  "scope": "/APPclimatizacao/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/APPclimatizacao/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/APPclimatizacao/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
