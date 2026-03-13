@@ -26,7 +26,6 @@ height:100vh;
 }
 
 .card{
-
 background:white;
 padding:40px;
 border-radius:18px;
@@ -46,7 +45,6 @@ margin:10px 0 25px;
 }
 
 button{
-
 border:none;
 background:#1f6feb;
 color:white;
@@ -97,11 +95,11 @@ location.href="/APPclimatizacao/menu/index-android.html?cliente=paulocesar"
 
 let deferredPrompt;
 
-window.addEventListener("beforeinstallprompt", (e)=>{
+window.addEventListener("beforeinstallprompt",(e)=>{
 
 e.preventDefault();
 
-deferredPrompt = e;
+deferredPrompt=e;
 
 document.getElementById("btnInstalar").style.display="block";
 
@@ -115,7 +113,7 @@ deferredPrompt.prompt();
 
 await deferredPrompt.userChoice;
 
-deferredPrompt = null;
+deferredPrompt=null;
 
 this.style.display="none";
 
