@@ -85,8 +85,13 @@
 <script>
 (function(){
   const qs = new URLSearchParams(location.search);
-  const cliente = qs.get('cliente') || qs.get('c') || 'robsonextecoetter';
+  const cliente = qs.get('cliente') || qs.get('c');
   const destino = (qs.get('destino') || 'android').toLowerCase();
+  if (!cliente) {
+  document.body.innerHTML =
+    "<h2 style='font-family:sans-serif;text-align:center;margin-top:40px'>Cliente não identificado</h2>";
+  throw new Error("Cliente não informado");
+}
 
   const nomeEl = document.getElementById('nomeTecnico');
   const logoEl = document.getElementById('logo');
