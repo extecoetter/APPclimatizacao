@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Facilita Refrigerista</title>
 
-  <link rel="manifest" href="/APPclimatizacao/manifest.json">
   <meta name="theme-color" content="#000000">
 
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,6 +12,24 @@
   <meta name="apple-mobile-web-app-title" content="Facilita Refrigerista">
   <link rel="apple-touch-icon" href="/APPclimatizacao/icons/icon-180.png">
   <link rel="icon" type="image/png" href="/APPclimatizacao/icons/icon-180.png">
+
+  <script>
+  (function(){
+    const qs = new URLSearchParams(location.search);
+    const cliente =
+      qs.get('cliente') ||
+      qs.get('c') ||
+      localStorage.getItem('cliente_atual') ||
+      sessionStorage.getItem('cliente_atual');
+
+    if (cliente) {
+      const link = document.createElement('link');
+      link.rel = 'manifest';
+      link.href = '/APPclimatizacao/clientes/' + encodeURIComponent(cliente) + '/manifest-ios.json';
+      document.head.appendChild(link);
+    }
+  })();
+  </script>
 
   <style>
     :root{
