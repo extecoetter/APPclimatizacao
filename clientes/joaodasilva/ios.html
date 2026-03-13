@@ -1,14 +1,82 @@
 <!doctype html>
-<html>
+<html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="0; url=/APPclimatizacao/menu/index-ios.html?cliente=joaodasilva">
-<title>Abrindo app...</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facilita Refrigerista</title>
+
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Facilita Refrigerista">
+
+  <link rel="apple-touch-icon" href="/APPclimatizacao/icons/icon-180.png">
+  <link rel="icon" href="/APPclimatizacao/icons/icon-192.png">
+
+  <style>
+    body{
+      margin:0;
+      font-family:system-ui,Arial;
+      background:#f3f6fb;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+    }
+    .card{
+      background:white;
+      padding:40px;
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,.08);
+      text-align:center;
+      max-width:420px;
+      width:calc(100% - 32px);
+    }
+    h1{margin:0;font-size:26px}
+    p{color:#666;margin:10px 0 18px}
+    .hint{
+      font-size:14px;
+      color:#444;
+      background:#f8fafc;
+      border:1px solid #e5e7eb;
+      border-radius:12px;
+      padding:12px;
+      margin-top:14px;
+      line-height:1.4;
+    }
+    button{
+      border:none;
+      background:#1f6feb;
+      color:white;
+      padding:16px 22px;
+      font-size:16px;
+      border-radius:12px;
+      cursor:pointer;
+      margin-top:10px;
+      width:100%;
+    }
+  </style>
 </head>
 <body>
+  <div class="card">
+    <h1>Facilita Refrigerista</h1>
+    <p>App do técnico<br><b>Joao da Silva</b></p>
+
+    <button id="btnAbrir">Abrir aplicativo</button>
+
+    <div class="hint">
+      No iPhone: abra no <b>Safari</b> e use
+      <b>Compartilhar → Adicionar à Tela de Início</b>.
+    </div>
+  </div>
+
 <script>
-location.replace("/APPclimatizacao/menu/index-ios.html?cliente=joaodasilva");
+  localStorage.setItem("cliente_atual","joaodasilva");
+  sessionStorage.setItem("cliente_atual","joaodasilva");
+
+  document.getElementById("btnAbrir").onclick = function(){
+    location.href = "/APPclimatizacao/menu/index-ios.html?cliente=joaodasilva";
+  };
 </script>
 </body>
 </html>
