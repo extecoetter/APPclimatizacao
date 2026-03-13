@@ -1,14 +1,16 @@
 <!doctype html>
-<html>
+<html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="0; url=/APPclimatizacao/menu/index-android.html?cliente=climaseven">
-<title>Abrindo app...</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abrindo app...</title>
+  <link rel="manifest" href="/APPclimatizacao/android/manifest.json">
 </head>
 <body>
 <script>
-location.replace("/APPclimatizacao/menu/index-android.html?cliente=climaseven");
+  localStorage.setItem("cliente_atual", "climaseven");
+  sessionStorage.setItem("cliente_atual", "climaseven");
+  location.replace("/APPclimatizacao/menu/index-android.html?cliente=climaseven");
 </script>
 </body>
 </html>
