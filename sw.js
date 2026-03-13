@@ -1,4 +1,4 @@
-const CACHE_NAME = "appclimatizacao-v4";
+const CACHE_NAME = "appclimatizacao-v5";
 const APP_BASE = "/APPclimatizacao";
 
 const STATIC_ASSETS = [
