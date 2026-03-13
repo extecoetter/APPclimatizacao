@@ -88,10 +88,7 @@
 
   const qs = new URLSearchParams(location.search);
 
-  const cliente =
-  qs.get('cliente') ||
-  qs.get('c') ||
-  localStorage.getItem('cliente');
+  const cliente = qs.get('cliente') || qs.get('c') || localStorage.getItem('cliente');
 
   if (!cliente) {
   document.body.innerHTML =
