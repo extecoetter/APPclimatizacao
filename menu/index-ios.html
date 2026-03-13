@@ -53,7 +53,7 @@
 
     <div class="card hero">
       <img id="logo" class="logo" alt="Logo do técnico">
-      <div class="pill" id="destinoPill">Carregando...</div>
+      <div class="pill" id="destinoPill">Entrada iPhone / iOS</div>
       <div>
         <div id="nomeTecnico" style="font-size:22px;font-weight:1000">Carregando técnico...</div>
       </div>
@@ -85,18 +85,21 @@
 <script>
 (function(){
   const qs = new URLSearchParams(location.search);
-let cliente = qs.get('cliente') || qs.get('c') || localStorage.getItem('cliente_atual') || sessionStorage.getItem('cliente_atual');
+  let cliente = qs.get('cliente') || qs.get('c') || localStorage.getItem('cliente_atual') || sessionStorage.getItem('cliente_atual');
 
-if (cliente) {
-  localStorage.setItem('cliente_atual', cliente);
-  sessionStorage.setItem('cliente_atual', cliente);
-}
+  if (cliente) {
+    localStorage.setItem('cliente_atual', cliente);
+    sessionStorage.setItem('cliente_atual', cliente);
+  }
+
+  if (!cliente) {
+    document.body.innerHTML =
+      "<h2 style='font-family:sans-serif;text-align:center;margin-top:40px'>Cliente não identificado</h2>";
+    throw new Error("Cliente não informado");
+  }
 
   const nomeEl = document.getElementById('nomeTecnico');
   const logoEl = document.getElementById('logo');
-  const pillEl = document.getElementById('destinoPill');
-
-  pillEl.textContent = destino === 'ios' ? 'Entrada iPhone / iOS' : 'Entrada Android';
 
   function carregarConfigCliente(){
     return new Promise(function(resolve){
@@ -119,16 +122,15 @@ if (cliente) {
   }
 
   document.getElementById('btnOrcamento').addEventListener('click', function(){
-    const alvo = destino === 'ios' ? '../ios/index.html' : '../android/index.html';
-    location.href = alvo + '?cliente=' + encodeURIComponent(cliente);
+    location.href = '../ios/index.html?cliente=' + encodeURIComponent(cliente);
   });
 
   document.getElementById('btnErros').addEventListener('click', function(){
-    location.href = '../erros/index.html?cliente=' + encodeURIComponent(cliente) + '&destino=' + encodeURIComponent(destino);
+    location.href = '../erros/index.html?cliente=' + encodeURIComponent(cliente) + '&destino=ios';
   });
 
   document.getElementById('btnCarga').addEventListener('click', function(){
-    location.href = '../carga/index.html?cliente=' + encodeURIComponent(cliente) + '&destino=' + encodeURIComponent(destino);
+    location.href = '../carga/index.html?cliente=' + encodeURIComponent(cliente) + '&destino=ios';
   });
 
   carregarConfigCliente().then(preencherCliente);
