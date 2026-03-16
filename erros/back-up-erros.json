@@ -82,22 +82,6 @@
   {
     "marca": "AUX",
     "linha": "Inverter",
-    "codigo": "E1",
-    "significado": "Falha de comunicação",
-    "acao": "Verificar cabo de comunicação entre unidades.",
-    "dica": "Plataforma semelhante à Gree.",
-    "linha_modelo": "Inverter",
-    "linha_tipo": "Split",
-    "codigo_lista": [
-      "E1"
-    ],
-    "codigo_busca": "E1",
-    "texto_busca": "aux split inverter e1 falha de comunicação verificar cabo entre evaporadora e condensadora.",
-    "fonte_base": "guia+revisao"
-  },
-  {
-    "marca": "AUX",
-    "linha": "Inverter",
     "codigo": "F0",
     "significado": "Baixa carga de refrigerante",
     "acao": "Verificar vazamento e carga de gás.",
@@ -3589,83 +3573,499 @@
     "fonte_base": "komeco-manual-pisoteto"
   },
   {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "E0",
+    "significado": "Proteção de sobrecorrente da unidade interna",
+    "acao": "Verificar motor/placa da unidade interna e corrente anormal.",
+    "dica": "Base oficial AUX.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E0"
+    ],
+    "codigo_busca": "E0",
+    "texto_busca": "aux split inverter e0 proteção de sobrecorrente da unidade interna verificar motor/placa da unidade interna e corrente anormal.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "E1",
+    "significado": "Sensor de ambiente da unidade interna",
+    "acao": "Verificar sensor de ambiente, placa de display e placa interna.",
+    "dica": "Base oficial AUX.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E1"
+    ],
+    "codigo_busca": "E1",
+    "texto_busca": "aux split inverter e1 sensor de ambiente da unidade interna verificar sensor de ambiente, placa de display e placa interna.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "E2",
+    "significado": "Sensor do condensador da unidade externa",
+    "acao": "Verificar sensor da condensadora/unidade externa e placa.",
+    "dica": "Base oficial AUX.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E2"
+    ],
+    "codigo_busca": "E2",
+    "texto_busca": "aux split inverter e2 sensor do condensador da unidade externa verificar sensor da condensadora/unidade externa e placa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "E3",
+    "significado": "Sensor da serpentina/evaporador da unidade interna",
+    "acao": "Verificar sensor da serpentina interna e placa.",
+    "dica": "Base oficial AUX.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E3"
+    ],
+    "codigo_busca": "E3",
+    "texto_busca": "aux split inverter e3 sensor da serpentina/evaporador da unidade interna verificar sensor da serpentina interna e placa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "E4",
+    "significado": "Erro do motor da unidade interna",
+    "acao": "Verificar motor ventilador interno e alimentação/placa.",
+    "dica": "Base oficial AUX.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E4"
+    ],
+    "codigo_busca": "E4",
+    "texto_busca": "aux split inverter e4 erro do motor da unidade interna verificar motor ventilador interno e alimentação/placa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "AUX",
+    "linha": "Inverter",
+    "codigo": "E5",
+    "significado": "Falha de comunicação entre unidade interna e externa",
+    "acao": "Verificar alimentação, fiação de comunicação e controladoras interna/externa.",
+    "dica": "Base oficial AUX.",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E5"
+    ],
+    "codigo_busca": "E5",
+    "texto_busca": "aux split inverter e5 falha de comunicação entre unidade interna e externa verificar alimentação, fiação de comunicação e controladoras interna/externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
     "marca": "TCL",
     "linha": "Tac / Elite Series",
     "codigo": "E0",
     "significado": "Falha de comunicação",
-    "acao": "Verificar cabos S. Módulo externo pode estar desligado (fusível).",
-    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "acao": "Verificar comunicação entre placas/unidades, fusível e placas interna/externa.",
+    "dica": "Base oficial TCL.",
     "linha_modelo": "Tac / Elite Series",
     "linha_tipo": "Split",
     "codigo_lista": [
       "E0"
     ],
     "codigo_busca": "E0",
-    "texto_busca": "tcl split tac elite series e0 falha de comunicação verificar cabos s. módulo externo pode estar desligado (fusível).",
-    "fonte_base": "guia+revisao"
+    "texto_busca": "tcl split tac / elite series e0 falha de comunicação verificar comunicação entre placas/unidades, fusível e placas interna/externa.",
+    "fonte_base": "revisao-fonte"
   },
   {
     "marca": "TCL",
     "linha": "Tac / Elite Series",
     "codigo": "E1",
-    "significado": "Sensor de ambiente",
-    "acao": "Verifique a conexão do sensor, meça sua resistência (geralmente 5kΩ a 15kΩ)",
-    "dica": "As causas comuns incluem sensor desencaixado, defeituoso ou placa de controle (PCB) com falha.",
+    "significado": "Sensor de ambiente da unidade interna",
+    "acao": "Verificar conexão e resistência do sensor de ambiente; se necessário substituir sensor/placa interna.",
+    "dica": "Base oficial TCL.",
     "linha_modelo": "Tac / Elite Series",
     "linha_tipo": "Split",
     "codigo_lista": [
       "E1"
     ],
     "codigo_busca": "E1",
-    "texto_busca": "tcl split tac elite series e1 sensor de ambiente sensor de temperatura do quarto com defeito.",
-    "fonte_base": "guia+revisao"
+    "texto_busca": "tcl split tac / elite series e1 sensor de ambiente da unidade interna verificar conexão e resistência do sensor de ambiente; se necessário substituir sensor/placa interna.",
+    "fonte_base": "revisao-fonte"
   },
   {
     "marca": "TCL",
     "linha": "Tac / Elite Series",
     "codigo": "E2",
-    "significado": "Sensor de tubo (interna)",
-    "acao": "Sensor da serpentina evaporadora.",
-    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "significado": "Sensor de tubo/serpentina da unidade interna",
+    "acao": "Verificar conexão e resistência do sensor da serpentina interna; se necessário substituir sensor/placa interna.",
+    "dica": "Base oficial TCL.",
     "linha_modelo": "Tac / Elite Series",
     "linha_tipo": "Split",
     "codigo_lista": [
       "E2"
     ],
     "codigo_busca": "E2",
-    "texto_busca": "tcl split tac elite series e2 sensor de tubo (interna) sensor da serpentina evaporadora.",
-    "fonte_base": "guia+revisao"
+    "texto_busca": "tcl split tac / elite series e2 sensor de tubo/serpentina da unidade interna verificar conexão e resistência do sensor da serpentina interna; se necessário substituir sensor/placa interna.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E3",
+    "significado": "Sensor da serpentina da unidade externa",
+    "acao": "Verificar sensor da serpentina externa, conexão e resistência.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E3"
+    ],
+    "codigo_busca": "E3",
+    "texto_busca": "tcl split tac / elite series e3 sensor da serpentina da unidade externa verificar sensor da serpentina externa, conexão e resistência.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E4",
+    "significado": "Anomalia no sistema frigorífico / gás insuficiente",
+    "acao": "Verificar válvulas, pressão, possível falta de gás, bloqueio e sensores.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E4"
+    ],
+    "codigo_busca": "E4",
+    "texto_busca": "tcl split tac / elite series e4 anomalia no sistema frigorífico / gás insuficiente verificar válvulas, pressão, possível falta de gás, bloqueio e sensores.",
+    "fonte_base": "revisao-fonte"
   },
   {
     "marca": "TCL",
     "linha": "Tac / Elite Series",
     "codigo": "E6",
-    "significado": "Motor ventilador (interna)",
-    "acao": "Turbina pesada ou motor sem força (capacitor ou placa).",
-    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "significado": "Falha do ventilador da unidade interna",
+    "acao": "Verificar motor ventilador interno, livre rotação, chicote e placa.",
+    "dica": "Base oficial TCL.",
     "linha_modelo": "Tac / Elite Series",
     "linha_tipo": "Split",
     "codigo_lista": [
       "E6"
     ],
     "codigo_busca": "E6",
-    "texto_busca": "tcl split tac elite series e6 motor ventilador (interna) turbina pesada ou motor sem força (capacitor ou placa).",
-    "fonte_base": "guia+revisao"
+    "texto_busca": "tcl split tac / elite series e6 falha do ventilador da unidade interna verificar motor ventilador interno, livre rotação, chicote e placa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E7",
+    "significado": "Sensor de ambiente da unidade externa",
+    "acao": "Verificar sensor ambiente externo, conexão e resistência.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E7"
+    ],
+    "codigo_busca": "E7",
+    "texto_busca": "tcl split tac / elite series e7 sensor de ambiente da unidade externa verificar sensor ambiente externo, conexão e resistência.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E8",
+    "significado": "Sensor de descarga da unidade externa",
+    "acao": "Verificar sensor de descarga, conexão e resistência.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E8"
+    ],
+    "codigo_busca": "E8",
+    "texto_busca": "tcl split tac / elite series e8 sensor de descarga da unidade externa verificar sensor de descarga, conexão e resistência.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "E9",
+    "significado": "Falha do IPM / acionamento do compressor",
+    "acao": "Verificar códigos anteriores P0/P2/F5/F6/F7/F9/FA, compressor e placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "E9"
+    ],
+    "codigo_busca": "E9",
+    "texto_busca": "tcl split tac / elite series e9 falha do ipm / acionamento do compressor verificar códigos anteriores p0/p2/f5/f6/f7/f9/fa, compressor e placa externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "EF",
+    "significado": "Falha do ventilador DC da unidade externa",
+    "acao": "Verificar livre rotação, motor ventilador externo, tensão e placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "EF"
+    ],
+    "codigo_busca": "EF",
+    "texto_busca": "tcl split tac / elite series ef falha do ventilador dc da unidade externa verificar livre rotação, motor ventilador externo, tensão e placa externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "EU",
+    "significado": "Falha do sensor de tensão da unidade externa",
+    "acao": "Verificar tensão L/N e placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "EU"
+    ],
+    "codigo_busca": "EU",
+    "texto_busca": "tcl split tac / elite series eu falha do sensor de tensão da unidade externa verificar tensão l/n e placa externa.",
+    "fonte_base": "revisao-fonte"
   },
   {
     "marca": "TCL",
     "linha": "Tac / Elite Series",
     "codigo": "P0",
-    "significado": "Proteção IPM (placa)",
-    "acao": "Pasta térmica seca no dissipador ou placa externa com defeito.",
-    "dica": "Sensores geralmente 5k ou 10k, conforme a placa.",
+    "significado": "Proteção do IPM",
+    "acao": "Verificar superaquecimento/sobrecorrente do IPM, ventilador externo, sujeira, capilar, pressão e compressor.",
+    "dica": "Base oficial TCL.",
     "linha_modelo": "Tac / Elite Series",
     "linha_tipo": "Split",
     "codigo_lista": [
       "P0"
     ],
     "codigo_busca": "P0",
-    "texto_busca": "tcl split tac elite series p0 proteção ipm (placa) pasta térmica seca no dissipador ou placa externa com defeito.",
-    "fonte_base": "guia+revisao"
+    "texto_busca": "tcl split tac / elite series p0 proteção do ipm verificar superaquecimento/sobrecorrente do ipm, ventilador externo, sujeira, capilar, pressão e compressor.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P1",
+    "significado": "Proteção de sobretensão/subtensão",
+    "acao": "Verificar tensão da rede e barramento DC da placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P1"
+    ],
+    "codigo_busca": "P1",
+    "texto_busca": "tcl split tac / elite series p1 proteção de sobretensão/subtensão verificar tensão da rede e barramento dc da placa externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P2",
+    "significado": "Proteção de sobrecorrente",
+    "acao": "Verificar ventilador externo, condensador/filtro sujos e placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P2"
+    ],
+    "codigo_busca": "P2",
+    "texto_busca": "tcl split tac / elite series p2 proteção de sobrecorrente verificar ventilador externo, condensador/filtro sujos e placa externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P4",
+    "significado": "Proteção por alta temperatura de descarga",
+    "acao": "Verificar ventilação, condensador, ventiladores, capilar e carga de gás.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P4"
+    ],
+    "codigo_busca": "P4",
+    "texto_busca": "tcl split tac / elite series p4 proteção por alta temperatura de descarga verificar ventilação, condensador, ventiladores, capilar e carga de gás.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P5",
+    "significado": "Proteção por sub-resfriamento/congelamento em refrigeração",
+    "acao": "Verificar filtro, entrada de ar, ventilador interno, sensor IPT e placa interna.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P5"
+    ],
+    "codigo_busca": "P5",
+    "texto_busca": "tcl split tac / elite series p5 proteção por sub-resfriamento/congelamento em refrigeração verificar filtro, entrada de ar, ventilador interno, sensor ipt e placa interna.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P6",
+    "significado": "Proteção por alta temperatura do condensador em refrigeração",
+    "acao": "Verificar ventilador externo, sensor OPT e placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P6"
+    ],
+    "codigo_busca": "P6",
+    "texto_busca": "tcl split tac / elite series p6 proteção por alta temperatura do condensador em refrigeração verificar ventilador externo, sensor opt e placa externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P7",
+    "significado": "Proteção por alta temperatura do evaporador em aquecimento",
+    "acao": "Verificar sensor IPT, ventilador e placa interna.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P7"
+    ],
+    "codigo_busca": "P7",
+    "texto_busca": "tcl split tac / elite series p7 proteção por alta temperatura do evaporador em aquecimento verificar sensor ipt, ventilador e placa interna.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P8",
+    "significado": "Proteção por temperatura ambiente externa fora da faixa",
+    "acao": "Verificar sensor OAT, ventilação e localização da condensadora.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P8"
+    ],
+    "codigo_busca": "P8",
+    "texto_busca": "tcl split tac / elite series p8 proteção por temperatura ambiente externa fora da faixa verificar sensor oat, ventilação e localização da condensadora.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "P9",
+    "significado": "Proteção de acionamento/carga anormal do compressor",
+    "acao": "Verificar sinal de realimentação do compressor, partida e carga mecânica.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "P9"
+    ],
+    "codigo_busca": "P9",
+    "texto_busca": "tcl split tac / elite series p9 proteção de acionamento/carga anormal do compressor verificar sinal de realimentação do compressor, partida e carga mecânica.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "F4",
+    "significado": "Proteção por fluxo de gás anormal",
+    "acao": "Verificar se válvulas 2/3 vias estão abertas e sensor IPT.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "F4"
+    ],
+    "codigo_busca": "F4",
+    "texto_busca": "tcl split tac / elite series f4 proteção por fluxo de gás anormal verificar se válvulas 2/3 vias estão abertas e sensor ipt.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "F5",
+    "significado": "Proteção PFC",
+    "acao": "Verificar alimentação e placa externa/PFC.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "F5"
+    ],
+    "codigo_busca": "F5",
+    "texto_busca": "tcl split tac / elite series f5 proteção pfc verificar alimentação e placa externa/pfc.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "F6",
+    "significado": "Proteção por falta de fase / anti-fase do compressor",
+    "acao": "Verificar chicote do compressor, fios e circuito de corrente/fase na placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "F6"
+    ],
+    "codigo_busca": "F6",
+    "texto_busca": "tcl split tac / elite series f6 proteção por falta de fase / anti-fase do compressor verificar chicote do compressor, fios e circuito de corrente/fase na placa externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "F7",
+    "significado": "Proteção de temperatura do módulo",
+    "acao": "Verificar contato térmico do IPM, dissipação, sujeira, pressão e placa externa.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "F7"
+    ],
+    "codigo_busca": "F7",
+    "texto_busca": "tcl split tac / elite series f7 proteção de temperatura do módulo verificar contato térmico do ipm, dissipação, sujeira, pressão e placa externa.",
+    "fonte_base": "revisao-fonte"
+  },
+  {
+    "marca": "TCL",
+    "linha": "Tac / Elite Series",
+    "codigo": "F8",
+    "significado": "Falha de reversão da válvula de 4 vias",
+    "acao": "Verificar tensão na válvula de 4 vias, bobina e conexões.",
+    "dica": "Base oficial TCL.",
+    "linha_modelo": "Tac / Elite Series",
+    "linha_tipo": "Split",
+    "codigo_lista": [
+      "F8"
+    ],
+    "codigo_busca": "F8",
+    "texto_busca": "tcl split tac / elite series f8 falha de reversão da válvula de 4 vias verificar tensão na válvula de 4 vias, bobina e conexões.",
+    "fonte_base": "revisao-fonte"
   }
 ]
