@@ -1,7 +1,7 @@
 {
   "name": "Facilita Refrigerista - TH Refrigeraçao",
   "short_name": "Facilita",
-  "start_url": "/APPclimatizacao/menu/index-android.html?cliente=threfrigeraçao",
+  "start_url": "/APPclimatizacao/menu/index-android.html?cliente=threfrigeracao",
   "scope": "/APPclimatizacao/",
   "display": "standalone",
   "background_color": "#000000",
