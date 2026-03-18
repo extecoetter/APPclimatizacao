@@ -854,14 +854,12 @@
           "Excesso de fluido refrigerante (gás): Carga de gás acima do recomendado pode causar o congelamento na sucção.",
           "Tubulaçao com entupimento ou sujeira.",
           "Tubulação dobrada ou amassada: Obstrui a passagem do fluido refrigerante, causando expansão precoce e congelamento."
-          
         ]
       },
       {
         "pergunta": "A temperatura está baixa?",
         "se_sim": [
           "Usar o ar no máximo em um dia frio também pode levar ao congelamento"
-      
         ]
       }
     ],
