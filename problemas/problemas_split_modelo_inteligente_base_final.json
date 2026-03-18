@@ -634,7 +634,7 @@
         "se_sim": [
           "pode ser carga térmica alta",
           "Deve tirar o delta da temperatura",
-          "Caso o Delta esteja OK, o equipamento foi mal dimensionado pro ambiente",
+          "Caso o Delta esteja OK, o equipamento foi mal dimensionado pro ambiente"
         ]
       },
       {
