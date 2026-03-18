@@ -104,6 +104,7 @@
         "pergunta": "Tem sinais de baixa carga, como pouco rendimento e possível congelamento?",
         "se_sim": [
           "Possível falta de gás",
+          "Linha congelando",
           "Vazamento no sistema",
           "Restrição parcial no circuito"
         ]
@@ -111,9 +112,10 @@
     ],
     "verificacoes_rapidas": [
       "Limpar filtros",
+      "Verificar linhas congeladas",
       "Observar se compressor parte",
       "Verificar ventilador da condensadora",
-      "Medir pressão do sistema se necessário"
+      "Medir pressão do sistema"
     ]
   },
   {
@@ -835,33 +837,37 @@
     ],
     "diagnostico_guiado": [
       {
-        "pergunta": "O fluxo de ar da evaporadora está bom?",
-        "se_nao": [
-          "Filtro sujo",
-          "Turbina suja",
-          "Fluxo de ar insuficiente"
+        "pergunta": "Foi feito recarga de gás sem balança?",
+        "se_sim": [
+          "Excesso de gás",
+          "Verifique tambem:",
+          "Tubulaçao estrangulada, ou entupida por sujeira",
+          "Evaporadora com filtros /serpentina / turbina sujos",
+          "Ventilador Fraco"
         ]
       },
       {
         "pergunta": "Mesmo com boa ventilação continua congelando?",
         "se_sim": [
-          "Falta de gás refrigerante",
-          "Baixa pressão no sistema",
-          "Possível vazamento"
+          "Excesso de fluido refrigerante (gás): Carga de gás acima do recomendado pode causar o congelamento na sucção.",
+          "Tubulaçao com entupimento ou sujeira.",
+          "Tubulação dobrada ou amassada: Obstrui a passagem do fluido refrigerante, causando expansão precoce e congelamento."
+          
         ]
       },
       {
-        "pergunta": "Sensor de serpentina está correto?",
-        "se_nao": [
-          "Sensor defeituoso",
-          "Leitura incorreta"
+        "pergunta": "A temperatura está baixa?",
+        "se_sim": [
+          "Usar o ar no máximo em um dia frio também pode levar ao congelamento"
+      
         ]
       }
     ],
     "verificacoes_rapidas": [
       "Limpar filtros",
       "Verificar ventilação",
-      "Medir pressão do sistema"
+      "Medir pressão do sistema",
+      "Verificar amassados, dobras, ou sujeira na tubulaçao"
     ]
   },
   {
@@ -875,32 +881,37 @@
     ],
     "diagnostico_guiado": [
       {
-        "pergunta": "Sistema está com excesso de gás?",
+        "pergunta": "Sistema está com falta de gás?",
         "se_sim": [
-          "Alta pressão",
-          "Carga de gás excessiva"
+          "A Pressão vai estar baixa",
+          "Gás R22 -Mais antigo -Trabalha com pressões menores, frequentemente entre 60 e 80 PSI na linha de baixa",
+          "Gás R32 -varia de 100 a 150 PSI (comum em torno de 130-135 PSI)",
+          "Gás R410A -Geralmente entre 100 e 150 PSI (tipicamente 110-130 PSI em dias amenos",
+          "Temperatura: A pressão aumenta com a temperatura externa e diminui com o frio.",
+          "Inverter vs. Convencional: Máquinas inverter variam a velocidade do compressor, o que altera a pressão constantemente até estabilizar."
         ]
       },
       {
-        "pergunta": "Há obstrução no sistema?",
+        "pergunta": "A Pressão esta boa?",
         "se_sim": [
-          "Capilar entupido",
-          "Filtro secador obstruído",
-          "Restrição na linha"
+          "Falha no Ventilador (Turbina): O ventilador da unidade interna (evaporadora) não circula o ar, causando congelamento",
+          "Verifique se a serpentina da evaporadora está suja",
+          "Filtros de Ar Sujos: A falta de limpeza restringe o fluxo de ar na evaporadora, fazendo com que o gás não absorva calor suficiente e congele."
         ]
       },
       {
-        "pergunta": "Condensadora está dissipando calor corretamente?",
-        "se_nao": [
-          "Serpentina externa suja",
-          "Ventilador externo fraco"
+        "pergunta": "A pressao está baixa?",
+        "se_sim": [
+          "Vazamento de Fluido Refrigerante: A falta de gás faz com que a pressão baixe drasticamente, gerando gelo na tubulação de alta (fina).",
+          "Verificar e sanar o vazamento antes de fazer a recarga"
         ]
       }
     ],
     "verificacoes_rapidas": [
-      "Verificar pressão alta",
-      "Limpar condensadora",
-      "Inspecionar restrições"
+      "OBS: Baixa Temperatura Externa: Usar o aparelho com temperaturas muito baixas do lado de fora /abaixo de 15 a 18 graus",
+      "Verificar a pressão do fluido refrigerante",
+      "Verificar a tubulaçao se tem amassado",
+      "Verificar a limpeza dos filtros / serpentina da evaporadora"
     ]
   },
   {
