@@ -85,7 +85,7 @@
       {
         "pergunta": "A condensadora está funcionando normalmente?",
         "se_nao": [
-          "Ventilador da condensadora parado",
+          "Ventilador da condensadora parado, ou fraco",
           "Capacitor defeituoso",
           "Placa da condensadora com defeito",
           "Compressor não está partindo"
