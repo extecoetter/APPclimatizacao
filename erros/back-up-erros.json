@@ -4495,5 +4495,2167 @@
     "dica": "Sensor preso à serpentina",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split"
+  },
+  
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "E0",
+    "significado": "Erro EEPROM",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "E9",
+    "significado": "Proteção de fluxo de ar",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "EC",
+    "significado": "Vazamento de refrigerante",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "F0",
+    "significado": "Baixa carga de gás",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "F2",
+    "significado": "Sensor condensador externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "F3",
+    "significado": "Sensor evaporador externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "F4",
+    "significado": "Falha compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "F5",
+    "significado": "Módulo inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "P0",
+    "significado": "Proteção inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "P1",
+    "significado": "Tensão anormal",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "P2",
+    "significado": "Alta temperatura compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "P4",
+    "significado": "Sensor descarga",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Midea",
+    "linha": "Inverter",
+    "codigo": "P6",
+    "significado": "Baixa pressão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "E0",
+    "significado": "Erro EEPROM",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "E9",
+    "significado": "Proteção de fluxo de ar",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "EC",
+    "significado": "Vazamento de refrigerante",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "F0",
+    "significado": "Baixa carga de gás",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "F2",
+    "significado": "Sensor condensador externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "F3",
+    "significado": "Sensor evaporador externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "F4",
+    "significado": "Falha compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "F5",
+    "significado": "Módulo inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "P0",
+    "significado": "Proteção inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "P1",
+    "significado": "Tensão anormal",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "P2",
+    "significado": "Alta temperatura compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "P4",
+    "significado": "Sensor descarga",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Comfee",
+    "linha": "Inverter",
+    "codigo": "P6",
+    "significado": "Baixa pressão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "E0",
+    "significado": "Erro EEPROM",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "E9",
+    "significado": "Proteção de fluxo de ar",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "EC",
+    "significado": "Vazamento de refrigerante",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "F0",
+    "significado": "Baixa carga de gás",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "F2",
+    "significado": "Sensor condensador externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "F3",
+    "significado": "Sensor evaporador externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "F4",
+    "significado": "Falha compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "F5",
+    "significado": "Módulo inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "P0",
+    "significado": "Proteção inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "P1",
+    "significado": "Tensão anormal",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "P2",
+    "significado": "Alta temperatura compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "P4",
+    "significado": "Sensor descarga",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Springer",
+    "linha": "Inverter",
+    "codigo": "P6",
+    "significado": "Baixa pressão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "E0",
+    "significado": "Baixa tensão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "E9",
+    "significado": "Reservatório cheio",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "F0",
+    "significado": "Falta de gás",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "F1",
+    "significado": "Sensor ambiente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "F2",
+    "significado": "Sensor evaporador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "F3",
+    "significado": "Sensor condensador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "F4",
+    "significado": "Sensor descarga",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "F5",
+    "significado": "Módulo inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "H0",
+    "significado": "Placa inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "H3",
+    "significado": "Sobrecarga compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "H5",
+    "significado": "Proteção IPM",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "H6",
+    "significado": "Ventilador interno",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "U0",
+    "significado": "Falta refrigerante",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Gree",
+    "linha": "Inverter",
+    "codigo": "U4",
+    "significado": "Comunicação",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH02",
+    "significado": "Sensor ambiente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH06",
+    "significado": "Sensor evaporador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH09",
+    "significado": "Comunicação",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH10",
+    "significado": "Ventilador interno",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH21",
+    "significado": "Compressor inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH22",
+    "significado": "Corrente alta",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH23",
+    "significado": "Tensão anormal",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH26",
+    "significado": "Módulo inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH29",
+    "significado": "Sobrecorrente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH32",
+    "significado": "Alta temperatura",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH41",
+    "significado": "Sensor condensador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "LG",
+    "linha": "Inverter",
+    "codigo": "CH44",
+    "significado": "Sensor externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E101",
+    "significado": "Comunicação interna",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E102",
+    "significado": "Comunicação externa",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E121",
+    "significado": "Sensor ambiente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E122",
+    "significado": "Sensor evaporador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E154",
+    "significado": "Ventilador interno",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E163",
+    "significado": "EEPROM",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E221",
+    "significado": "Sensor externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E251",
+    "significado": "Sensor descarga",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E416",
+    "significado": "Sobretensão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E422",
+    "significado": "Corrente alta",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Samsung",
+    "linha": "Inverter",
+    "codigo": "E458",
+    "significado": "Compressor inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "A1",
+    "significado": "Placa interna",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "A5",
+    "significado": "Anti congelamento",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "A6",
+    "significado": "Ventilador interno",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "C4",
+    "significado": "Sensor trocador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "C9",
+    "significado": "Sensor ambiente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "E1",
+    "significado": "Placa externa",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "E5",
+    "significado": "Sobrecarga compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "E6",
+    "significado": "Partida compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "H0",
+    "significado": "Sensor externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "H6",
+    "significado": "Ventilador externo",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "U2",
+    "significado": "Tensão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Daikin",
+    "linha": "Inverter",
+    "codigo": "U4",
+    "significado": "Comunicação",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "A1",
+    "significado": "Placa interna",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "A2",
+    "significado": "Ventilador interno",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "A5",
+    "significado": "Congelamento",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "A6",
+    "significado": "Ventilador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "C0",
+    "significado": "Comunicação",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "C4",
+    "significado": "Sensor evaporador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "C9",
+    "significado": "Sensor ambiente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "E0",
+    "significado": "Comunicação externa",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "E3",
+    "significado": "Tensão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Fujitsu",
+    "linha": "Inverter",
+    "codigo": "E6",
+    "significado": "Compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "E0",
+    "significado": "EEPROM",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "E5",
+    "significado": "Sobrecorrente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "E6",
+    "significado": "Comunicação",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "F0",
+    "significado": "Falta de gás",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "F1",
+    "significado": "Sensor ambiente",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "F2",
+    "significado": "Sensor evaporador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "F3",
+    "significado": "Sensor condensador",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "P0",
+    "significado": "Módulo inverter",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "P1",
+    "significado": "Tensão",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
+  },
+  {
+    "marca": "Electrolux",
+    "linha": "Inverter",
+    "codigo": "P4",
+    "significado": "Descarga compressor",
+    "causas": [
+      "Falha comum relacionada ao código",
+      "Possível problema eletrônico ou mecânico"
+    ],
+    "diagnostico": [
+      "Verificar sensores e conexões",
+      "Testar placa e componentes"
+    ],
+    "teste_rapido": [
+      "Desligar energia por 5 minutos e reiniciar"
+    ],
+    "dica": "Confirmar instalação e condições do equipamento",
+    "linha_modelo": "Inverter",
+    "linha_tipo": "Split"
   }
 ]
+
