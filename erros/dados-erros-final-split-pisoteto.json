@@ -173,7 +173,11 @@
     "dica": "Erro geralmente relacionado à memória da placa eletrônica",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea E0, já foi associado a: Erro EEPROM da placa principal | Erro EEPROM. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro EEPROM da placa principal",
+      "Erro EEPROM"
+    ]
   },
   {
     "marca": "Midea",
@@ -272,7 +276,11 @@
     "dica": "Erro comum após instalação mal executada",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea EC, já foi associado a: Proteção por vazamento de refrigerante | Vazamento de refrigerante. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção por vazamento de refrigerante",
+      "Vazamento de refrigerante"
+    ]
   },
   {
     "marca": "Comfee",
@@ -391,7 +399,11 @@
     "dica": "Nos materiais da LG esse erro também pode aparecer como E6 em alguns modelos.",
     "linha_modelo": "Dual Inverter / Libero",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH10, já foi associado a: Falha no ventilador da unidade interna | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no ventilador da unidade interna",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "LG",
@@ -467,7 +479,11 @@
     "dica": "Nos materiais Samsung aparece como erro do ROOM TH.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E121, já foi associado a: Erro do sensor de temperatura ambiente da unidade interna | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do sensor de temperatura ambiente da unidade interna",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "Samsung",
@@ -493,7 +509,11 @@
     "dica": "Em tabelas Samsung esse código é associado ao sensor de entrada/pipe da evaporadora.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E122, já foi associado a: Erro do sensor de temperatura de tubulação/entrada da evaporadora | Sensor evaporador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do sensor de temperatura de tubulação/entrada da evaporadora",
+      "Sensor evaporador"
+    ]
   },
   {
     "marca": "Samsung",
@@ -519,7 +539,11 @@
     "dica": "Erro direto de ventilador da unidade interna.",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E154, já foi associado a: Erro do ventilador interno | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do ventilador interno",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Samsung",
@@ -717,7 +741,11 @@
     "dica": "Sensores geralmente NTC 10k",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Electrolux E5, já foi associado a: Falha no sensor de temperatura | Sobrecorrente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no sensor de temperatura",
+      "Sobrecorrente"
+    ]
   },
   {
     "marca": "Elgin",
@@ -793,7 +821,11 @@
     "dica": "Erro clássico de comunicação em equipamentos Daikin",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin U4, já foi associado a: Falha de comunicação entre unidades | Comunicação. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha de comunicação entre unidades",
+      "Comunicação"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -817,7 +849,11 @@
     "dica": "Erro comum após instalação",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu E0, já foi associado a: Erro de comunicação entre unidade interna e externa | Comunicação externa. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de comunicação entre unidade interna e externa",
+      "Comunicação externa"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -843,7 +879,11 @@
     "dica": "Pode ocorrer quando a turbina está travada por sujeira",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu E3, já foi associado a: Falha no ventilador da unidade interna | Tensão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no ventilador da unidade interna",
+      "Tensão"
+    ]
   },
   {
     "marca": "Carrier",
@@ -942,7 +982,11 @@
     "dica": "Pode ocorrer em redes elétricas instáveis",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin U2, já foi associado a: Baixa tensão ou falha de alimentação | Tensão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Baixa tensão ou falha de alimentação",
+      "Tensão"
+    ]
   },
   {
     "marca": "Daikin",
@@ -967,7 +1011,11 @@
     "dica": "Normalmente requer substituição da placa",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin A1, já foi associado a: Falha na placa eletrônica da unidade interna | Placa interna. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha na placa eletrônica da unidade interna",
+      "Placa interna"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -1213,7 +1261,11 @@
     "dica": "Erro frequente quando condensadora está obstruída",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Springer P4, já foi associado a: Alta temperatura do compressor | Sensor descarga. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Alta temperatura do compressor",
+      "Sensor descarga"
+    ]
   },
   {
     "marca": "York",
@@ -1522,7 +1574,11 @@
     "dica": "Associado ao módulo IPM",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P0, já foi associado a: Proteção do módulo inverter | Proteção inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção do módulo inverter",
+      "Proteção inverter"
+    ]
   },
   {
     "marca": "Midea",
@@ -1544,7 +1600,11 @@
     "dica": "Comum em regiões com rede instável",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P1, já foi associado a: Proteção de baixa tensão | Tensão anormal. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de baixa tensão",
+      "Tensão anormal"
+    ]
   },
   {
     "marca": "Midea",
@@ -1567,7 +1627,11 @@
     "dica": "Alta temperatura do compressor",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P2, já foi associado a: Proteção de alta temperatura do compressor | Alta temperatura compressor. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de alta temperatura do compressor",
+      "Alta temperatura compressor"
+    ]
   },
   {
     "marca": "Midea",
@@ -1590,7 +1654,11 @@
     "dica": "Relacionado ao circuito inverter",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P4, já foi associado a: Proteção do compressor | Sensor descarga. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção do compressor",
+      "Sensor descarga"
+    ]
   },
   {
     "marca": "Midea",
@@ -1611,7 +1679,11 @@
     "dica": "Erro genérico do controle",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F0, já foi associado a: Falha geral do sistema inverter | Baixa carga de gás. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha geral do sistema inverter",
+      "Baixa carga de gás"
+    ]
   },
   {
     "marca": "Midea",
@@ -1719,7 +1791,11 @@
     "dica": "Pode ocorrer com filtros sujos",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P6, já foi associado a: Proteção de temperatura do evaporador | Baixa pressão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de temperatura do evaporador",
+      "Baixa pressão"
+    ]
   },
   {
     "marca": "Midea",
@@ -1764,7 +1840,11 @@
     "dica": "Sensor localizado na serpentina externa",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F2, já foi associado a: Falha no sensor da condensadora | Sensor condensador externo. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no sensor da condensadora",
+      "Sensor condensador externo"
+    ]
   },
   {
     "marca": "Midea",
@@ -1787,7 +1867,11 @@
     "dica": "Relaciona‑se à proteção do compressor",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F3, já foi associado a: Erro no sensor de descarga do compressor | Sensor evaporador externo. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Sensor evaporador externo"
+    ]
   },
   {
     "marca": "Midea",
@@ -1869,7 +1953,11 @@
     "dica": "Erro interno da placa",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree E0, já foi associado a: Erro de EEPROM | Baixa tensão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de EEPROM",
+      "Baixa tensão"
+    ]
   },
   {
     "marca": "Gree",
@@ -1970,7 +2058,11 @@
     "dica": "Sensor NTC normalmente",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F0, já foi associado a: Erro de sensor ambiente | Falta de gás. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de sensor ambiente",
+      "Falta de gás"
+    ]
   },
   {
     "marca": "Gree",
@@ -1991,7 +2083,11 @@
     "dica": "Relaciona-se ao ventilador da evaporadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree H6, já foi associado a: Erro no ventilador da unidade interna | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade interna",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Gree",
@@ -2075,7 +2171,11 @@
     "dica": "Sensor preso à serpentina da evaporadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH02, já foi associado a: Erro do sensor da serpentina da evaporadora | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do sensor da serpentina da evaporadora",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "LG",
@@ -2158,7 +2258,11 @@
     "dica": "Relacionado à condensadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH09, já foi associado a: Erro no ventilador da unidade externa | Comunicação. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade externa",
+      "Comunicação"
+    ]
   },
   {
     "marca": "LG",
@@ -2179,7 +2283,11 @@
     "dica": "Relaciona-se ao circuito inverter",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH21, já foi associado a: Proteção de sobrecorrente do compressor | Compressor inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de sobrecorrente do compressor",
+      "Compressor inverter"
+    ]
   },
   {
     "marca": "LG",
@@ -2200,7 +2308,11 @@
     "dica": "Erro ligado ao IPM",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH22, já foi associado a: Proteção de corrente da unidade externa | Corrente alta. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de corrente da unidade externa",
+      "Corrente alta"
+    ]
   },
   {
     "marca": "LG",
@@ -2221,7 +2333,11 @@
     "dica": "Proteção térmica do compressor",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH26, já foi associado a: Erro no sensor de descarga do compressor | Módulo inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Módulo inverter"
+    ]
   },
   {
     "marca": "LG",
@@ -2264,7 +2380,11 @@
     "dica": "Erro comum após instalação",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E101, já foi associado a: Falha de comunicação entre unidade interna e externa | Comunicação interna. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha de comunicação entre unidade interna e externa",
+      "Comunicação interna"
+    ]
   },
   {
     "marca": "Samsung",
@@ -2285,7 +2405,11 @@
     "dica": "Relacionado ao circuito de comunicação",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E102, já foi associado a: Erro de comunicação entre módulos internos | Comunicação externa. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de comunicação entre módulos internos",
+      "Comunicação externa"
+    ]
   },
   {
     "marca": "Samsung",
@@ -2346,7 +2470,11 @@
     "dica": "Sensor da serpentina externa",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E221, já foi associado a: Sensor da unidade externa defeituoso | Sensor externo. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Sensor da unidade externa defeituoso",
+      "Sensor externo"
+    ]
   },
   {
     "marca": "Samsung",
@@ -2785,7 +2913,11 @@
     "dica": "Evaporadora pode estar congelando",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin A5, já foi associado a: Proteção contra congelamento da evaporadora | Anti congelamento. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção contra congelamento da evaporadora",
+      "Anti congelamento"
+    ]
   },
   {
     "marca": "Daikin",
@@ -2806,7 +2938,11 @@
     "dica": "Relacionado ao ventilador da evaporadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin A6, já foi associado a: Erro no ventilador da unidade interna | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade interna",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Daikin",
@@ -2827,7 +2963,11 @@
     "dica": "Sensor localizado na serpentina",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin C4, já foi associado a: Erro no sensor da serpentina da evaporadora | Sensor trocador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor da serpentina da evaporadora",
+      "Sensor trocador"
+    ]
   },
   {
     "marca": "Daikin",
@@ -2848,7 +2988,11 @@
     "dica": "Sensor localizado na evaporadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin C9, já foi associado a: Erro no sensor de temperatura ambiente | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de temperatura ambiente",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "Daikin",
@@ -2869,7 +3013,11 @@
     "dica": "Relacionado à condensadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin E1, já foi associado a: Erro na placa da unidade externa | Placa externa. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro na placa da unidade externa",
+      "Placa externa"
+    ]
   },
   {
     "marca": "Daikin",
@@ -2890,7 +3038,11 @@
     "dica": "Erro do circuito inverter",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin E5, já foi associado a: Proteção de sobrecorrente do compressor | Sobrecarga compressor. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de sobrecorrente do compressor",
+      "Sobrecarga compressor"
+    ]
   },
   {
     "marca": "Daikin",
@@ -2951,7 +3103,11 @@
     "dica": "Erro interno da unidade",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A1, já foi associado a: Falha na placa eletrônica da unidade interna | Placa interna. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha na placa eletrônica da unidade interna",
+      "Placa interna"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -2972,7 +3128,11 @@
     "dica": "Comum quando há sujeira na bandeja",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A2, já foi associado a: Erro no sistema de drenagem | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sistema de drenagem",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -3014,7 +3174,11 @@
     "dica": "Evaporadora pode estar congelando",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A5, já foi associado a: Proteção contra congelamento da evaporadora | Congelamento. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção contra congelamento da evaporadora",
+      "Congelamento"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -3035,7 +3199,11 @@
     "dica": "Relacionado ao ventilador da evaporadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A6, já foi associado a: Erro no ventilador da unidade interna | Ventilador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade interna",
+      "Ventilador"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -3056,7 +3224,11 @@
     "dica": "Relacionado ao circuito eletrônico",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu C0, já foi associado a: Erro de comunicação interna | Comunicação. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de comunicação interna",
+      "Comunicação"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -3281,7 +3453,11 @@
     "dica": "Relacionado à alimentação elétrica",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Springer P1, já foi associado a: Proteção de baixa tensão | Tensão anormal. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de baixa tensão",
+      "Tensão anormal"
+    ]
   },
   {
     "marca": "Gree",
@@ -3326,7 +3502,11 @@
     "dica": "Relacionado ao sistema de drenagem",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree E9, já foi associado a: Proteção de transbordamento de água | Reservatório cheio. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de transbordamento de água",
+      "Reservatório cheio"
+    ]
   },
   {
     "marca": "Gree",
@@ -3368,7 +3548,11 @@
     "dica": "Sensor localizado na evaporadora",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F1, já foi associado a: Erro no sensor de temperatura ambiente | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de temperatura ambiente",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "Gree",
@@ -3389,7 +3573,11 @@
     "dica": "Proteção contra congelamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F2, já foi associado a: Erro no sensor da serpentina da evaporadora | Sensor evaporador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor da serpentina da evaporadora",
+      "Sensor evaporador"
+    ]
   },
   {
     "marca": "Gree",
@@ -3411,7 +3599,11 @@
     "dica": "Sensor da serpentina externa",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F3, já foi associado a: Erro no sensor da condensadora | Sensor condensador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor da condensadora",
+      "Sensor condensador"
+    ]
   },
   {
     "marca": "Gree",
@@ -3432,7 +3624,11 @@
     "dica": "Proteção térmica do compressor",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F4, já foi associado a: Erro no sensor de descarga do compressor | Sensor descarga. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Sensor descarga"
+    ]
   },
   {
     "marca": "Gree",
@@ -3453,7 +3649,11 @@
     "dica": "Relacionado ao módulo IPM",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F5, já foi associado a: Erro no sensor do módulo inverter | Módulo inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor do módulo inverter",
+      "Módulo inverter"
+    ]
   },
   {
     "marca": "Gree",
@@ -3617,7 +3817,11 @@
     "dica": "Proteção térmica do compressor",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F4, já foi associado a: Erro no sensor de descarga do compressor | Falha compressor. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Falha compressor"
+    ]
   },
   {
     "marca": "Midea",
@@ -3638,7 +3842,11 @@
     "dica": "Relacionado ao módulo IPM",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F5, já foi associado a: Erro no sensor do módulo inverter | Módulo inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor do módulo inverter",
+      "Módulo inverter"
+    ]
   },
   {
     "marca": "Midea",
@@ -4567,7 +4775,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea E0, já foi associado a: Erro EEPROM da placa principal | Erro EEPROM. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro EEPROM da placa principal",
+      "Erro EEPROM"
+    ]
   },
   {
     "marca": "Midea",
@@ -4608,7 +4820,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea EC, já foi associado a: Proteção por vazamento de refrigerante | Vazamento de refrigerante. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção por vazamento de refrigerante",
+      "Vazamento de refrigerante"
+    ]
   },
   {
     "marca": "Midea",
@@ -4629,7 +4845,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F0, já foi associado a: Falha geral do sistema inverter | Baixa carga de gás. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha geral do sistema inverter",
+      "Baixa carga de gás"
+    ]
   },
   {
     "marca": "Midea",
@@ -4650,7 +4870,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F2, já foi associado a: Falha no sensor da condensadora | Sensor condensador externo. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no sensor da condensadora",
+      "Sensor condensador externo"
+    ]
   },
   {
     "marca": "Midea",
@@ -4671,7 +4895,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F3, já foi associado a: Erro no sensor de descarga do compressor | Sensor evaporador externo. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Sensor evaporador externo"
+    ]
   },
   {
     "marca": "Midea",
@@ -4692,7 +4920,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F4, já foi associado a: Erro no sensor de descarga do compressor | Falha compressor. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Falha compressor"
+    ]
   },
   {
     "marca": "Midea",
@@ -4713,7 +4945,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea F5, já foi associado a: Erro no sensor do módulo inverter | Módulo inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor do módulo inverter",
+      "Módulo inverter"
+    ]
   },
   {
     "marca": "Midea",
@@ -4734,7 +4970,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P0, já foi associado a: Proteção do módulo inverter | Proteção inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção do módulo inverter",
+      "Proteção inverter"
+    ]
   },
   {
     "marca": "Midea",
@@ -4755,7 +4995,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P1, já foi associado a: Proteção de baixa tensão | Tensão anormal. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de baixa tensão",
+      "Tensão anormal"
+    ]
   },
   {
     "marca": "Midea",
@@ -4776,7 +5020,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P2, já foi associado a: Proteção de alta temperatura do compressor | Alta temperatura compressor. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de alta temperatura do compressor",
+      "Alta temperatura compressor"
+    ]
   },
   {
     "marca": "Midea",
@@ -4797,7 +5045,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P4, já foi associado a: Proteção do compressor | Sensor descarga. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção do compressor",
+      "Sensor descarga"
+    ]
   },
   {
     "marca": "Midea",
@@ -4818,7 +5070,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Midea P6, já foi associado a: Proteção de temperatura do evaporador | Baixa pressão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de temperatura do evaporador",
+      "Baixa pressão"
+    ]
   },
   {
     "marca": "Comfee",
@@ -5279,7 +5535,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Springer P1, já foi associado a: Proteção de baixa tensão | Tensão anormal. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de baixa tensão",
+      "Tensão anormal"
+    ]
   },
   {
     "marca": "Springer",
@@ -5320,7 +5580,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Springer P4, já foi associado a: Alta temperatura do compressor | Sensor descarga. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Alta temperatura do compressor",
+      "Sensor descarga"
+    ]
   },
   {
     "marca": "Springer",
@@ -5361,7 +5625,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree E0, já foi associado a: Erro de EEPROM | Baixa tensão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de EEPROM",
+      "Baixa tensão"
+    ]
   },
   {
     "marca": "Gree",
@@ -5382,7 +5650,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree E9, já foi associado a: Proteção de transbordamento de água | Reservatório cheio. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de transbordamento de água",
+      "Reservatório cheio"
+    ]
   },
   {
     "marca": "Gree",
@@ -5403,7 +5675,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F0, já foi associado a: Erro de sensor ambiente | Falta de gás. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de sensor ambiente",
+      "Falta de gás"
+    ]
   },
   {
     "marca": "Gree",
@@ -5424,7 +5700,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F1, já foi associado a: Erro no sensor de temperatura ambiente | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de temperatura ambiente",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "Gree",
@@ -5445,7 +5725,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F2, já foi associado a: Erro no sensor da serpentina da evaporadora | Sensor evaporador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor da serpentina da evaporadora",
+      "Sensor evaporador"
+    ]
   },
   {
     "marca": "Gree",
@@ -5466,7 +5750,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F3, já foi associado a: Erro no sensor da condensadora | Sensor condensador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor da condensadora",
+      "Sensor condensador"
+    ]
   },
   {
     "marca": "Gree",
@@ -5487,7 +5775,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F4, já foi associado a: Erro no sensor de descarga do compressor | Sensor descarga. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Sensor descarga"
+    ]
   },
   {
     "marca": "Gree",
@@ -5508,7 +5800,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree F5, já foi associado a: Erro no sensor do módulo inverter | Módulo inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor do módulo inverter",
+      "Módulo inverter"
+    ]
   },
   {
     "marca": "Gree",
@@ -5589,7 +5885,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Gree H6, já foi associado a: Erro no ventilador da unidade interna | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade interna",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Gree",
@@ -5650,7 +5950,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH02, já foi associado a: Erro do sensor da serpentina da evaporadora | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do sensor da serpentina da evaporadora",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "LG",
@@ -5691,7 +5995,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH09, já foi associado a: Erro no ventilador da unidade externa | Comunicação. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade externa",
+      "Comunicação"
+    ]
   },
   {
     "marca": "LG",
@@ -5712,7 +6020,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH10, já foi associado a: Falha no ventilador da unidade interna | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no ventilador da unidade interna",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "LG",
@@ -5733,7 +6045,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH21, já foi associado a: Proteção de sobrecorrente do compressor | Compressor inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de sobrecorrente do compressor",
+      "Compressor inverter"
+    ]
   },
   {
     "marca": "LG",
@@ -5754,7 +6070,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH22, já foi associado a: Proteção de corrente da unidade externa | Corrente alta. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de corrente da unidade externa",
+      "Corrente alta"
+    ]
   },
   {
     "marca": "LG",
@@ -5795,7 +6115,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para LG CH26, já foi associado a: Erro no sensor de descarga do compressor | Módulo inverter. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de descarga do compressor",
+      "Módulo inverter"
+    ]
   },
   {
     "marca": "LG",
@@ -5896,7 +6220,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E101, já foi associado a: Falha de comunicação entre unidade interna e externa | Comunicação interna. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha de comunicação entre unidade interna e externa",
+      "Comunicação interna"
+    ]
   },
   {
     "marca": "Samsung",
@@ -5917,7 +6245,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E102, já foi associado a: Erro de comunicação entre módulos internos | Comunicação externa. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de comunicação entre módulos internos",
+      "Comunicação externa"
+    ]
   },
   {
     "marca": "Samsung",
@@ -5938,7 +6270,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E121, já foi associado a: Erro do sensor de temperatura ambiente da unidade interna | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do sensor de temperatura ambiente da unidade interna",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "Samsung",
@@ -5959,7 +6295,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E122, já foi associado a: Erro do sensor de temperatura de tubulação/entrada da evaporadora | Sensor evaporador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do sensor de temperatura de tubulação/entrada da evaporadora",
+      "Sensor evaporador"
+    ]
   },
   {
     "marca": "Samsung",
@@ -5980,7 +6320,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E154, já foi associado a: Erro do ventilador interno | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro do ventilador interno",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Samsung",
@@ -6021,7 +6365,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Samsung E221, já foi associado a: Sensor da unidade externa defeituoso | Sensor externo. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Sensor da unidade externa defeituoso",
+      "Sensor externo"
+    ]
   },
   {
     "marca": "Samsung",
@@ -6122,7 +6470,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin A1, já foi associado a: Falha na placa eletrônica da unidade interna | Placa interna. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha na placa eletrônica da unidade interna",
+      "Placa interna"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6143,7 +6495,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin A5, já foi associado a: Proteção contra congelamento da evaporadora | Anti congelamento. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção contra congelamento da evaporadora",
+      "Anti congelamento"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6164,7 +6520,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin A6, já foi associado a: Erro no ventilador da unidade interna | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade interna",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6185,7 +6545,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin C4, já foi associado a: Erro no sensor da serpentina da evaporadora | Sensor trocador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor da serpentina da evaporadora",
+      "Sensor trocador"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6206,7 +6570,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin C9, já foi associado a: Erro no sensor de temperatura ambiente | Sensor ambiente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sensor de temperatura ambiente",
+      "Sensor ambiente"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6227,7 +6595,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin E1, já foi associado a: Erro na placa da unidade externa | Placa externa. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro na placa da unidade externa",
+      "Placa externa"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6248,7 +6620,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin E5, já foi associado a: Proteção de sobrecorrente do compressor | Sobrecarga compressor. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção de sobrecorrente do compressor",
+      "Sobrecarga compressor"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6329,7 +6705,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin U2, já foi associado a: Baixa tensão ou falha de alimentação | Tensão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Baixa tensão ou falha de alimentação",
+      "Tensão"
+    ]
   },
   {
     "marca": "Daikin",
@@ -6350,7 +6730,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Daikin U4, já foi associado a: Falha de comunicação entre unidades | Comunicação. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha de comunicação entre unidades",
+      "Comunicação"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6371,7 +6755,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A1, já foi associado a: Falha na placa eletrônica da unidade interna | Placa interna. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha na placa eletrônica da unidade interna",
+      "Placa interna"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6392,7 +6780,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A2, já foi associado a: Erro no sistema de drenagem | Ventilador interno. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no sistema de drenagem",
+      "Ventilador interno"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6413,7 +6805,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A5, já foi associado a: Proteção contra congelamento da evaporadora | Congelamento. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Proteção contra congelamento da evaporadora",
+      "Congelamento"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6434,7 +6830,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu A6, já foi associado a: Erro no ventilador da unidade interna | Ventilador. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro no ventilador da unidade interna",
+      "Ventilador"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6455,7 +6855,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu C0, já foi associado a: Erro de comunicação interna | Comunicação. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de comunicação interna",
+      "Comunicação"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6516,7 +6920,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu E0, já foi associado a: Erro de comunicação entre unidade interna e externa | Comunicação externa. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Erro de comunicação entre unidade interna e externa",
+      "Comunicação externa"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6537,7 +6945,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Fujitsu E3, já foi associado a: Falha no ventilador da unidade interna | Tensão. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no ventilador da unidade interna",
+      "Tensão"
+    ]
   },
   {
     "marca": "Fujitsu",
@@ -6598,7 +7010,11 @@
     "dica": "Confirmar instalação e condições do equipamento",
     "linha_modelo": "Inverter",
     "linha_tipo": "Split",
-    "observacao": "O significado deste código pode variar dependendo do modelo do aparelho."
+    "observacao": "Este código pode variar conforme o modelo do aparelho. Para Electrolux E5, já foi associado a: Falha no sensor de temperatura | Sobrecorrente. Confirme a linha/modelo e o manual técnico antes de fechar o diagnóstico.",
+    "variacoes_codigo": [
+      "Falha no sensor de temperatura",
+      "Sobrecorrente"
+    ]
   },
   {
     "marca": "Electrolux",
