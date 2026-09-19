@@ -1,6 +1,6 @@
 window.CLIENT_CONFIG = {
   installer: {
-    nome: "TM Climatizaçao",
+    nome: "TM Climatização",
     whats: "(81) 98457-7976",
     pix: "81 98457 7976"
   },
